@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b18b5a64-cfe0-4447-acaf-556f3c6e6513")
+	(paper "A4")
+	(title_block
+		(title "Consolation [Console Emulation]")
+		(date "2026-07-09")
+		(rev "1.00-0a")
+		(comment 1 "Jean-Francois Bilodeau")
+		(comment 2 "P.Eng #6022173")
+		(comment 3 "203-1690 rue des quatre-saisons")
+		(comment 4 "Sherbrooke, Canada, J1E0N2")
+		(comment 5 "KiCad Rev 10.0")
+		(comment 6 "Jean-Francois Bilodeau")
+		(comment 7 "Not applicable")
+		(comment 8 "In Design")
+		(comment 9 "Consolation_1.00-0A_BOM")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "Intellitrol_2025_A4.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WDWEI0bAEakbiDwGD3QMfKBrbOx2DcoGlv3TNh99mV3EvRvWVgcnOtFBWMAXwBnAPC6emoI
+				Dcop+3P9z7LaRfU+51mE//E2wv/x2BxlX+vJVcT5jnsGKmHsz3fW5Nd6Bgple8p+f/IvAEak9y9C
+				zeJYtnOON7I646/Zr3sMCCnlNePsi+2XvVQABARfyMTpKmdDhQn/2sg5o7L/da5RHfsfCURnSwVq
+				0o7btkV5FQB/cUc2nf3hkSWt/pP/9jRedHakqFPmru2vPvKO2W/G3HsdO1ohDntbu/f22z/f3SXh
+				XNvqvy4SYS7OGSOc3V2fWaQB3ltMBqOMYCAYzkE4V+iUVmcxGAfdHdzdq4HVX0UZdzr7qFakxVFR
+				VFL20u/+uVCozQkFcoFoHJaL7WdLbum/njOJoUWoRTolZ736tjsPb23I5oxRg1fPGCmUc+XAKBoc
+				R+ZygagIHQGBgR7avz7OGfbgSNYlnEcjRZQrrK+p5oaGHejhmncjAQnU1p1fj/28QeGFbVaahLLA
+				IsSkpNghe5cp7Z5bP5Jik1IEQh4yGSNFYBfF5jxk2QGBmTgkEgrjI319GqGGTW1eMJMoJo4I5BGA
+				wKARTYdqREQkSZJCB2BEpOTG5gGMGUHK15bBQw8S/TKdNcgrujYahuKllw9EvNC6I4YFiwLYY0FJ
+				nnUCDwcPFiMvethvb34MKAB5L9B2pZQnGa69gaETsQZXrjl9hsmsyP0rTpfMIoJuTTe5gp6+GfU8
+				NgMmUdwwJlZ6nEwIDujTCKAU48CgEflwYEmIN4YaDAyff5GrmB6SJRUAYXjtOq2LdUU2NID/sMGr
+				y+kQUw2uhTCjNLEoZieMEMdcEjC4OOICViCexmF0ojHmOqzxy4P9AHCvkOGSCRjmNo2+3dJzpaAj
+				qvjadTGv30dl4zaLVRxG7uwwMoyNTnpTZXssEl6/oN7pASEiu41I1V7oUQL+80/xKMcIRDSw5jCm
+				StDTd4R8qDiEDpOjURY6Q4+IiwFxPfUwCIN0YuKPkrJsKvLaUy4iqLn01igOE4RpT+knmit4cYAb
+				/P7i92proeUxS7fuojd+o2ys5dNLFGB21QnpoLAvrhADBcPLk9de0thuPfRfrRLQnrHSTm/wL+lY
+				oYvU1k3I24o4dj5X7O2UaFQTd7xaJwPgzYCToLG8dCAdA1MF|
+			)
+			(checksum "59B3C1B9DB81B980742FE612F73F54F4")
+		)
+	)
+)
