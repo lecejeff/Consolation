@@ -1,6 +1,6 @@
 <mxfile host="Electron">
   <diagram name="High-level overview" id="L71J2IazOA5o9N9kyOEZ">
-    <mxGraphModel dx="2184" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,7 +153,7 @@
             <mxPoint x="280" y="490" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Joystick Controller&lt;br&gt;RP2040" vertex="1">
+        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Joystick Controller&lt;br&gt;RP2040 or Eq." vertex="1">
           <mxGeometry height="60" width="120" x="600" y="230" as="geometry" />
         </mxCell>
         <mxCell id="4IoYY8tWDkJgZSM6vHvJ-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Buttons&lt;br&gt;DPAD, A/B/X/Y, L1/2, R1/2, START, SELECT" vertex="1">
