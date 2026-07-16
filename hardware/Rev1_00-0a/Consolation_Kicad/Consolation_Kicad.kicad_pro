@@ -867,7 +867,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "J4,U1,#PWR1-2",
+    "used_designators": "U2",
     "variants": [
       {
         "description": "No capacitive touch available",
@@ -889,10 +889,6 @@
       "CM5_CONN_B"
     ],
     [
-      "f3869933-2746-415e-81cf-30e8e168ff35",
-      "USB2 MUX"
-    ],
-    [
       "6050f2a0-ab64-4181-b373-b4a2383e2041",
       "USB3"
     ],
@@ -907,6 +903,10 @@
     [
       "e7d38f96-19c4-4995-a877-8c1df288247f",
       "TYPE C CHARGER"
+    ],
+    [
+      "921be37e-c275-4af7-b310-f07754ed63f5",
+      "CONTROLLER"
     ]
   ],
   "text_variables": {},

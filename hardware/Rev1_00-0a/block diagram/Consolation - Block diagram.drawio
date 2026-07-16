@@ -1,6 +1,6 @@
 <mxfile host="Electron" pages="2">
   <diagram name="High-level overview" id="L71J2IazOA5o9N9kyOEZ">
-    <mxGraphModel dx="1536" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="4IoYY8tWDkJgZSM6vHvJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Battery Li-Ion" vertex="1">
           <mxGeometry height="60" width="120" x="-160" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-C Connector&lt;br&gt;Sink device only" vertex="1">
+        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-C Connector&lt;br&gt;Sink port" vertex="1">
           <mxGeometry height="60" width="120" x="-160" y="430" as="geometry" />
         </mxCell>
         <mxCell id="4IoYY8tWDkJgZSM6vHvJ-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="M.2 memory expansion&lt;br&gt;OS or mass storage" vertex="1">
@@ -110,23 +110,7 @@
             <mxPoint x="780" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-C connector&lt;div&gt;Debug / Prog (Console port)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="200" y="540" as="geometry" />
-        </mxCell>
-        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-46" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-1" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="4IoYY8tWDkJgZSM6vHvJ-43" value="USB 2.0">
-          <mxGeometry height="50" relative="1" width="50" x="-0.1144" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="360" y="450" />
-              <mxPoint x="340" y="460" />
-              <mxPoint x="310" y="460" />
-              <mxPoint x="290" y="490" />
-            </Array>
-            <mxPoint x="610" y="570" as="sourcePoint" />
-            <mxPoint x="280" y="490" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Joystick Controller&lt;br&gt;RP2350A or Eq." vertex="1">
+        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Joystick Controller&lt;br&gt;RP2350A or Eq.&lt;br&gt;GP2040-CE FW" vertex="1">
           <mxGeometry height="60" width="120" x="600" y="230" as="geometry" />
         </mxCell>
         <mxCell id="4IoYY8tWDkJgZSM6vHvJ-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Buttons&lt;br&gt;DPAD, A/B/X/Y, L1/2, R1/2, START, SELECT" vertex="1">
@@ -181,18 +165,6 @@
             <mxPoint x="220" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RV9RdjZogVWlMrtzUI98-1" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-1" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="4IoYY8tWDkJgZSM6vHvJ-43" value="nRPIBOOT">
-          <mxGeometry height="50" relative="1" width="50" x="0.1011" y="3" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="320" y="390" />
-              <mxPoint x="270" y="410" />
-              <mxPoint x="230" y="470" />
-            </Array>
-            <mxPoint x="400" y="660" as="sourcePoint" />
-            <mxPoint x="300" y="800" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="RV9RdjZogVWlMrtzUI98-2" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-1" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="4IoYY8tWDkJgZSM6vHvJ-31" value="SDIO_EN">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
@@ -241,21 +213,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="yUx453rQFzWsMvhEQIbi-1" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-10" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="t1u9_rJhIXzL8JWfHioL-1" value="VBUS">
-          <mxGeometry height="50" relative="1" width="50" x="-0.2182" as="geometry">
+          <mxGeometry height="50" relative="1" width="50" x="0.1606" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="40" y="445" />
-              <mxPoint x="70" y="420" />
+              <mxPoint x="20" y="440" />
+              <mxPoint x="60" y="420" />
+              <mxPoint x="70" y="400" />
             </Array>
             <mxPoint x="-40" y="455" as="sourcePoint" />
             <mxPoint x="140" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yUx453rQFzWsMvhEQIbi-2" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-10" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="t1u9_rJhIXzL8JWfHioL-1" value="CC1&lt;br&gt;CC2">
-          <mxGeometry height="50" relative="1" width="50" x="-0.0669" y="27" as="geometry">
+        <mxCell id="yUx453rQFzWsMvhEQIbi-2" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-10" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="t1u9_rJhIXzL8JWfHioL-1" value="CC1&lt;br&gt;CC2">
+          <mxGeometry height="50" relative="1" width="50" x="0.1429" y="20" as="geometry">
             <mxPoint as="offset" />
             <Array as="points">
-              <mxPoint x="120" y="480" />
+              <mxPoint x="100" y="460" />
             </Array>
             <mxPoint x="10" y="575" as="sourcePoint" />
             <mxPoint x="120" y="520" as="targetPoint" />
@@ -266,6 +239,139 @@
             <mxPoint as="offset" />
             <mxPoint x="210" y="370" as="sourcePoint" />
             <mxPoint x="210" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-2" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-10" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="t1u9_rJhIXzL8JWfHioL-1" value="D+/D-">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0868" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="80" y="475" />
+              <mxPoint x="130" y="450" />
+            </Array>
+            <mxPoint x="160" y="520" as="sourcePoint" />
+            <mxPoint x="330" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-6" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-460.5" y="750" as="sourcePoint" />
+            <mxPoint x="-460.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Dock" vertex="1">
+          <mxGeometry height="30" width="60" x="-490" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-C Plug&lt;br&gt;Sink port" vertex="1">
+          <mxGeometry height="60" width="120" x="-520" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-9" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-8" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="4IoYY8tWDkJgZSM6vHvJ-10" value="VBUS">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-340" y="360" as="sourcePoint" />
+            <mxPoint x="-290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-10" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-8" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4IoYY8tWDkJgZSM6vHvJ-10" value="CC1 / CC2">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-370" y="490" as="sourcePoint" />
+            <mxPoint x="-130" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-11" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-8" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="4IoYY8tWDkJgZSM6vHvJ-10" value="D+ / D-">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-330" y="430" as="sourcePoint" />
+            <mxPoint x="-280" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4-port USB 2.0 hub" vertex="1">
+          <mxGeometry height="60" width="120" x="-760" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Controller #1" vertex="1">
+          <mxGeometry height="60" width="80" x="-920" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Controller #2" vertex="1">
+          <mxGeometry height="60" width="80" x="-800" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Controller #3" vertex="1">
+          <mxGeometry height="60" width="80" x="-680" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Controller #4" vertex="1">
+          <mxGeometry height="60" width="80" x="-560" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-19" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-14" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="XBo1kVQQVbRuQlfM1nOO-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-710" y="640" as="sourcePoint" />
+            <mxPoint x="-660" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-20" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-16" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XBo1kVQQVbRuQlfM1nOO-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-710" y="740" as="sourcePoint" />
+            <mxPoint x="-560" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-21" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-17" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="XBo1kVQQVbRuQlfM1nOO-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-610" y="750" as="sourcePoint" />
+            <mxPoint x="-550" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-22" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-18" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="XBo1kVQQVbRuQlfM1nOO-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-550" y="740" as="sourcePoint" />
+            <mxPoint x="-490" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-C Connector&lt;br&gt;Sink port&lt;div&gt;USB 2.0 data txfer&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-A Plug&lt;br&gt;Controller hub" vertex="1">
+          <mxGeometry height="60" width="120" x="-520" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-29" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-36" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="4IoYY8tWDkJgZSM6vHvJ-1" value="D+/D-">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0868" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="20" y="590" />
+              <mxPoint x="110" y="570" />
+              <mxPoint x="160" y="450" />
+              <mxPoint x="250" y="390" />
+            </Array>
+            <mxPoint x="10" y="680" as="sourcePoint" />
+            <mxPoint x="180" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-30" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-12" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="XBo1kVQQVbRuQlfM1nOO-28" value="D+ / D-">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-620" y="580" as="sourcePoint" />
+            <mxPoint x="-380" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-32" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-28" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" target="XBo1kVQQVbRuQlfM1nOO-12" value="VBUS">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-400" y="570" as="sourcePoint" />
+            <mxPoint x="-630" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-33" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-36" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" target="XBo1kVQQVbRuQlfM1nOO-28" value="5V0_USB">
+          <mxGeometry height="50" relative="1" width="50" x="-0.2" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-200" y="625" as="sourcePoint" />
+            <mxPoint x="30" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-34" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-8" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="VBUS">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-650" y="470" as="sourcePoint" />
+            <mxPoint x="-640" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-A connector&lt;br&gt;Host port" vertex="1">
+          <mxGeometry height="60" width="120" x="-160" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="XBo1kVQQVbRuQlfM1nOO-37" edge="1" parent="1" source="XBo1kVQQVbRuQlfM1nOO-28" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" target="XBo1kVQQVbRuQlfM1nOO-36" value="D+ / D-">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-280" y="540" as="sourcePoint" />
+            <mxPoint x="-40" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

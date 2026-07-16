@@ -169,6 +169,52 @@
 		)
 	)
 	(sheet
+		(at 137.795 38.1)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "921be37e-c275-4af7-b310-f07754ed63f5")
+		(property "Sheetname" "CONTROLLER"
+			(at 137.795 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONTROLLER.kicad_sch"
+			(at 137.795 42.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 63.5 50.8)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
@@ -302,52 +348,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
 					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 126.365 62.865)
-		(size 13.335 4.445)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "f3869933-2746-415e-81cf-30e8e168ff35")
-		(property "Sheetname" "USB2 MUX"
-			(at 126.365 62.1534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "USB2 MUX.kicad_sch"
-			(at 126.365 67.8946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
-					(page "4")
 				)
 			)
 		)
