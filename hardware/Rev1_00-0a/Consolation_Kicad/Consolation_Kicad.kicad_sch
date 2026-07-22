@@ -30,9 +30,19 @@
 		)
 		(uuid "b38d3f82-9b2b-41ec-8cba-6b8c5d4c82ee")
 	)
+	(bus
+		(pts
+			(xy 234.95 99.06) (xy 247.65 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a8c996c-8b8a-4308-a2a0-a6fde2597e89")
+	)
 	(sheet
-		(at 158.75 62.865)
-		(size 15.24 3.81)
+		(at 247.65 133.35)
+		(size 19.05 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -47,7 +57,7 @@
 		)
 		(uuid "6050f2a0-ab64-4181-b373-b4a2383e2041")
 		(property "Sheetname" "USB3"
-			(at 158.75 62.1534 0)
+			(at 247.65 132.6384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -58,7 +68,7 @@
 			)
 		)
 		(property "Sheetfile" "USB3.kicad_sch"
-			(at 158.75 67.2596 0)
+			(at 247.65 159.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -66,6 +76,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CM5_USB3_VBUS_EN" input
+			(at 247.65 146.685 180)
+			(uuid "12dba464-6eb4-49a0-b4f4-33a49ea9f6ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_0{USB3}" bidirectional
+			(at 247.65 134.62 180)
+			(uuid "2ef10395-d621-4250-9b56-fd4b84a5b695")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -78,7 +108,7 @@
 	)
 	(sheet
 		(at 107.95 82.55)
-		(size 12.7 3.81)
+		(size 19.05 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -104,7 +134,7 @@
 			)
 		)
 		(property "Sheetfile" "RPI_CM5_A.kicad_sch"
-			(at 107.95 86.9446 0)
+			(at 107.95 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -112,6 +142,186 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "FAN_TACH" input
+			(at 107.95 82.55 90)
+			(uuid "4bea1ff1-5d81-4e76-8475-69f3af638ad8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 109.5693 82.55 90)
+			(uuid "e19191dd-5a53-4218-be5f-04781aee57f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{SDIO}" bidirectional
+			(at 111.1886 82.55 90)
+			(uuid "fa247b2f-9c74-4d63-aafe-1b3f5218f6a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C0{I2C}" bidirectional
+			(at 112.8079 82.55 90)
+			(uuid "bfa55762-1c40-4592-a29f-7009f377255d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 114.4272 82.55 90)
+			(uuid "6f0f7f21-8366-442e-b96f-9e2ce8f37b4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{I2S}" bidirectional
+			(at 116.0465 82.55 90)
+			(uuid "c546caca-d8c7-4e06-9ee1-3a5d2e491c6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_~{RST}" output
+			(at 117.6658 82.55 90)
+			(uuid "d58cfa77-f24c-4acc-be2c-acf75dab2a45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FAN_PWM" output
+			(at 119.2851 82.55 90)
+			(uuid "ab40939f-d970-4527-9ec6-1bf573b18792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PI_LED_~{ACT}" output
+			(at 107.95 93.0398 180)
+			(uuid "43118d52-7ef7-4d26-a538-6cc2972075c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2S}" bidirectional
+			(at 127 93.0398 0)
+			(uuid "4aa2c6c7-8125-4347-97fd-c660cbbc688d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD0" input
+			(at 107.95 94.6591 180)
+			(uuid "9c7575a7-9c1a-4797-96c1-ce573fe25cb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BL_PWM" output
+			(at 107.95 94.6591 180)
+			(uuid "3ff923e1-43dd-46b6-877d-be20c7505019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2S}" bidirectional
+			(at 107.95 94.6591 180)
+			(uuid "e28a570b-41ce-4aa2-8e69-76f891088513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{SDIO}" bidirectional
+			(at 107.95 94.6591 180)
+			(uuid "11e76732-151f-475b-a9dc-fd8a5ff02a17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_PWR_ON" output
+			(at 107.95 94.6591 180)
+			(uuid "39d871a7-9d68-4498-bbc9-7d15764b4432")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TXD0" output
+			(at 127 94.6591 0)
+			(uuid "925592b0-7a13-4790-9517-a81fd4a848b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_OTG" input
+			(at 107.95 96.2784 180)
+			(uuid "378f28d2-ddab-4487-8ab0-8096c55fcafe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RPI_LED_~{PWR}" output
+			(at 127 96.2784 0)
+			(uuid "fb1bccac-e9a5-4a1f-841d-cdc94e2af526")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -123,13 +333,12 @@
 		)
 	)
 	(sheet
-		(at 63.5 38.1)
-		(size 12.7 3.81)
+		(at 215.9 95.25)
+		(size 19.05 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -139,7 +348,7 @@
 		)
 		(uuid "840a7f6c-235f-45c3-9d8a-e775048afd33")
 		(property "Sheetname" "DSI TO LVDS"
-			(at 63.5 37.3884 0)
+			(at 215.9 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -150,7 +359,7 @@
 			)
 		)
 		(property "Sheetfile" "DSI TO LVDS.kicad_sch"
-			(at 63.5 42.4946 0)
+			(at 215.9 109.982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -158,6 +367,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DSI_BRDG_~{RST}" input
+			(at 215.9 96.52 180)
+			(uuid "af539baf-a08a-4bd9-809d-c099c761d793")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 215.9 106.68 180)
+			(uuid "03abf50f-f227-46c8-8319-154a615bad9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI1{MIPI}" bidirectional
+			(at 215.9 101.6 180)
+			(uuid "6bb6db8f-1f9b-4554-96f8-b4052f3f3fb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LVDS_A{LVDS}" output
+			(at 234.95 99.06 0)
+			(uuid "5be7a06a-06b3-483a-8a19-47fdbff2266e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -169,8 +418,8 @@
 		)
 	)
 	(sheet
-		(at 137.795 38.1)
-		(size 12.7 3.81)
+		(at 139.7 31.75)
+		(size 19.05 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -185,7 +434,7 @@
 		)
 		(uuid "921be37e-c275-4af7-b310-f07754ed63f5")
 		(property "Sheetname" "CONTROLLER"
-			(at 137.795 37.3884 0)
+			(at 139.7 31.0384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -196,7 +445,7 @@
 			)
 		)
 		(property "Sheetfile" "CONTROLLER.kicad_sch"
-			(at 137.795 42.4946 0)
+			(at 139.7 57.7346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -215,8 +464,8 @@
 		)
 	)
 	(sheet
-		(at 63.5 50.8)
-		(size 12.7 3.81)
+		(at 177.165 31.75)
+		(size 19.685 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -229,9 +478,159 @@
 		(fill
 			(color 0 0 0 0)
 		)
+		(uuid "bcdde681-3692-4bfd-9d78-d87f7aaa0ed1")
+		(property "Sheetname" "CODEC"
+			(at 177.165 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CODEC.kicad_sch"
+			(at 177.165 57.7346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CODEC_~{RST}" input
+			(at 177.165 53.34 180)
+			(uuid "d9ef6039-1627-4555-9bd2-f82f03d2de97")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 177.165 45.085 180)
+			(uuid "16745472-6d62-4f1a-bc4f-d84bd42d7dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{I2S}" bidirectional
+			(at 177.165 33.02 180)
+			(uuid "6659c5e4-d9ce-490e-8545-67c9011e8e87")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{HP_DETECT}" output
+			(at 177.165 49.53 180)
+			(uuid "f6cef905-e387-4bf6-abf9-71cdca303c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 57.15)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c81e7ef2-aeaa-4a92-bec0-2bc97d679418")
+		(property "Sheetname" "HDMI"
+			(at 247.65 56.642 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HDMI.kicad_sch"
+			(at 247.65 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "HDMI_~{RST}" input
+			(at 247.65 59.055 180)
+			(uuid "df2a46a8-2ca1-44e4-82a5-781f2d4b49e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 247.65 68.58 180)
+			(uuid "85c6f12e-ff78-4e78-8a11-034fc7e5865d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 247.65 95.25)
+		(size 19.05 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
 		(uuid "d6115ee7-6692-41e2-8017-fa08749ad748")
 		(property "Sheetname" "TFT CONN"
-			(at 63.5 50.0884 0)
+			(at 247.65 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -242,7 +641,7 @@
 			)
 		)
 		(property "Sheetfile" "TFT CONN.kicad_sch"
-			(at 63.5 55.1946 0)
+			(at 247.65 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -250,6 +649,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "LVDS_A{LVDS}" input
+			(at 247.65 99.06 180)
+			(uuid "aee9e651-bbf0-4d4d-b846-630cb11069a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BL_PWM" input
+			(at 247.65 119.38 180)
+			(uuid "de084c6b-ed3a-4f7c-afe5-a7e668fec236")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_HOST{USB2}" bidirectional
+			(at 247.65 113.665 180)
+			(uuid "cbdcd097-ee85-48c5-98e7-7e5bcddc8c61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -262,7 +691,7 @@
 	)
 	(sheet
 		(at 139.7 82.55)
-		(size 12.7 3.81)
+		(size 19.05 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -288,7 +717,7 @@
 			)
 		)
 		(property "Sheetfile" "RPI_CM5_B.kicad_sch"
-			(at 139.7 86.9446 0)
+			(at 139.7 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -296,6 +725,96 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 139.7 82.55 90)
+			(uuid "ad40e23a-1f30-4b96-9e5a-8c83ee5a9536")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DSI1{MIPI}" bidirectional
+			(at 141.3193 82.55 90)
+			(uuid "21cd7e76-f778-43e3-965c-789e818417e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 142.9386 82.55 90)
+			(uuid "cf2a2273-efb8-438b-8f6e-1f292ca0f3b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CM5_USB3_VBUS_EN" output
+			(at 139.7 96.608 180)
+			(uuid "fd5cf800-7b84-4d58-a98a-0d78f2da6b25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB{USB2}" bidirectional
+			(at 139.7 98.2273 180)
+			(uuid "ed3a8bac-ddd9-4ca5-8f97-506065689465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 139.7 99.8466 180)
+			(uuid "05353a8f-23ee-4018-91bb-0360924a6922")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CM5_USB3_0{USB3}" bidirectional
+			(at 139.7 101.4659 180)
+			(uuid "2e89fcb5-23e7-4061-b4f3-4e09b5ea51cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HDMI0{HDMI}" bidirectional
+			(at 139.7 103.0852 180)
+			(uuid "2ba98017-72d0-4474-b35e-ff77dbb53bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DSI1{MIPI}" bidirectional
+			(at 139.7 104.7045 180)
+			(uuid "c45a2cea-d57a-4ccf-b766-0608223e6b68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -307,8 +826,8 @@
 		)
 	)
 	(sheet
-		(at 71.12 109.22)
-		(size 12.7 3.81)
+		(at 25.4 82.55)
+		(size 19.05 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -323,7 +842,7 @@
 		)
 		(uuid "e7d38f96-19c4-4995-a877-8c1df288247f")
 		(property "Sheetname" "TYPE C CHARGER"
-			(at 71.12 108.5084 0)
+			(at 25.4 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -334,7 +853,7 @@
 			)
 		)
 		(property "Sheetfile" "TYPE C CHARGER.kicad_sch"
-			(at 71.12 113.6146 0)
+			(at 25.4 108.5346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -342,6 +861,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C3{I2C}" bidirectional
+			(at 44.45 83.82 0)
+			(uuid "7d785c98-a3ff-4b2b-8447-6f67534251df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{BAT_CHRG_EN}" input
+			(at 44.45 88.9 0)
+			(uuid "be768f21-1078-4e88-8c62-8a72d68bf9cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{BAT_CHRG_INT}" output
+			(at 44.45 93.98 0)
+			(uuid "57765182-26de-4f95-a1d3-6be42b959e98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{BAT_CHRG_PG}" output
+			(at 44.45 96.52 0)
+			(uuid "8e576cc6-c62b-41fd-bcc1-7550ce46274a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{BAT_CHRG_RESET}" input
+			(at 44.45 86.36 0)
+			(uuid "8fcd1f70-265d-418e-b1ba-6a651a2e30ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

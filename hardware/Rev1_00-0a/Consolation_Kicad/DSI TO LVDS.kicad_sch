@@ -6717,7 +6717,7 @@
 			)
 		)
 	)
-	(label "I2C3.I2C_SDA"
+	(label "I2C2.I2C_SDA"
 		(at 74.295 81.28 0)
 		(effects
 			(font
@@ -6847,7 +6847,7 @@
 			)
 		)
 	)
-	(label "I2C3.I2C_SCL"
+	(label "I2C2.I2C_SCL"
 		(at 74.295 97.155 0)
 		(effects
 			(font
@@ -7022,7 +7022,7 @@
 		)
 		(uuid "16b02357-ea5b-4032-8feb-047a924acb53")
 	)
-	(hierarchical_label "I2C3{I2C}"
+	(hierarchical_label "I2C2{I2C}"
 		(shape bidirectional)
 		(at 38.1 76.2 180)
 		(effects
@@ -7134,7 +7134,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 125.095 120.015 0)
+		(at 136.525 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7142,9 +7142,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "118f0e69-c90c-49d8-8998-8695186deb96")
-		(property "Reference" "#PWR0124"
-			(at 125.095 123.825 0)
+		(uuid "13220a98-d4ea-457f-992f-6f770bc64490")
+		(property "Reference" "#PWR0145"
+			(at 140.335 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7154,8 +7154,8 @@
 				)
 			)
 		)
-		(property "Value" "1V8_CB"
-			(at 121.158 116.459 0)
+		(property "Value" "1V8"
+			(at 133.858 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7166,7 +7166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.095 120.015 0)
+			(at 136.525 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7177,7 +7177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.095 120.015 0)
+			(at 136.525 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7188,7 +7188,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 125.095 120.015 0)
+			(at 136.525 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7199,12 +7199,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd9abced-b915-4f3f-8a16-74f04aff3884")
+			(uuid "cd34cda3-d244-4942-8499-548f01064a7e")
 		)
 		(instances
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
-					(reference "#PWR0124")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -8098,84 +8098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 106.045 86.995 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2e248712-c6d1-4373-8213-021e084595cc")
-		(property "Reference" "#PWR0133"
-			(at 106.045 90.805 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1V8_CB"
-			(at 102.997 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.045 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.045 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 106.045 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c77a0678-79d0-4807-8610-68317af66ae3")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
-					(reference "#PWR0133")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
 		(at 83.82 112.395 180)
 		(unit 1)
@@ -8623,7 +8545,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
+		(property "Value" "3V3"
 			(at 54.356 114.808 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10086,6 +10008,84 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Pwr_Symbols:+3V3")
+		(at 125.095 120.015 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ef8380b-dcfd-4b90-b658-453101b6e2ec")
+		(property "Reference" "#PWR0144"
+			(at 125.095 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1V8"
+			(at 123.19 116.459 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.095 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.095 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 125.095 120.015 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25fb336f-bd2e-4533-8a53-ffa8c7d4f0b3")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00001")
 		(at 139.7 96.52 0)
 		(unit 1)
@@ -10844,84 +10844,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 136.525 96.52 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "949b9076-a0b2-4405-a174-f7a275f97c97")
-		(property "Reference" "#PWR0132"
-			(at 140.335 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1V8_CB"
-			(at 133.35 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 136.525 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 136.525 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 136.525 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "926c4bef-0074-46b3-bef8-a24d56d1bf78")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
-					(reference "#PWR0132")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Interface/INTRFX_00001")
 		(at 168.275 52.07 0)
 		(unit 1)
@@ -11542,8 +11464,8 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
-			(at 102.997 67.691 0)
+		(property "Value" "3V3"
+			(at 104.14 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11593,6 +11515,84 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:+3V3")
+		(at 93.345 86.995 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c0f866e-a118-4f4f-9f81-164a2ecb506e")
+		(property "Reference" "#PWR0142"
+			(at 93.345 90.805 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 91.44 83.439 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.345 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.345 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 93.345 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d32ca98-a26d-4598-9352-9eb1270ae52b")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -11969,7 +11969,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 93.345 86.995 0)
+		(at 106.045 86.995 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11977,9 +11977,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "af47d399-d8b2-4f5c-86ca-ce45d04adbe2")
-		(property "Reference" "#PWR0134"
-			(at 93.345 90.805 0)
+		(uuid "acdde051-3254-4f7a-983e-ca23b5607672")
+		(property "Reference" "#PWR0143"
+			(at 106.045 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11989,8 +11989,8 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
-			(at 90.297 83.566 0)
+		(property "Value" "1V8"
+			(at 104.14 83.439 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12001,7 +12001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.345 86.995 0)
+			(at 106.045 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12012,7 +12012,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.345 86.995 0)
+			(at 106.045 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12023,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 93.345 86.995 0)
+			(at 106.045 86.995 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12034,12 +12034,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "93e0cd37-58b8-4047-b4d1-823df2d608b5")
+			(uuid "8ed3cbac-1062-4d25-b7d0-ee6c1ffa6004")
 		)
 		(instances
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
-					(reference "#PWR0134")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -13639,8 +13639,8 @@
 				)
 			)
 		)
-		(property "Value" "1V8_CB"
-			(at 115.697 67.691 0)
+		(property "Value" "1V8"
+			(at 116.84 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

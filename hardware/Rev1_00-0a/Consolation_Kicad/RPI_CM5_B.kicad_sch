@@ -409,296 +409,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KicadCompDb:Capacitors/CAP_CER_SMT_00001"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 2.54 1.651 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0.1u"
-				(at 1.524 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:CAP_NONPOL_0402"
-				(at 0.508 -22.098 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-				(at 1.778 -9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "±10%"
-				(at 0.254 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0.254 -14.224 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "0402"
-				(at 0 -16.256 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Operating Temperature" "-55°C ~ 125°C"
-				(at 0.762 -24.384 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Voltage Rating" "50V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Murata Electronics"
-				(at 0.254 -18.288 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-				(at 0.254 -7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Distributor" "DigiKey"
-				(at 0 -5.842 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Distributor Part Number" "490-10700-1-ND"
-				(at 0.762 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "CER SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "1.00mm x 0.50mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "footprint:CAP_NONPOL_0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Capacitors/CAP_CER_SMT_00001_1_1"
-				(polyline
-					(pts
-						(xy 2.159 0.889) (xy 2.159 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.159 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.889) (xy 2.921 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 2.921 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KicadCompDb:Connector/CONN_00015"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -3016,30 +2726,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 212.09 27.305)
-		(end 226.06 37.465)
-		(stroke
-			(width 0)
-			(type dot)
-			(color 255 153 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "c7a8d2a5-4a85-44c0-83b6-4c4779754451")
-	)
-	(text "0R on CM4\n0.1u on CM5"
-		(exclude_from_sim no)
-		(at 219.202 29.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "3b7e16e6-e575-40a5-9767-421de2c3f086")
-	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
 		(at 12.7 170.942 0)
@@ -3252,6 +2938,10 @@
 		(uuid "412094c5-e22a-4b34-9420-9b9b8fc4ff8f")
 	)
 	(no_connect
+		(at 126.365 102.235)
+		(uuid "454c3d82-879a-4901-ad7e-791ad7ec025b")
+	)
+	(no_connect
 		(at 182.245 86.995)
 		(uuid "57dc31ef-930d-45c0-b580-39c976104fbb")
 	)
@@ -3264,8 +2954,16 @@
 		(uuid "6cbc50a3-7419-41cf-9716-7b6f279f2d80")
 	)
 	(no_connect
+		(at 126.365 112.395)
+		(uuid "6e76e0e1-18b8-4429-a9a7-41f8d2954f37")
+	)
+	(no_connect
 		(at 126.365 41.275)
 		(uuid "8824772a-885c-4577-a2ff-983d983c5554")
+	)
+	(no_connect
+		(at 126.365 94.615)
+		(uuid "8b158a9a-d263-4e28-a318-b827ee645ec4")
 	)
 	(no_connect
 		(at 126.365 64.135)
@@ -3288,6 +2986,10 @@
 		(uuid "b7879fad-f493-438b-82e2-830ec62146db")
 	)
 	(no_connect
+		(at 126.365 97.155)
+		(uuid "cab99332-f14d-45d4-914e-5ef57b687b40")
+	)
+	(no_connect
 		(at 126.365 81.915)
 		(uuid "cd9c3933-085f-452e-a972-0fcd352ef749")
 	)
@@ -3296,8 +2998,16 @@
 		(uuid "d4f56710-442a-4fcb-98a2-18f1a342190c")
 	)
 	(no_connect
+		(at 126.365 104.775)
+		(uuid "d8d023d3-47e0-4adf-874f-40030fcec88f")
+	)
+	(no_connect
 		(at 182.245 89.535)
 		(uuid "dd62f555-9e6d-42c0-8ff7-140c4221399b")
+	)
+	(no_connect
+		(at 126.365 109.855)
+		(uuid "dd8567ce-f0c8-45f1-b70f-f6500542adef")
 	)
 	(no_connect
 		(at 126.365 79.375)
@@ -3398,15 +3108,6 @@
 		(uuid "508f5f43-f939-4ee0-aec9-17000c14077f")
 	)
 	(bus_entry
-		(at 72.39 92.075)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57bb7f92-0849-44fb-acd3-e3babde78480")
-	)
-	(bus_entry
 		(at 236.22 107.315)
 		(size -2.54 2.54)
 		(stroke
@@ -3423,15 +3124,6 @@
 			(type default)
 		)
 		(uuid "5f5f85a6-8539-4c88-9695-ab2878645d68")
-	)
-	(bus_entry
-		(at 72.39 107.315)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61254180-84f0-4ab8-8b9e-373abfbfacaa")
 	)
 	(bus_entry
 		(at 241.3 53.975)
@@ -3470,33 +3162,6 @@
 		(uuid "85d7fe9a-2ef0-4327-9486-8dab6563e967")
 	)
 	(bus_entry
-		(at 72.39 102.235)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "885fe9a1-581c-44a3-abeb-23ad41184ccc")
-	)
-	(bus_entry
-		(at 72.39 109.855)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93805459-1751-4e18-804f-41264af9298c")
-	)
-	(bus_entry
-		(at 72.39 94.615)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a016b510-31a3-4d10-8cc1-4c96917c656a")
-	)
-	(bus_entry
 		(at 236.22 114.935)
 		(size -2.54 2.54)
 		(stroke
@@ -3531,15 +3196,6 @@
 			(type default)
 		)
 		(uuid "b99bfc4a-26ce-4244-aee7-70f6e9922151")
-	)
-	(bus_entry
-		(at 72.39 99.695)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb5a25ba-e271-477b-8a17-926ce48f5068")
 	)
 	(bus_entry
 		(at 236.22 132.715)
@@ -3682,26 +3338,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 104.775) (xy 126.365 104.775)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07a4a08a-3fc5-4b89-b137-76f65786f0c7")
-	)
-	(wire
-		(pts
-			(xy 74.93 94.615) (xy 126.365 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "095dad3e-564f-4c52-87e7-c11f3e40f1d0")
-	)
-	(wire
-		(pts
 			(xy 182.245 140.335) (xy 233.68 140.335)
 		)
 		(stroke
@@ -3762,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.155) (xy 126.365 97.155)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "180ff584-eae7-4175-8cf9-0cb9e2d4460d")
-	)
-	(wire
-		(pts
 			(xy 184.15 92.075) (xy 184.15 99.695)
 		)
 		(stroke
@@ -3779,26 +3405,6 @@
 			(type default)
 		)
 		(uuid "19f446d1-9862-4a00-a3b4-1e4202836872")
-	)
-	(wire
-		(pts
-			(xy 221.615 36.195) (xy 255.27 36.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c5eae5e-a2fd-4ac7-86f1-dc7ffc3557b9")
-	)
-	(wire
-		(pts
-			(xy 74.93 102.235) (xy 126.365 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d718acd-2005-455d-a1ea-1d0299633c1c")
 	)
 	(wire
 		(pts
@@ -3849,16 +3455,6 @@
 			(type default)
 		)
 		(uuid "276e5490-eee6-4951-9885-fee51e0efcc1")
-	)
-	(bus
-		(pts
-			(xy 66.04 89.535) (xy 69.85 89.535)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27d28e43-907e-4062-9c5f-c674e3a298a4")
 	)
 	(bus
 		(pts
@@ -3930,16 +3526,6 @@
 		)
 		(uuid "2f2de489-f430-4e68-8021-854e087d67aa")
 	)
-	(bus
-		(pts
-			(xy 72.39 92.075) (xy 72.39 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315ada3b-c5a7-42bd-a80e-c787f0392905")
-	)
 	(wire
 		(pts
 			(xy 74.93 120.015) (xy 126.365 120.015)
@@ -3969,16 +3555,6 @@
 			(type default)
 		)
 		(uuid "32d3632b-1ce7-4982-b47b-c92b8b92c631")
-	)
-	(bus
-		(pts
-			(xy 72.39 99.695) (xy 72.39 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e58175-4d95-42c4-95dd-049be3948606")
 	)
 	(bus
 		(pts
@@ -4322,6 +3898,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 33.655) (xy 238.76 33.655)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68027304-e3e0-454f-a04f-2d671ccad0f4")
+	)
+	(wire
+		(pts
 			(xy 124.46 145.415) (xy 124.46 151.13)
 		)
 		(stroke
@@ -4442,6 +4028,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.245 36.195) (xy 238.76 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7695b7cd-3b1a-4d6b-b4f5-6a14ddd1bdeb")
+	)
+	(wire
+		(pts
 			(xy 124.46 145.415) (xy 126.365 145.415)
 		)
 		(stroke
@@ -4479,26 +4075,6 @@
 			(type default)
 		)
 		(uuid "79674dd2-ae18-4285-9803-11bcbcd12cd1")
-	)
-	(bus
-		(pts
-			(xy 69.85 89.535) (xy 72.39 92.075)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79820ee8-f0f2-4acb-b7b2-e2124f1f99c3")
-	)
-	(bus
-		(pts
-			(xy 72.39 102.235) (xy 72.39 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a0ef668-ba84-4ca8-94cc-45dba5f73dce")
 	)
 	(wire
 		(pts
@@ -4622,16 +4198,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.245 36.195) (xy 216.535 36.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92340154-e12c-4573-94f8-baab78cfbc10")
-	)
-	(wire
-		(pts
 			(xy 182.245 99.695) (xy 184.15 99.695)
 		)
 		(stroke
@@ -4649,26 +4215,6 @@
 			(type default)
 		)
 		(uuid "933b56c4-1fa1-4f18-8be6-c7136dcee826")
-	)
-	(wire
-		(pts
-			(xy 74.93 109.855) (xy 126.365 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "958f105a-a097-4dea-99eb-ec3e7c3906a7")
-	)
-	(wire
-		(pts
-			(xy 221.615 33.655) (xy 255.27 33.655)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "981e8168-e6a6-4bec-bf44-3e917d45dfd5")
 	)
 	(wire
 		(pts
@@ -4790,16 +4336,6 @@
 		)
 		(uuid "a4012823-5002-4527-bd76-4b4ec8a05527")
 	)
-	(wire
-		(pts
-			(xy 74.93 112.395) (xy 126.365 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a524f647-5445-4b4a-88a8-7175b8e7c108")
-	)
 	(bus
 		(pts
 			(xy 72.39 137.795) (xy 72.39 140.335)
@@ -4809,16 +4345,6 @@
 			(type default)
 		)
 		(uuid "a626cc9b-e7be-4598-9cb5-e6e7c6bb6aa8")
-	)
-	(bus
-		(pts
-			(xy 72.39 94.615) (xy 72.39 99.695)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8974900-f8a2-4665-be6a-7508e6db3639")
 	)
 	(wire
 		(pts
@@ -4869,16 +4395,6 @@
 			(type default)
 		)
 		(uuid "b1647624-5b1b-4781-81ec-5b5aec812a6f")
-	)
-	(wire
-		(pts
-			(xy 182.245 33.655) (xy 216.535 33.655)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92769a3-b6da-49b9-9a1b-01d1c3112642")
 	)
 	(wire
 		(pts
@@ -5039,16 +4555,6 @@
 			(type default)
 		)
 		(uuid "d880f77f-37a0-452a-886b-7d3a853ddc6c")
-	)
-	(bus
-		(pts
-			(xy 72.39 107.315) (xy 72.39 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbc96eef-d9dc-4cec-88fc-f67e334bda6a")
 	)
 	(bus
 		(pts
@@ -5360,28 +4866,6 @@
 			)
 		)
 	)
-	(label "CM5_USB3_1.USB_P"
-		(at 74.93 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "22254ac4-69f2-4c65-b907-6a65b738dfff")
-		(property "Net Class" "DP_90R"
-			(at 104.394 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "DSI1.D3_N"
 		(at 233.68 140.335 180)
 		(effects
@@ -5590,28 +5074,6 @@
 			)
 		)
 	)
-	(label "CM5_USB3_1.U3TXD_N"
-		(at 74.93 109.855 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "602adb59-2eac-44c4-9f58-0a8a957dfff1")
-		(property "Net Class" "DP_90R"
-			(at 104.394 108.966 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "PCIe_~{WAKE}"
 		(at 238.76 26.035 180)
 		(effects
@@ -5697,28 +5159,6 @@
 			(justify left bottom)
 		)
 		(uuid "78ce3016-7f09-4205-982a-171ba34e96c6")
-	)
-	(label "CMx_PCIe_CLK_P"
-		(at 184.785 33.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a7fe303-037d-446b-8847-eee94465b5b6")
-		(property "Net Class" "DP_90R"
-			(at 201.422 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
 	)
 	(label "PCIe_TX_P"
 		(at 238.76 48.895 180)
@@ -5818,72 +5258,6 @@
 			)
 		)
 	)
-	(label "CM5_USB3_1.U3RXD_P"
-		(at 74.93 97.155 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99a26ed2-86d7-4119-87ef-e25c4855deaf")
-		(property "Net Class" "DP_90R"
-			(at 104.394 96.266 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "CM5_USB3_1.U3TXD_P"
-		(at 74.93 112.395 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bdc0605-fb54-4881-85a7-5aa219191bc0")
-		(property "Net Class" "DP_90R"
-			(at 104.394 111.506 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "CM5_USB3_1.U3RXD_N"
-		(at 74.93 94.615 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a76f4608-e523-4f75-bd64-c00598879ff0")
-		(property "Net Class" "DP_90R"
-			(at 104.394 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "DSI1.D2_P"
 		(at 74.93 142.875 0)
 		(effects
@@ -5917,7 +5291,7 @@
 		(uuid "ae1a578d-89fc-4b48-b85f-1345c431429c")
 	)
 	(label "PCIe_CLK_P"
-		(at 255.27 33.655 180)
+		(at 238.76 33.655 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5926,7 +5300,7 @@
 		)
 		(uuid "b1c80c2e-0fbe-48c4-bd1d-e1bf70a63c64")
 		(property "Net Class" "DP_90R"
-			(at 234.823 32.766 0)
+			(at 208.788 32.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6004,28 +5378,6 @@
 			)
 		)
 	)
-	(label "CMx_PCIe_CLK_N"
-		(at 184.785 36.195 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c7ac5d5f-5230-465e-b8a7-abf1b9d5ebc5")
-		(property "Net Class" "DP_90R"
-			(at 201.422 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "HDMI0.D0_P"
 		(at 233.68 125.095 180)
 		(effects
@@ -6081,7 +5433,7 @@
 		(uuid "e3f02e5c-0b4b-46a3-8237-d791c4459558")
 	)
 	(label "PCIe_CLK_N"
-		(at 255.27 36.195 180)
+		(at 238.76 36.195 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6090,7 +5442,7 @@
 		)
 		(uuid "e49d06f7-a488-4420-af61-4a54c4b21f13")
 		(property "Net Class" "DP_90R"
-			(at 234.823 35.306 0)
+			(at 208.788 35.306 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6143,28 +5495,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(label "CM5_USB3_1.USB_N"
-		(at 74.93 104.775 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc9c4716-6897-4e88-9cbf-79f91c093bbd")
-		(property "Net Class" "DP_90R"
-			(at 104.394 103.886 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6222,17 +5552,6 @@
 			(justify left)
 		)
 		(uuid "7fe362d3-e80c-4d8f-95b5-aede66a42a14")
-	)
-	(hierarchical_label "CM5_USB3_1{USB3}"
-		(shape bidirectional)
-		(at 66.04 89.535 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a787eeb0-915c-4852-8dcf-b184d4505386")
 	)
 	(hierarchical_label "CM5_USB3_VBUS_EN"
 		(shape output)
@@ -7844,206 +7163,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 216.535 33.655 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "afb0621c-fdbf-4475-9db4-bfd799958a40")
-		(property "Reference" "C240"
-			(at 215.9 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 221.742 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 217.043 55.753 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 216.535 33.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 218.313 43.561 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 216.789 53.975 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 216.789 47.879 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402"
-			(at 216.535 49.911 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 217.297 58.039 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 216.535 33.655 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 216.789 51.943 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 216.789 41.529 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 216.535 39.497 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 217.297 45.847 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "CER SMT"
-			(at 216.535 33.655 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 216.535 33.655 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "45dd545e-b054-4f0b-8278-e5844f805d1e")
-		)
-		(pin "1"
-			(uuid "c281b1b2-4688-419b-be39-5c5c7b1cfa97")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
-					(reference "C240")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00010")
 		(at 250.19 153.035 0)
 		(unit 1)
@@ -8282,206 +7401,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
 					(reference "#PWR0118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 216.535 36.195 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eeec7967-d735-42c4-afcb-44b2ae5c8d4a")
-		(property "Reference" "C241"
-			(at 216.027 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 221.742 35.306 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 217.043 58.293 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 216.535 36.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 218.313 46.101 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 216.789 56.515 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 216.789 50.419 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402"
-			(at 216.535 52.451 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 217.297 60.579 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 216.535 36.195 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 216.789 54.483 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 216.789 44.069 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 216.535 42.037 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 217.297 48.387 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "CER SMT"
-			(at 216.535 36.195 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 216.535 36.195 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ea2b0a07-2fae-4514-8d20-4310cff8f831")
-		)
-		(pin "1"
-			(uuid "0d3bb062-fee0-4b6a-9d69-25024ba9bbf6")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
-					(reference "C241")
 					(unit 1)
 				)
 			)

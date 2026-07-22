@@ -466,6 +466,30 @@
       "/DSI TO LVDS/LVDS_A.D3_P": [
         "DP_100R"
       ],
+      "/HDMI/HDMI0.CLK_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.CLK_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D0_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D0_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D1_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D1_P": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D2_N": [
+        "DP_100R"
+      ],
+      "/HDMI/HDMI0.D2_P": [
+        "DP_100R"
+      ],
       "/RPI_CM5_A/ETH_P0_N": [
         "DP_100R"
       ],
@@ -826,7 +850,12 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "I2C": [
+        "I2C_SDA",
+        "I2C_SCL"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -867,7 +896,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D44-45,#PWR44,#PWR330-332,#PWR334-346,#PWR348-350,#PWR385-388,C11-12,C203-227,R2,R8,R16-17,R275-277,R279,J2,J8,J13-14,TP37-40,U4-6,U33,X1",
     "variants": [
       {
         "description": "No capacitive touch available",
@@ -889,6 +918,10 @@
       "CM5_CONN_B"
     ],
     [
+      "c81e7ef2-aeaa-4a92-bec0-2bc97d679418",
+      "HDMI"
+    ],
+    [
       "6050f2a0-ab64-4181-b373-b4a2383e2041",
       "USB3"
     ],
@@ -907,6 +940,10 @@
     [
       "921be37e-c275-4af7-b310-f07754ed63f5",
       "CONTROLLER"
+    ],
+    [
+      "bcdde681-3692-4bfd-9d78-d87f7aaa0ed1",
+      "CODEC"
     ]
   ],
   "text_variables": {},
