@@ -2938,10 +2938,6 @@
 		(uuid "412094c5-e22a-4b34-9420-9b9b8fc4ff8f")
 	)
 	(no_connect
-		(at 126.365 102.235)
-		(uuid "454c3d82-879a-4901-ad7e-791ad7ec025b")
-	)
-	(no_connect
 		(at 182.245 86.995)
 		(uuid "57dc31ef-930d-45c0-b580-39c976104fbb")
 	)
@@ -2998,10 +2994,6 @@
 		(uuid "d4f56710-442a-4fcb-98a2-18f1a342190c")
 	)
 	(no_connect
-		(at 126.365 104.775)
-		(uuid "d8d023d3-47e0-4adf-874f-40030fcec88f")
-	)
-	(no_connect
 		(at 182.245 89.535)
 		(uuid "dd62f555-9e6d-42c0-8ff7-140c4221399b")
 	)
@@ -3034,6 +3026,15 @@
 			(type default)
 		)
 		(uuid "0b7cf278-6c46-4012-bb75-550a3d5fc17f")
+	)
+	(bus_entry
+		(at 72.39 99.695)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18566fac-b168-40fc-b947-c7c2b6b14db2")
 	)
 	(bus_entry
 		(at 236.22 122.555)
@@ -3151,6 +3152,15 @@
 			(type default)
 		)
 		(uuid "68b324d3-7976-4fbb-bb6c-01dce5b2aba0")
+	)
+	(bus_entry
+		(at 72.39 102.235)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "782fc7d9-02e8-4867-99c1-17c59ef89029")
 	)
 	(bus_entry
 		(at 72.39 86.995)
@@ -4028,6 +4038,16 @@
 	)
 	(wire
 		(pts
+			(xy 126.365 102.235) (xy 74.93 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764151a6-88a7-4754-8380-4132cd220df1")
+	)
+	(wire
+		(pts
 			(xy 182.245 36.195) (xy 238.76 36.195)
 		)
 		(stroke
@@ -4186,6 +4206,16 @@
 		)
 		(uuid "8f671b3c-498b-4ea2-aaf5-1d709d72c358")
 	)
+	(bus
+		(pts
+			(xy 66.04 97.155) (xy 69.85 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ffe817e-63b7-434e-9ca4-803e61d03e13")
+	)
 	(wire
 		(pts
 			(xy 124.46 38.735) (xy 124.46 46.355)
@@ -4255,6 +4285,16 @@
 			(type default)
 		)
 		(uuid "9cba3658-166a-491e-86e5-000028c97b96")
+	)
+	(wire
+		(pts
+			(xy 126.365 104.775) (xy 74.93 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d14238c-fb61-4d6c-b600-dacb3957ef7e")
 	)
 	(wire
 		(pts
@@ -4506,6 +4546,16 @@
 		)
 		(uuid "cd5a213d-d31a-4b4e-b569-6c17523b2d86")
 	)
+	(bus
+		(pts
+			(xy 69.85 97.155) (xy 72.39 99.695)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd24ce0-ce90-44fa-bb63-67393dc5c1bc")
+	)
 	(wire
 		(pts
 			(xy 126.365 31.115) (xy 124.46 31.115)
@@ -4535,6 +4585,16 @@
 			(type default)
 		)
 		(uuid "d59459c6-f032-49b4-8f24-6a60970d4239")
+	)
+	(bus
+		(pts
+			(xy 72.39 99.695) (xy 72.39 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5b57fa7-3252-442f-a190-ae5e3eecdbb4")
 	)
 	(wire
 		(pts
@@ -4844,7 +4904,7 @@
 			)
 		)
 	)
-	(label "USB.USB_N"
+	(label "USB2_NATIVE.USB_N"
 		(at 74.93 26.035 0)
 		(effects
 			(font
@@ -4943,6 +5003,28 @@
 		(uuid "3344144d-4367-4dbc-bfb1-71c42634090f")
 		(property "Net Class" "DP_100R"
 			(at 104.394 126.746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "USB2_RP2350.USB_N"
+		(at 74.93 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34cc00f6-9e1a-42d3-b20f-01e054c58d4c")
+		(property "Net Class" "DP_90R"
+			(at 104.394 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5084,7 +5166,7 @@
 		)
 		(uuid "60e89b0e-2d0c-4fea-a041-7b79f2c00c5d")
 	)
-	(label "USB.USB_P"
+	(label "USB2_NATIVE.USB_P"
 		(at 74.93 28.575 0)
 		(effects
 			(font
@@ -5422,7 +5504,7 @@
 			)
 		)
 	)
-	(label "USB.OTG_ID"
+	(label "USB2_NATIVE.OTG_ID"
 		(at 74.93 23.495 0)
 		(effects
 			(font
@@ -5451,6 +5533,28 @@
 					(italic yes)
 				)
 				(justify right)
+			)
+		)
+	)
+	(label "USB2_RP2350.USB_P"
+		(at 74.93 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7a3d4bf-c3c9-44c3-b0a1-e47971abaeac")
+		(property "Net Class" "DP_90R"
+			(at 104.394 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5520,6 +5624,17 @@
 			)
 		)
 	)
+	(hierarchical_label "USB2_RP2350{USB2}"
+		(shape bidirectional)
+		(at 66.04 97.155 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f869c9e-43dc-4b04-9f50-6ba3fe62eb24")
+	)
 	(hierarchical_label "DSI1{MIPI}"
 		(shape bidirectional)
 		(at 66.04 112.395 180)
@@ -5586,7 +5701,7 @@
 		)
 		(uuid "cc06cd32-074a-4ef8-b18d-99a32d04bd77")
 	)
-	(hierarchical_label "USB{USB2}"
+	(hierarchical_label "USB2_NATIVE{USB2}"
 		(shape bidirectional)
 		(at 66.04 18.415 180)
 		(effects

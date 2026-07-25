@@ -279,6 +279,34 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "DP_100R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DP_120R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "DP_90R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "tuning_profile": ""
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -404,6 +432,24 @@
         "DP_90R"
       ],
       "/CM5_CONN_B/USB.USB_P": [
+        "DP_90R"
+      ],
+      "/CM5_CONN_B/USB2_NATIVE.USB_N": [
+        "DP_90R"
+      ],
+      "/CM5_CONN_B/USB2_NATIVE.USB_P": [
+        "DP_90R"
+      ],
+      "/CM5_CONN_B/USB2_RP2350.USB_N": [
+        "DP_90R"
+      ],
+      "/CM5_CONN_B/USB2_RP2350.USB_P": [
+        "DP_90R"
+      ],
+      "/CONTROLLER/CM5_USB3_1.USB_N": [
+        "DP_90R"
+      ],
+      "/CONTROLLER/CM5_USB3_1.USB_P": [
         "DP_90R"
       ],
       "/DSI TO LVDS/DSI1.CLK_N": [
@@ -664,6 +710,12 @@
       "/TFT CONN/LVDS_A.D3_P": [
         "DP_100R"
       ],
+      "/TFT CONN/USB2_CTP.USB_N": [
+        "DP_90R"
+      ],
+      "/TFT CONN/USB2_CTP.USB_P": [
+        "DP_90R"
+      ],
       "/TFT CONN/USB_HOST.USB_N": [
         "DP_90R"
       ],
@@ -674,6 +726,24 @@
         "DP_90R"
       ],
       "/USB2 MUX/USB.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2 MUX/USB2_CTP.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2 MUX/USB2_CTP.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2 MUX/USB2_NATIVE.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2 MUX/USB2_NATIVE.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2 MUX/USB2_OTG.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2 MUX/USB2_OTG.USB_P": [
         "DP_90R"
       ],
       "/USB2 MUX/USB_HOST.USB_N": [
@@ -761,7 +831,12 @@
         "DP_90R"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -896,7 +971,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "D44-45,#PWR44,#PWR330-332,#PWR334-346,#PWR348-350,#PWR385-388,C11-12,C203-227,R2,R8,R16-17,R275-277,R279,J2,J8,J13-14,TP37-40,U4-6,U33,X1",
+    "used_designators": "#PWR183,#PWR190-191,#PWR218,#PWR236,#PWR238-241,#PWR244-251,#PWR352-355,#PWR358-359,S2-3,C106,C114,C142,C146-154,C228,J11,J13-15,R11-13,R128,R133-134,R143,R150,R156,R180-182,R280,U7",
     "variants": [
       {
         "description": "No capacitive touch available",
@@ -944,6 +1019,10 @@
     [
       "bcdde681-3692-4bfd-9d78-d87f7aaa0ed1",
       "CODEC"
+    ],
+    [
+      "58eed5f4-f91f-496e-90ab-6b45bd76b39f",
+      "USB2 MUX"
     ]
   ],
   "text_variables": {},

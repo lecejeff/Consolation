@@ -6648,7 +6648,7 @@
 	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
-		(at 12.7 170.307 0)
+		(at 12.7 170.942 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9241,7 +9241,7 @@
 			)
 		)
 	)
-	(label "USB_HOST.USB_N"
+	(label "USB2_CTP.USB_N"
 		(at 146.685 19.685 0)
 		(effects
 			(font
@@ -9285,7 +9285,7 @@
 			)
 		)
 	)
-	(label "USB_HOST.USB_P"
+	(label "USB2_CTP.USB_P"
 		(at 146.685 22.225 0)
 		(effects
 			(font
@@ -9449,7 +9449,7 @@
 		)
 		(uuid "ebf9de9e-aa9b-4b14-ba18-4643920cd854")
 	)
-	(hierarchical_label "USB_HOST{USB2}"
+	(hierarchical_label "USB2_CTP{USB2}"
 		(shape bidirectional)
 		(at 114.3 14.605 180)
 		(effects
