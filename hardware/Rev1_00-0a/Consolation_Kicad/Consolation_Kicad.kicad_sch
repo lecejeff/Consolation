@@ -30,316 +30,6 @@
 		)
 		(uuid "b38d3f82-9b2b-41ec-8cba-6b8c5d4c82ee")
 	)
-	(bus
-		(pts
-			(xy 209.55 118.745) (xy 193.04 118.745)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b789845-fcc9-4086-8e47-cbf1ee95a0e6")
-	)
-	(bus
-		(pts
-			(xy 194.31 88.9) (xy 196.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fc3bd67-46a3-47e6-8ab4-bb408904da8f")
-	)
-	(wire
-		(pts
-			(xy 177.8 137.16) (xy 180.34 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ec8b80-f1c7-4a70-9c9b-261269845791")
-	)
-	(bus
-		(pts
-			(xy 193.04 118.745) (xy 190.5 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ef48d23-cb9d-45a5-b6f5-0808b8101a50")
-	)
-	(wire
-		(pts
-			(xy 175.26 104.14) (xy 177.8 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40aa6afe-9de3-4912-8f9f-8504045eb2c2")
-	)
-	(bus
-		(pts
-			(xy 158.75 93.98) (xy 187.96 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4788aa06-0330-4e83-a0dd-22a72587e082")
-	)
-	(bus
-		(pts
-			(xy 158.75 88.9) (xy 194.31 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c98becd-cee2-43b1-b43e-9d16a07ede5c")
-	)
-	(bus
-		(pts
-			(xy 234.95 99.06) (xy 247.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8c996c-8b8a-4308-a2a0-a6fde2597e89")
-	)
-	(bus
-		(pts
-			(xy 181.61 99.06) (xy 184.15 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c9b6725-75d1-4742-8aa7-22293190b800")
-	)
-	(bus
-		(pts
-			(xy 190.5 96.52) (xy 187.96 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c7db4b-7c9f-454c-9c1f-a7a40d260fe7")
-	)
-	(bus
-		(pts
-			(xy 223.52 71.12) (xy 226.06 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6424e394-6415-4879-9a93-8076681d1d42")
-	)
-	(bus
-		(pts
-			(xy 184.15 132.08) (xy 186.69 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "646d6e0e-7840-47d0-b6e4-e209fc1fdfec")
-	)
-	(bus
-		(pts
-			(xy 196.85 91.44) (xy 196.85 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "695d5854-a34d-4a2e-91ba-bbd92819751c")
-	)
-	(bus
-		(pts
-			(xy 220.98 83.82) (xy 223.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ca9026e-5c9b-4264-9657-4dd689341e25")
-	)
-	(bus
-		(pts
-			(xy 241.3 116.205) (xy 243.84 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7404ee6a-dadb-470a-9115-9546d1a5e0b9")
-	)
-	(bus
-		(pts
-			(xy 184.15 101.6) (xy 184.15 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7da90b9c-5a35-4dd9-b554-2526f05d53ff")
-	)
-	(bus
-		(pts
-			(xy 199.39 101.6) (xy 209.55 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f2bc5cd-9907-46a2-831c-6a0782b7fcc2")
-	)
-	(bus
-		(pts
-			(xy 234.95 121.285) (xy 238.76 121.285)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930e0711-8434-41fa-8ca8-39db50fc6399")
-	)
-	(wire
-		(pts
-			(xy 177.8 106.68) (xy 177.8 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7a293c-e29d-40de-a4a3-598431b658c4")
-	)
-	(bus
-		(pts
-			(xy 196.85 99.06) (xy 199.39 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a801d96c-406b-43dc-8591-942d9b514728")
-	)
-	(bus
-		(pts
-			(xy 223.52 81.28) (xy 223.52 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8d9d6b8-a180-42ba-a248-1529ca4a47b2")
-	)
-	(bus
-		(pts
-			(xy 226.06 68.58) (xy 247.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aedbeb96-d62f-4f56-979d-b4896fed6e9b")
-	)
-	(wire
-		(pts
-			(xy 180.34 139.7) (xy 247.65 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb55e5c3-fa0c-4704-9538-e2f63164a36b")
-	)
-	(bus
-		(pts
-			(xy 186.69 134.62) (xy 247.65 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7747915-82c9-4aab-8c18-73612ea27013")
-	)
-	(bus
-		(pts
-			(xy 243.84 113.665) (xy 247.65 113.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8ddde3f-a41f-4008-89e5-5b76eb9cc332")
-	)
-	(wire
-		(pts
-			(xy 158.75 104.14) (xy 175.26 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90e9903-0250-4d83-887c-d3db08443ef8")
-	)
-	(bus
-		(pts
-			(xy 158.75 99.06) (xy 181.61 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee7e946a-91bd-4792-a4da-983e1b70b0ed")
-	)
-	(bus
-		(pts
-			(xy 190.5 96.52) (xy 190.5 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eecc0ac8-5172-4d8d-8ae9-ca10890f8775")
-	)
-	(bus
-		(pts
-			(xy 241.3 118.745) (xy 241.3 116.205)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0c16b54-9e9e-44b6-9db8-b7880939f5fb")
-	)
-	(bus
-		(pts
-			(xy 158.75 83.82) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7ea0f46-aeba-44f0-be1c-fed46088d271")
-	)
-	(bus
-		(pts
-			(xy 238.76 121.285) (xy 241.3 118.745)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8ae0d95-bc90-4ed5-9221-808fabd12c27")
-	)
 	(sheet
 		(at 209.55 117.475)
 		(size 25.4 12.7)
@@ -559,16 +249,6 @@
 				(justify right)
 			)
 		)
-		(pin "I2C0{I2C}" bidirectional
-			(at 127 97.155 0)
-			(uuid "bfa55762-1c40-4592-a29f-7009f377255d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "{I2S}" bidirectional
 			(at 127 87.63 0)
 			(uuid "c546caca-d8c7-4e06-9ee1-3a5d2e491c6d")
@@ -677,6 +357,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "~{VOL_DOWN}" input
+			(at 127 91.44 0)
+			(uuid "a7d8ea43-c336-40ba-8e32-7ca76fa375bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{VOL_UP}" input
+			(at 127 94.615 0)
+			(uuid "7bcb18c1-0d6c-40ee-960a-52f42066f934")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HP_DETECT}" input
+			(at 127 98.425 0)
+			(uuid "fa3359e8-cb42-4ae1-a2b2-fabfab76ddc4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -810,6 +520,76 @@
 				(justify left top)
 			)
 		)
+		(pin "~{RP2350_USB_BOOT}" input
+			(at 44.45 115.57 0)
+			(uuid "2d36fbd6-7a71-43e4-a113-eb0091836a8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{RP2350_RESET}" input
+			(at 44.45 118.11 0)
+			(uuid "bb685648-ed9c-4eb1-a27b-a951dc643126")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_RP2350{USB2}" bidirectional
+			(at 44.45 120.65 0)
+			(uuid "3996fbf8-ab8d-4188-96db-d3ee60797ee1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350_USB_VBUS" input
+			(at 44.45 123.19 0)
+			(uuid "c53e84ce-29d1-49e7-95b4-4a723cca7aae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 44.45 125.73 0)
+			(uuid "695e0af9-40f8-4ea6-879f-7cd92f49065a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350_RXD0" input
+			(at 44.45 128.27 0)
+			(uuid "0e0446fa-bf5c-4923-bf65-d847ae846f20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RP2350_TXD0" output
+			(at 44.45 130.81 0)
+			(uuid "c0b2fd33-4a33-4ebe-94c8-13bc117f29d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
@@ -879,16 +659,6 @@
 		(pin "{I2S}" bidirectional
 			(at 177.165 33.02 180)
 			(uuid "6659c5e4-d9ce-490e-8545-67c9011e8e87")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "~{HP_DETECT}" output
-			(at 177.165 49.53 180)
-			(uuid "f6cef905-e387-4bf6-abf9-71cdca303c2e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -971,7 +741,7 @@
 	)
 	(sheet
 		(at 247.65 95.25)
-		(size 25.4 25.4)
+		(size 25.4 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -996,7 +766,7 @@
 			)
 		)
 		(property "Sheetfile" "TFT CONN.kicad_sch"
-			(at 247.65 121.412 0)
+			(at 247.65 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1017,7 +787,7 @@
 			)
 		)
 		(pin "BL_PWM" input
-			(at 247.65 119.38 180)
+			(at 247.65 113.665 180)
 			(uuid "de084c6b-ed3a-4f7c-afe5-a7e668fec236")
 			(effects
 				(font
@@ -1027,7 +797,7 @@
 			)
 		)
 		(pin "USB2_CTP{USB2}" bidirectional
-			(at 247.65 113.665 180)
+			(at 247.65 121.285 180)
 			(uuid "4f9aa30c-b0d6-49a0-b7c0-3c51464b68fd")
 			(effects
 				(font
@@ -1188,16 +958,6 @@
 				(justify left top)
 			)
 		)
-		(pin "I2C3{I2C}" bidirectional
-			(at 44.45 83.82 0)
-			(uuid "7d785c98-a3ff-4b2b-8447-6f67534251df")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "~{BAT_CHRG_EN}" input
 			(at 44.45 88.9 0)
 			(uuid "be768f21-1078-4e88-8c62-8a72d68bf9cb")
@@ -1231,6 +991,16 @@
 		(pin "~{BAT_CHRG_RESET}" input
 			(at 44.45 86.36 0)
 			(uuid "8fcd1f70-265d-418e-b1ba-6a651a2e30ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C2{I2C}" bidirectional
+			(at 44.45 83.82 0)
+			(uuid "517d895b-2a2a-4cd4-b13a-4772e2563afa")
 			(effects
 				(font
 					(size 1.27 1.27)

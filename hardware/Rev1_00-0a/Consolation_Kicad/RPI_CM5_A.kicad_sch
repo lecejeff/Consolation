@@ -7786,6 +7786,10 @@
 		(uuid "c6b99a0f-5dc1-48a8-87c7-cc874dcf7d22")
 	)
 	(no_connect
+		(at 179.07 78.105)
+		(uuid "c928c1c7-d502-4b64-9b8c-1a0531a967f8")
+	)
+	(no_connect
 		(at 179.07 62.865)
 		(uuid "cc8b2d74-df67-446f-a406-13cf0978b912")
 	)
@@ -8680,16 +8684,6 @@
 			(type default)
 		)
 		(uuid "3a9ac164-9ee5-431a-8dfa-0c4fd772c392")
-	)
-	(wire
-		(pts
-			(xy 179.07 78.105) (xy 227.965 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d4162d0-349c-4917-8548-b42c7a7fa9f5")
 	)
 	(wire
 		(pts
@@ -11086,7 +11080,7 @@
 		)
 		(uuid "39fc91cf-fdad-48dc-b6ce-1bd02cb65481")
 	)
-	(hierarchical_label "RXD0"
+	(hierarchical_label "CM5_RXD0"
 		(shape input)
 		(at 74.295 80.645 180)
 		(effects
@@ -11129,17 +11123,6 @@
 			(justify right)
 		)
 		(uuid "7aa50f6e-c8b7-4f4c-8012-bd15bf64af10")
-	)
-	(hierarchical_label "~{HP_DETECT}"
-		(shape input)
-		(at 227.965 78.105 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "84e38b54-0253-4f18-ae23-e3d620148bb1")
 	)
 	(hierarchical_label "~{VOL_DOWN}"
 		(shape input)
@@ -11207,7 +11190,7 @@
 		)
 		(uuid "cd2109b7-ba01-4897-9bea-00c0152faa0f")
 	)
-	(hierarchical_label "TXD0"
+	(hierarchical_label "CM5_TXD0"
 		(shape output)
 		(at 74.295 85.725 180)
 		(effects
