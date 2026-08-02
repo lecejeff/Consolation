@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-07-09")
+		(date "2026-07-31")
 		(rev "1.00-0a")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -6391,6 +6391,17 @@
 			)
 		)
 		(uuid "98ceb898-3996-43c3-adea-b07122bb838f")
+	)
+	(text "Add ESD diodes"
+		(exclude_from_sim no)
+		(at 63.5 110.998 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(color 194 0 0 1)
+			)
+		)
+		(uuid "9f838a9f-62b0-4b48-8ebf-f2cfcf899b63")
 	)
 	(text "Value TBD"
 		(exclude_from_sim no)
