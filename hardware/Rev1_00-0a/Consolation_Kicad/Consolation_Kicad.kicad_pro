@@ -680,6 +680,24 @@
       "/RPI_CM5_B/USB.USB_P": [
         "DP_90R"
       ],
+      "/SD_CARD/SDIO_CLK": [
+        "SD_CARD"
+      ],
+      "/SD_CARD/SDIO_CMD": [
+        "SD_CARD"
+      ],
+      "/SD_CARD/SDIO_D0": [
+        "SD_CARD"
+      ],
+      "/SD_CARD/SDIO_D1": [
+        "SD_CARD"
+      ],
+      "/SD_CARD/SDIO_D2": [
+        "SD_CARD"
+      ],
+      "/SD_CARD/SDIO_D3": [
+        "SD_CARD"
+      ],
       "/TFT CONN/LVDS_A.CLK_N": [
         "DP_100R"
       ],
@@ -756,6 +774,12 @@
         "DP_90R"
       ],
       "/USB2 MUX/USB_OTG.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2_PROG/USB2_OTG.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2_PROG/USB2_OTG.USB_P": [
         "DP_90R"
       ],
       "/USB3/CM5_USB3_0.U3RXD_N": [
@@ -971,7 +995,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D4-9,#PWR24-39,#PWR250-251,#PWR261-262,#PWR264,#PWR269-273,HOLE5-7,Q4-6,FID1-6,C18-21,R22-28,J8,U6",
     "variants": [
       {
         "description": "No capacitive touch available",
@@ -1023,6 +1047,14 @@
     [
       "58eed5f4-f91f-496e-90ab-6b45bd76b39f",
       "USB2 MUX"
+    ],
+    [
+      "416df97c-424e-4c80-a6c8-e3332037416d",
+      "USB2_PROG"
+    ],
+    [
+      "1887e3c8-5c57-4b36-9861-d62642bbcc6e",
+      "SD_CARD"
     ]
   ],
   "text_variables": {},

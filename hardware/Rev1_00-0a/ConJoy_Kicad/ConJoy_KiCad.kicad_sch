@@ -9213,7 +9213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "006caf6c-27c6-445e-ba52-b526d06c7aa1")
-		(property "Reference" "C155"
+		(property "Reference" "C2"
 			(at 186.563 83.947 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9399,7 +9399,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C155")
+					(reference "C2")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -9420,7 +9420,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "121c12b9-4a33-4bd5-a884-0b7830d34b16")
-		(property "Reference" "#PWR0260"
+		(property "Reference" "#PWR010"
 			(at 185.42 97.155 0)
 			(hide yes)
 			(show_name no)
@@ -9480,7 +9480,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0260")
+					(reference "#PWR010")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -9501,7 +9501,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15c43b8f-a3ec-4e8c-9dce-f53a93c2adc6")
-		(property "Reference" "#PWR0259"
+		(property "Reference" "#PWR09"
 			(at 185.42 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -9562,7 +9562,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0259")
+					(reference "#PWR09")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -9579,7 +9579,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "18e9db0d-1be1-4c60-a80a-c7d63042654a")
 		(property "Reference" "S11"
@@ -9770,9 +9770,11 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10063,7 +10065,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "27a69a6c-3388-42f7-8b72-ac4e3621e46a")
 		(property "Reference" "S10"
@@ -10254,9 +10256,11 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10348,7 +10352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34272e09-4055-457f-b608-2ec1706183c7")
-		(property "Reference" "#PWR0250"
+		(property "Reference" "#PWR02"
 			(at 139.7 103.505 0)
 			(hide yes)
 			(show_name no)
@@ -10408,7 +10412,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0250")
+					(reference "#PWR02")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -10632,7 +10636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "479bf1f8-d989-4a33-b53a-e02cc5493116")
-		(property "Reference" "#PWR0261"
+		(property "Reference" "#PWR03"
 			(at 170.815 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10693,7 +10697,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0261")
+					(reference "#PWR03")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -10714,7 +10718,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e41db59-0d3f-4dbf-8f8e-6becfaceaa2d")
-		(property "Reference" "#PWR0262"
+		(property "Reference" "#PWR04"
 			(at 170.815 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10774,7 +10778,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0262")
+					(reference "#PWR04")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -10795,7 +10799,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5994cb2f-ca55-4a3e-858d-752ce4b80fab")
-		(property "Reference" "#PWR0264"
+		(property "Reference" "#PWR08"
 			(at 185.42 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10855,7 +10859,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0264")
+					(reference "#PWR08")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -10876,7 +10880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ddfd208-07e7-4d7c-aca6-d35cc0349d6f")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 176.53 50.165 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11158,7 +11162,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "J1")
+					(reference "J3")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -11253,7 +11257,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7163f14f-a3e6-4262-be13-00439a28079f")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR01"
 			(at 92.71 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -11313,7 +11317,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0252")
+					(reference "#PWR01")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -11330,7 +11334,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "76724c98-1ef4-4cc1-a46b-5263070eca0c")
 		(property "Reference" "S6"
@@ -11521,6 +11525,7 @@
 					(variant
 						(name "Right Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -12091,7 +12096,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a506a4f6-47c7-4c6b-b4fc-3a80c55d6d3b")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 194.31 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12276,7 +12281,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -12497,10 +12502,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a740eaad-6859-4653-8919-decd8b3b0ce4")
-		(property "Reference" "J9"
+		(property "Reference" "J1"
 			(at 130.81 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12773,14 +12778,16 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "J9")
+					(reference "J1")
 					(unit 1)
 					(variant
 						(name "Left Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -12794,7 +12801,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b5d6e8e0-2f16-4cd9-8191-263f94b59126")
 		(property "Reference" "S8"
@@ -12985,6 +12992,7 @@
 					(variant
 						(name "Right Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -12998,7 +13006,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c68bd00e-6f11-4f18-bf73-206bac5247f3")
 		(property "Reference" "S9"
@@ -13189,9 +13197,11 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -13208,7 +13218,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c71b96ba-5a10-4ba6-a618-cda7796696a0")
-		(property "Reference" "C156"
+		(property "Reference" "C1"
 			(at 186.563 52.832 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13394,7 +13404,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C156")
+					(reference "C1")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -13415,7 +13425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cef46152-3de5-4404-b18f-c12ca5fb495d")
-		(property "Reference" "J11"
+		(property "Reference" "J4"
 			(at 176.022 82.042 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13748,7 +13758,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "J11")
+					(reference "J4")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -14009,7 +14019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbc0358b-83a6-4f03-93a9-937431e85230")
-		(property "Reference" "#PWR0246"
+		(property "Reference" "#PWR05"
 			(at 170.815 84.455 0)
 			(hide yes)
 			(show_name no)
@@ -14070,7 +14080,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0246")
+					(reference "#PWR05")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -14091,7 +14101,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e34ad0b7-88ed-4746-ad39-11123844f6a6")
-		(property "Reference" "#PWR0263"
+		(property "Reference" "#PWR07"
 			(at 185.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -14152,7 +14162,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0263")
+					(reference "#PWR07")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -14169,7 +14179,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "e43386b5-388e-48b1-8ce0-bb8169fb51fc")
 		(property "Reference" "S7"
@@ -14360,6 +14370,7 @@
 					(variant
 						(name "Right Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14374,10 +14385,10 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "edd6e488-3844-46db-a270-c95c9009f6f3")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 130.81 92.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14650,11 +14661,12 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 					(variant
 						(name "Right Controller")
 						(dnp yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14671,7 +14683,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeada9ec-3db8-4528-82cd-1d56d68c265e")
-		(property "Reference" "C1"
+		(property "Reference" "C4"
 			(at 194.31 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14856,7 +14868,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 					(variant
 						(name "Right Controller")
@@ -14956,7 +14968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe6e37a0-896b-425a-9279-b23979ff00bf")
-		(property "Reference" "#PWR0248"
+		(property "Reference" "#PWR06"
 			(at 170.815 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -15016,7 +15028,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR0248")
+					(reference "#PWR06")
 					(unit 1)
 					(variant
 						(name "Right Controller")
