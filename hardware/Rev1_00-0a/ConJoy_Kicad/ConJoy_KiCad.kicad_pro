@@ -132,7 +132,7 @@
         "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
@@ -531,7 +531,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../ConJoy output files/GERBERS/",
+      "plot": "../ConJoy output files/PCB_PDF/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -543,7 +543,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\ConJoy output files\\BOM\\ConJoy_KiCad-left.csv",
+    "bom_export_filename": "..\\ConJoy output files\\BOM\\ConJoy_KiCad-right-1.00-0A-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

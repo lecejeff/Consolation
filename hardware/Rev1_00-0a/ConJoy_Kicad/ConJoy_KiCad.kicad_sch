@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ConJoy [Console Joystick]")
-		(date "2026-08-04")
+		(date "2026-08-05")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -134,273 +134,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KiCad_Lib_Symbols:HallPi PCB FP"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ITEM"
-				(at 3.81 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "HallPi PCB FP"
-				(at 25.4 -128.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:JoyCon_HallEffect_TMR"
-				(at 3.81 -8.636 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "HallPi PCB FP"
-				(at 3.556 -10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "HallPi PCB FP_1_1"
-				(polyline
-					(pts
-						(xy -0.762 -5.842) (xy 0 -5.842)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.5241 -6.6039)
-					(mid -1.3009 -6.0651)
-					(end -0.7621 -5.8419)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -0.762 -6.604)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.7621 -7.3661)
-					(mid -1.3009 -7.1429)
-					(end -1.5241 -6.6041)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -7.366) (xy 0 -7.366)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 0)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 -3.81)
-					(radius 2.3418)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.81 -3.81)
-					(radius 2.8398)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.842 0.762) (xy 5.842 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.8419 0.7621)
-					(mid 6.0651 1.3009)
-					(end 6.6039 1.5241)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 6.6041 1.5241)
-					(mid 7.1429 1.3009)
-					(end 7.3661 0.7621)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.604 0.762)
-					(radius 0.3592)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.366 0.762) (xy 7.366 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -0.254) (xy 8.636 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -1.524) (xy 9.906 -1.524) (xy 9.906 2.54) (xy 8.636 2.54) (xy 8.636 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.636 1.524) (xy 9.906 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -2777,28 +2510,6 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Dimensions" "3.65mm x 1.55mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "ZENER SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Reference" "D"
 				(at 2.032 2.54 0)
 				(show_name no)
@@ -2844,6 +2555,28 @@
 			(property "Description" "DIODE ZENER 3.3V 500MW SOD123"
 				(at 1.778 -9.906 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "3.65mm x 1.55mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "ZENER SMT"
+				(at 0 0 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -3121,389 +2854,6 @@
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KicadCompDb:Miscellaneous/MISC_00014"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X"
-				(at 2.54 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CMS-241535-078L65"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.sameskydevices.com/product/resource/cms-241535-078l65.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "24X15MM OVAL, .7W, 8, 850HZ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Operating Temperature" "-25°C ~ 65°C"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Distributor Part Number" "2223-CMS-241535-078L65-ND"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "24mm x 15mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "CMS-241535-078L65"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "CUSTOM"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Distributor" "DigiKey"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "SPEAKER 8R 0.7W 850Hz"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Same Sky"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Miscellaneous/MISC_00014_0_1"
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0.762 -4.572)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 -2.032)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 -7.112)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5398 -9.1438)
-					(mid 0.7437 -8.3999)
-					(end -0.0002 -6.6038)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.54)
-					(mid 0.7439 -0.7439)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -0.762)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 4.3361 -0.7439)
-					(end 5.08 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -4.572)
-					(radius 1.0776)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.0798 -6.6038)
-					(mid 4.3359 -8.3999)
-					(end 2.5398 -9.1438)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -8.382)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.064 -2.032)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.064 -7.112)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 -4.572)
-					(radius 0.568)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -6.604)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Miscellaneous/MISC_00014_1_1"
-				(rectangle
-					(start 1.778 -9.144)
-					(end 2.54 -10.16)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type color)
-						(color 0 0 0 1)
-					)
-				)
-				(rectangle
-					(start 2.54 -9.144)
-					(end 3.302 -10.16)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type color)
-						(color 255 0 0 1)
-					)
-				)
-				(text "1"
-					(at 1.27 -9.652 0)
-					(effects
-						(font
-							(size 0.508 0.508)
-							(color 0 0 255 1)
-						)
-					)
-				)
-				(text "2"
-					(at 3.81 -9.652 0)
-					(effects
-						(font
-							(size 0.508 0.508)
-							(color 0 0 255 1)
 						)
 					)
 				)
@@ -10171,7 +9521,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "18e9db0d-1be1-4c60-a80a-c7d63042654a")
 		(property "Reference" "S11"
@@ -10362,11 +9712,9 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -10666,7 +10014,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "27a69a6c-3388-42f7-8b72-ac4e3621e46a")
 		(property "Reference" "S10"
@@ -10857,11 +10205,9 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -12575,7 +11921,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "76724c98-1ef4-4cc1-a46b-5263070eca0c")
 		(property "Reference" "S6"
@@ -12765,11 +12111,11 @@
 					(unit 1)
 					(variant
 						(name "Left Controller")
+						(in_pos_files no)
 					)
 					(variant
 						(name "Right Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -13865,7 +13211,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a740eaad-6859-4653-8919-decd8b3b0ce4")
 		(property "Reference" "J1"
@@ -14146,11 +13492,9 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -14372,7 +13716,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c68bd00e-6f11-4f18-bf73-206bac5247f3")
 		(property "Reference" "S9"
@@ -14563,11 +13907,9 @@
 					(variant
 						(name "Left Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 					(variant
 						(name "Right Controller")
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -15214,177 +14556,6 @@
 					)
 					(variant
 						(name "Right Controller")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Miscellaneous/MISC_00014")
-		(at 60.96 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "db405b7b-a7ed-424d-8e1c-e0e5c54a9e10")
-		(property "Reference" "X1"
-			(at 67.31 102.8699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CMS-241535-078L65"
-			(at 67.31 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cms-241535-078l65.pdf"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "24X15MM OVAL, .7W, 8, 850HZ"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-25°C ~ 65°C"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "2223-CMS-241535-078L65-ND"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "24mm x 15mm"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CMS-241535-078L65"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "CUSTOM"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SPEAKER 8R 0.7W 850Hz"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Same Sky"
-			(at 60.96 99.06 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "X1")
-					(unit 1)
-					(variant
-						(name "Left Controller")
-						(in_bom no)
-					)
-					(variant
-						(name "Right Controller")
-						(in_bom no)
 					)
 				)
 			)
@@ -16359,90 +15530,6 @@
 					)
 					(variant
 						(name "Right Controller")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCad_Lib_Symbols:HallPi PCB FP")
-		(at 103.505 61.595 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp no)
-		(uuid "f59acf11-c007-45df-b7b0-36d8aae41ab5")
-		(property "Reference" "ITEM1"
-			(at 98.171 60.579 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "HallPi PCB FP"
-			(at -24.765 86.995 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:JoyCon_HallEffect_TMR"
-			(at 94.869 65.405 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 103.505 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "HallPi PCB FP"
-			(at 92.583 65.151 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "ITEM1")
-					(unit 1)
-					(variant
-						(name "Left Controller")
-						(in_pos_files yes)
-					)
-					(variant
-						(name "Right Controller")
-						(on_board yes)
-						(in_pos_files yes)
 					)
 				)
 			)
