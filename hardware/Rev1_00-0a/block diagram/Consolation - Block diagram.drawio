@@ -1,6 +1,6 @@
 <mxfile host="Electron" pages="2">
   <diagram name="High-level overview" id="L71J2IazOA5o9N9kyOEZ">
-    <mxGraphModel dx="2661" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3702" dy="1380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,9 +12,6 @@
         </mxCell>
         <mxCell id="4IoYY8tWDkJgZSM6vHvJ-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="USB-C Receptacle&lt;br&gt;Sink port" vertex="1">
           <mxGeometry height="60" width="120" x="-400" y="430" as="geometry" />
-        </mxCell>
-        <mxCell id="4IoYY8tWDkJgZSM6vHvJ-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="M.2 memory expansion&lt;br&gt;OS or mass storage" vertex="1">
-          <mxGeometry height="60" width="120" x="360" y="540" as="geometry" />
         </mxCell>
         <mxCell id="4IoYY8tWDkJgZSM6vHvJ-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="5&quot; LVDS&amp;nbsp;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 128, 0));&quot;&gt;CapTouch TBD ($$)&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="360" y="140" as="geometry" />
@@ -192,17 +189,6 @@
             </Array>
             <mxPoint x="660" y="440" as="sourcePoint" />
             <mxPoint x="790" y="580" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="raafxxCsd70edmm5KwOi-2" edge="1" parent="1" source="4IoYY8tWDkJgZSM6vHvJ-1" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="4IoYY8tWDkJgZSM6vHvJ-17" value="PCIe">
-          <mxGeometry height="50" relative="1" width="50" x="-0.1144" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="390" y="460" />
-              <mxPoint x="420" y="520" />
-            </Array>
-            <mxPoint x="460" y="420" as="sourcePoint" />
-            <mxPoint x="390" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="raafxxCsd70edmm5KwOi-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Volume&lt;div&gt;Up / Down&lt;/div&gt;" vertex="1">
