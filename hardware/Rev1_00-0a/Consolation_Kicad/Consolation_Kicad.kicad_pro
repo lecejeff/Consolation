@@ -995,7 +995,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "D4-9,#PWR24-39,#PWR250-251,#PWR261-262,#PWR264,#PWR269-273,HOLE5-7,Q4-6,FID1-6,C18-21,R22-28,J8,U6",
+    "used_designators": "",
     "variants": [
       {
         "description": "No capacitive touch available",

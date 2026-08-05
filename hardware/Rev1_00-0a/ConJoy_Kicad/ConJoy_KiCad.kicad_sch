@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ConJoy [Console Joystick]")
-		(date "2026-08-02")
+		(date "2026-08-04")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,10 +15,130 @@
 		(comment 5 "Kicad Rev 10.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "In Design")
+		(comment 8 "In Review")
 		(comment 9 "ConJoy_1.00-0A_BOM")
 	)
 	(lib_symbols
+		(symbol "KiCad_Lib_Symbols:FIDUCIAL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FID"
+				(at 0.254 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "FIDUCIAL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Component Class" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FIDUCIAL_1_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 204 102 0 1)
+					)
+					(fill
+						(type color)
+						(color 204 102 0 1)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type color)
+						(color 0 0 255 1)
+					)
+				)
+				(pin no_connect line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KiCad_Lib_Symbols:HallPi PCB FP"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -2645,6 +2765,368 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:Diodes/DIODE_00001"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Dimensions" "3.65mm x 1.55mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "ZENER SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reference" "D"
+				(at 2.032 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMSZ5226B-7-F"
+				(at 1.524 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SOD-123"
+				(at 0.508 -22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds18010.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DIODE ZENER 3.3V 500MW SOD123"
+				(at 1.778 -9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V(f)" "0.9V"
+				(at 0.254 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V(z)" "3.3V"
+				(at 0.254 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±5%"
+				(at 0 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "0.5W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Impedance" "28Ohm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Leakage Current" "25uA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-65°C ~ 150°C"
+				(at 0.762 -24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at 0.254 -18.288 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "MMSZ5226B-7-F"
+				(at 0.254 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "MMSZ5226B-FDICT-ND"
+				(at 0.762 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "footprint:SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Diodes/DIODE_00001_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 -0.762) (xy 0.762 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 0.508) (xy 1.27 0.762) (xy 1.778 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 1.016) (xy 1.27 0) (xy 2.54 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Diodes/DIODE_00001_1_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 0 0)
+					(length 1.27)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KicadCompDb:Miscellaneous/MISC_00014"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3587,7 +4069,7 @@
 	)
 	(text "Pin 1 Carrier = Pin 22 Controller"
 		(exclude_from_sim no)
-		(at 233.68 139.954 0)
+		(at 242.57 139.954 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3620,7 +4102,7 @@
 	)
 	(text "Pinout from Carrier perspective"
 		(exclude_from_sim no)
-		(at 233.68 142.24 0)
+		(at 242.57 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,6 +4187,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b4399c-4f1b-45e9-a68c-86952b3136ce")
+	)
+	(junction
+		(at 193.04 89.535)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884b0032-a212-4632-967d-fbd931980816")
+	)
+	(junction
+		(at 193.04 81.915)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8cc3f38b-3830-45c6-a1bc-2f6e291cb131")
 	)
 	(junction
 		(at 92.71 130.175)
@@ -4152,6 +4646,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 88.9) (xy 200.66 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6657200a-e21b-4d11-9c23-56d9ca4b0585")
+	)
+	(wire
+		(pts
 			(xy 120.015 130.175) (xy 120.015 145.415)
 		)
 		(stroke
@@ -4159,6 +4663,16 @@
 			(type default)
 		)
 		(uuid "699d09d7-0491-4ceb-9f2a-84127d3b5e41")
+	)
+	(wire
+		(pts
+			(xy 193.04 89.535) (xy 200.66 89.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d9c44e7-97a0-48bd-9f89-d4984f0f04c7")
 	)
 	(wire
 		(pts
@@ -4209,6 +4723,16 @@
 			(type default)
 		)
 		(uuid "78f4b3b0-ac45-4906-9031-b982f8015810")
+	)
+	(wire
+		(pts
+			(xy 193.04 81.915) (xy 200.66 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "834c7439-6288-4120-8155-caa310d58855")
 	)
 	(wire
 		(pts
@@ -4359,6 +4883,16 @@
 			(type default)
 		)
 		(uuid "a31330b2-9edc-4bd5-99f9-f2431d215c68")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.915) (xy 200.66 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ce2ddb-44da-4622-9afa-659a2c164c7f")
 	)
 	(wire
 		(pts
@@ -7882,7 +8416,7 @@
 		(cells
 			(table_cell "Pin #"
 				(exclude_from_sim no)
-				(at 204.47 79.375 0)
+				(at 213.36 79.375 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7898,7 +8432,7 @@
 			)
 			(table_cell "Left Controller"
 				(exclude_from_sim no)
-				(at 215.265 79.375 0)
+				(at 224.155 79.375 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7914,7 +8448,7 @@
 			)
 			(table_cell "Right Controller"
 				(exclude_from_sim no)
-				(at 238.125 79.375 0)
+				(at 247.015 79.375 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7930,7 +8464,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 204.47 81.915 0)
+				(at 213.36 81.915 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7947,7 +8481,7 @@
 			)
 			(table_cell "3V3"
 				(exclude_from_sim no)
-				(at 215.265 81.915 0)
+				(at 224.155 81.915 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7964,7 +8498,7 @@
 			)
 			(table_cell "3V3"
 				(exclude_from_sim no)
-				(at 238.125 81.915 0)
+				(at 247.015 81.915 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7981,7 +8515,7 @@
 			)
 			(table_cell "2"
 				(exclude_from_sim no)
-				(at 204.47 84.455 0)
+				(at 213.36 84.455 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -7998,7 +8532,7 @@
 			)
 			(table_cell "3V3"
 				(exclude_from_sim no)
-				(at 215.265 84.455 0)
+				(at 224.155 84.455 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8015,7 +8549,7 @@
 			)
 			(table_cell "3V3"
 				(exclude_from_sim no)
-				(at 238.125 84.455 0)
+				(at 247.015 84.455 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8032,7 +8566,7 @@
 			)
 			(table_cell "3"
 				(exclude_from_sim no)
-				(at 204.47 86.995 0)
+				(at 213.36 86.995 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8049,7 +8583,7 @@
 			)
 			(table_cell "3V3"
 				(exclude_from_sim no)
-				(at 215.265 86.995 0)
+				(at 224.155 86.995 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8066,7 +8600,7 @@
 			)
 			(table_cell "3V3"
 				(exclude_from_sim no)
-				(at 238.125 86.995 0)
+				(at 247.015 86.995 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8083,7 +8617,7 @@
 			)
 			(table_cell "4"
 				(exclude_from_sim no)
-				(at 204.47 89.535 0)
+				(at 213.36 89.535 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8100,7 +8634,7 @@
 			)
 			(table_cell "LSPKOUT"
 				(exclude_from_sim no)
-				(at 215.265 89.535 0)
+				(at 224.155 89.535 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8117,7 +8651,7 @@
 			)
 			(table_cell "RSPKOUT"
 				(exclude_from_sim no)
-				(at 238.125 89.535 0)
+				(at 247.015 89.535 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8134,7 +8668,7 @@
 			)
 			(table_cell "5"
 				(exclude_from_sim no)
-				(at 204.47 92.075 0)
+				(at 213.36 92.075 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8151,7 +8685,7 @@
 			)
 			(table_cell "LSPKOUT"
 				(exclude_from_sim no)
-				(at 215.265 92.075 0)
+				(at 224.155 92.075 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8168,7 +8702,7 @@
 			)
 			(table_cell "RSPKOUT"
 				(exclude_from_sim no)
-				(at 238.125 92.075 0)
+				(at 247.015 92.075 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8185,7 +8719,7 @@
 			)
 			(table_cell "6"
 				(exclude_from_sim no)
-				(at 204.47 94.615 0)
+				(at 213.36 94.615 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8202,7 +8736,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 215.265 94.615 0)
+				(at 224.155 94.615 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8219,7 +8753,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 238.125 94.615 0)
+				(at 247.015 94.615 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8236,7 +8770,7 @@
 			)
 			(table_cell "7"
 				(exclude_from_sim no)
-				(at 204.47 97.155 0)
+				(at 213.36 97.155 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8253,7 +8787,7 @@
 			)
 			(table_cell "NO CONNECT"
 				(exclude_from_sim no)
-				(at 215.265 97.155 0)
+				(at 224.155 97.155 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8270,7 +8804,7 @@
 			)
 			(table_cell "NO CONNECT"
 				(exclude_from_sim no)
-				(at 238.125 97.155 0)
+				(at 247.015 97.155 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8287,7 +8821,7 @@
 			)
 			(table_cell "8"
 				(exclude_from_sim no)
-				(at 204.47 99.695 0)
+				(at 213.36 99.695 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8304,7 +8838,7 @@
 			)
 			(table_cell "L_THUMBST_X"
 				(exclude_from_sim no)
-				(at 215.265 99.695 0)
+				(at 224.155 99.695 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8321,7 +8855,7 @@
 			)
 			(table_cell "R_THUMBST_X"
 				(exclude_from_sim no)
-				(at 238.125 99.695 0)
+				(at 247.015 99.695 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8338,7 +8872,7 @@
 			)
 			(table_cell "9"
 				(exclude_from_sim no)
-				(at 204.47 102.235 0)
+				(at 213.36 102.235 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8355,7 +8889,7 @@
 			)
 			(table_cell "L_THUMBST_Y"
 				(exclude_from_sim no)
-				(at 215.265 102.235 0)
+				(at 224.155 102.235 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8372,7 +8906,7 @@
 			)
 			(table_cell "R_THUMBST_Y"
 				(exclude_from_sim no)
-				(at 238.125 102.235 0)
+				(at 247.015 102.235 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8389,7 +8923,7 @@
 			)
 			(table_cell "10"
 				(exclude_from_sim no)
-				(at 204.47 104.775 0)
+				(at 213.36 104.775 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8406,7 +8940,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 215.265 104.775 0)
+				(at 224.155 104.775 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8423,7 +8957,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 238.125 104.775 0)
+				(at 247.015 104.775 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8440,7 +8974,7 @@
 			)
 			(table_cell "11"
 				(exclude_from_sim no)
-				(at 204.47 107.315 0)
+				(at 213.36 107.315 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8457,7 +8991,7 @@
 			)
 			(table_cell "L_THUMBST_SW"
 				(exclude_from_sim no)
-				(at 215.265 107.315 0)
+				(at 224.155 107.315 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8474,7 +9008,7 @@
 			)
 			(table_cell "R_THUMBST_SW"
 				(exclude_from_sim no)
-				(at 238.125 107.315 0)
+				(at 247.015 107.315 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8491,7 +9025,7 @@
 			)
 			(table_cell "12"
 				(exclude_from_sim no)
-				(at 204.47 109.855 0)
+				(at 213.36 109.855 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8508,7 +9042,7 @@
 			)
 			(table_cell "L_DPAD_UP"
 				(exclude_from_sim no)
-				(at 215.265 109.855 0)
+				(at 224.155 109.855 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8525,7 +9059,7 @@
 			)
 			(table_cell "R_BTN_A"
 				(exclude_from_sim no)
-				(at 238.125 109.855 0)
+				(at 247.015 109.855 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8542,7 +9076,7 @@
 			)
 			(table_cell "13"
 				(exclude_from_sim no)
-				(at 204.47 112.395 0)
+				(at 213.36 112.395 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8559,7 +9093,7 @@
 			)
 			(table_cell "L_DPAD_DOWN"
 				(exclude_from_sim no)
-				(at 215.265 112.395 0)
+				(at 224.155 112.395 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8576,7 +9110,7 @@
 			)
 			(table_cell "R_BTN_B"
 				(exclude_from_sim no)
-				(at 238.125 112.395 0)
+				(at 247.015 112.395 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8593,7 +9127,7 @@
 			)
 			(table_cell "14"
 				(exclude_from_sim no)
-				(at 204.47 114.935 0)
+				(at 213.36 114.935 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8610,7 +9144,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 215.265 114.935 0)
+				(at 224.155 114.935 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8627,7 +9161,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 238.125 114.935 0)
+				(at 247.015 114.935 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8644,7 +9178,7 @@
 			)
 			(table_cell "15"
 				(exclude_from_sim no)
-				(at 204.47 117.475 0)
+				(at 213.36 117.475 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8661,7 +9195,7 @@
 			)
 			(table_cell "L_DPAD_LEFT"
 				(exclude_from_sim no)
-				(at 215.265 117.475 0)
+				(at 224.155 117.475 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8678,7 +9212,7 @@
 			)
 			(table_cell "R_BTN_X"
 				(exclude_from_sim no)
-				(at 238.125 117.475 0)
+				(at 247.015 117.475 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8695,7 +9229,7 @@
 			)
 			(table_cell "16"
 				(exclude_from_sim no)
-				(at 204.47 120.015 0)
+				(at 213.36 120.015 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8712,7 +9246,7 @@
 			)
 			(table_cell "L_DPAD_RIGHT"
 				(exclude_from_sim no)
-				(at 215.265 120.015 0)
+				(at 224.155 120.015 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8729,7 +9263,7 @@
 			)
 			(table_cell "R_BTN_Y"
 				(exclude_from_sim no)
-				(at 238.125 120.015 0)
+				(at 247.015 120.015 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8746,7 +9280,7 @@
 			)
 			(table_cell "17"
 				(exclude_from_sim no)
-				(at 204.47 122.555 0)
+				(at 213.36 122.555 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8763,7 +9297,7 @@
 			)
 			(table_cell "L_START"
 				(exclude_from_sim no)
-				(at 215.265 122.555 0)
+				(at 224.155 122.555 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8780,7 +9314,7 @@
 			)
 			(table_cell "R_SELECT"
 				(exclude_from_sim no)
-				(at 238.125 122.555 0)
+				(at 247.015 122.555 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8797,7 +9331,7 @@
 			)
 			(table_cell "18"
 				(exclude_from_sim no)
-				(at 204.47 125.095 0)
+				(at 213.36 125.095 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8814,7 +9348,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 215.265 125.095 0)
+				(at 224.155 125.095 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8831,7 +9365,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 238.125 125.095 0)
+				(at 247.015 125.095 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8848,7 +9382,7 @@
 			)
 			(table_cell "19"
 				(exclude_from_sim no)
-				(at 204.47 127.635 0)
+				(at 213.36 127.635 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8865,7 +9399,7 @@
 			)
 			(table_cell "L_L1_TRIG"
 				(exclude_from_sim no)
-				(at 215.265 127.635 0)
+				(at 224.155 127.635 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8882,7 +9416,7 @@
 			)
 			(table_cell "R_L1_TRIG"
 				(exclude_from_sim no)
-				(at 238.125 127.635 0)
+				(at 247.015 127.635 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8899,7 +9433,7 @@
 			)
 			(table_cell "20"
 				(exclude_from_sim no)
-				(at 204.47 130.175 0)
+				(at 213.36 130.175 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8916,7 +9450,7 @@
 			)
 			(table_cell "L_L2_TRIG"
 				(exclude_from_sim no)
-				(at 215.265 130.175 0)
+				(at 224.155 130.175 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8933,7 +9467,7 @@
 			)
 			(table_cell "R_L2_TRIG"
 				(exclude_from_sim no)
-				(at 238.125 130.175 0)
+				(at 247.015 130.175 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8950,7 +9484,7 @@
 			)
 			(table_cell "21"
 				(exclude_from_sim no)
-				(at 204.47 132.715 0)
+				(at 213.36 132.715 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8967,7 +9501,7 @@
 			)
 			(table_cell "L_HOME"
 				(exclude_from_sim no)
-				(at 215.265 132.715 0)
+				(at 224.155 132.715 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8984,7 +9518,7 @@
 			)
 			(table_cell "R_EXTRA"
 				(exclude_from_sim no)
-				(at 238.125 132.715 0)
+				(at 247.015 132.715 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9001,7 +9535,7 @@
 			)
 			(table_cell "22"
 				(exclude_from_sim no)
-				(at 204.47 135.255 0)
+				(at 213.36 135.255 0)
 				(size 10.795 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9018,7 +9552,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 215.265 135.255 0)
+				(at 224.155 135.255 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9035,7 +9569,7 @@
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
-				(at 238.125 135.255 0)
+				(at 247.015 135.255 0)
 				(size 22.86 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -9201,6 +9735,61 @@
 			(justify left bottom)
 		)
 		(uuid "fb40ec8d-dc8a-454a-b669-e5628e547761")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 94.615 182.245) (xy 144.78 182.245) (xy 144.78 189.865) (xy 94.615 189.865)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "0bab86b5-4d31-4303-9c77-86973c0f15ea")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 144.78 182.245 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1760efcf-c6a3-4027-ac13-6d7e7405093d")
+		(property "Net Class" ""
+			(at 145.4785 179.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 145.4785 179.705 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00002")
@@ -9401,6 +9990,9 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "C2")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -9977,6 +10569,9 @@
 					(reference "S5")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -10053,6 +10648,12 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "HOLE1")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
 				)
 			)
 		)
@@ -10336,6 +10937,107 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "HOLE2")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 98.425 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2b063638-61a9-4f8b-b4ce-a613443cab90")
+		(property "Reference" "FID1"
+			(at 96.52 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 98.425 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:FIDUCIAL"
+			(at 98.425 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 98.425 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 98.425 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 98.425 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fd8cd20-c7fc-4f9b-8ccf-85dd1f1f03e2")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "FID1")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
 				)
 			)
 		)
@@ -10414,6 +11116,101 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "#PWR02")
 					(unit 1)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 106.68 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "360e2ef4-92d0-47b8-9c31-844e1a4afc62")
+		(property "Reference" "FID2"
+			(at 104.775 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 106.68 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:FIDUCIAL"
+			(at 106.68 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 106.68 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "880e2d4b-b43c-4f11-8a06-9d68bc47751b")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "FID2")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -10617,6 +11414,9 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "S1")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -11165,6 +11965,346 @@
 					(reference "J3")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Diodes/DIODE_00001")
+		(at 200.66 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5fcca65b-40e5-4bc7-9cc2-fc974b918191")
+		(property "Reference" "D1"
+			(at 201.93 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMSZ5226B-7-F"
+			(at 202.184 85.852 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOD-123"
+			(at 178.562 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds18010.pdf"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DIODE ZENER 3.3V 500MW SOD123"
+			(at 190.754 85.598 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "3.65mm x 1.55mm"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "ZENER SMT"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(f)" "0.9V"
+			(at 180.34 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(z)" "3.3V"
+			(at 201.93 87.122 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±5%"
+			(at 184.404 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.5W"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Impedance" "28Ohm"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Leakage Current" "25uA"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-65°C ~ 150°C"
+			(at 176.276 84.582 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOD-123"
+			(at 200.66 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 182.372 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MMSZ5226B-7-F"
+			(at 192.786 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 194.818 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "MMSZ5226B-FDICT-ND"
+			(at 188.468 84.582 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3ef8e9e2-ed55-47bb-bf92-2a6dc8acf92c")
+		)
+		(pin "1"
+			(uuid "eab42a20-7cbf-4c7d-91c1-d420b17ddb60")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "D1")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 114.935 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "672df26d-7bfb-4793-adb0-d040940ac84a")
+		(property "Reference" "FID3"
+			(at 113.03 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 114.935 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:FIDUCIAL"
+			(at 114.935 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.935 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 114.935 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 114.935 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee26a0b7-2b72-42be-b99d-f64c86d85974")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "FID3")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -11241,6 +12381,12 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "HOLE6")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
 				)
 			)
 		)
@@ -11319,6 +12465,101 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "#PWR01")
 					(unit 1)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 123.19 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7497bca5-e189-4fad-a4e5-33215cf681fc")
+		(property "Reference" "FID4"
+			(at 121.285 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 123.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:FIDUCIAL"
+			(at 123.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 123.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de124510-be50-4529-8819-fa627ec45b37")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "FID4")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -11523,6 +12764,9 @@
 					(reference "S6")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 						(dnp yes)
 						(in_pos_files yes)
@@ -11601,6 +12845,12 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "HOLE3")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
 				)
 			)
 		)
@@ -11801,6 +13051,104 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "S2")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 131.445 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "954644e1-dd1b-4de6-8807-3a72878ace57")
+		(property "Reference" "FID5"
+			(at 129.54 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 131.445 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:FIDUCIAL"
+			(at 131.445 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 131.445 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 131.445 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 131.445 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c26772e1-f06e-4379-91c9-c203bb5d6aaf")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "FID5")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -12005,6 +13353,9 @@
 					(reference "S3")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -12081,6 +13432,12 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "HOLE5")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
 				)
 			)
 		)
@@ -12284,6 +13641,9 @@
 					(reference "C3")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -12486,6 +13846,9 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "S4")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -12801,7 +14164,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5d6e8e0-2f16-4cd9-8191-263f94b59126")
 		(property "Reference" "S8"
@@ -12990,9 +14353,12 @@
 					(reference "S8")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+						(in_pos_files no)
+					)
+					(variant
 						(name "Right Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -13407,6 +14773,9 @@
 					(reference "C1")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -13761,6 +15130,9 @@
 					(reference "J4")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -13837,6 +15209,12 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "HOLE4")
 					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
 				)
 			)
 		)
@@ -14001,7 +15379,12 @@
 					(reference "X1")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+						(in_bom no)
+					)
+					(variant
 						(name "Right Controller")
+						(in_bom no)
 					)
 				)
 			)
@@ -14082,6 +15465,101 @@
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
 					(reference "#PWR05")
 					(unit 1)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
+		(at 139.7 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e0952afb-8b5a-4be5-ac0a-5ee3357fb0d7")
+		(property "Reference" "FID6"
+			(at 137.795 187.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" ""
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:FIDUCIAL"
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Component Class" "FIDUCIAL"
+			(at 139.7 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d963fab-a5fc-42e7-9b7b-428ca9fee565")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "FID6")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
 					(variant
 						(name "Right Controller")
 					)
@@ -14179,7 +15657,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e43386b5-388e-48b1-8ce0-bb8169fb51fc")
 		(property "Reference" "S7"
@@ -14368,9 +15846,12 @@
 					(reference "S7")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+						(in_pos_files no)
+					)
+					(variant
 						(name "Right Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -14385,7 +15866,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "edd6e488-3844-46db-a270-c95c9009f6f3")
 		(property "Reference" "J2"
@@ -14664,9 +16145,12 @@
 					(reference "J2")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+						(in_pos_files no)
+					)
+					(variant
 						(name "Right Controller")
 						(dnp yes)
-						(in_pos_files yes)
 					)
 				)
 			)
@@ -14871,6 +16355,9 @@
 					(reference "C4")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+					)
+					(variant
 						(name "Right Controller")
 					)
 				)
@@ -14885,7 +16372,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f59acf11-c007-45df-b7b0-36d8aae41ab5")
 		(property "Reference" "ITEM1"
@@ -14949,8 +16436,13 @@
 					(reference "ITEM1")
 					(unit 1)
 					(variant
+						(name "Left Controller")
+						(in_pos_files yes)
+					)
+					(variant
 						(name "Right Controller")
 						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)

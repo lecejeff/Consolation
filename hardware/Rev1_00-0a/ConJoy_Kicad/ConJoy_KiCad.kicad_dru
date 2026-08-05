@@ -2,11 +2,17 @@
 ## Rule for polygon clearance to NPTH ##
 (rule polygon_to_NPTH_clearance
 	(condition "A.Type == 'Zone' && B.Pad_Type == 'NPTH, mechanical'")
-	(constraint hole_clearance (min 0.8mm))
+	(constraint hole_clearance (min 1mm))
 )
 
-## Rule for polygon clearance to VIAS ##
-(rule polygon_to_vias_clearance
+## Rule for polygon clearance to through ##
+(rule polygon_to_through_clearance
 	(condition "A.Type == 'Zone' && B.Via_Type == 'Through'")
 	(constraint clearance (min 0.3mm))
+)
+
+## Rule for fiducial clearance to Fiducials ##
+(rule polygon_to_fiducial_clearance
+	(condition "A.Type == 'Zone' && B.hasComponentClass('FIDUCIAL')")
+	(constraint clearance (min 1mm))
 )
