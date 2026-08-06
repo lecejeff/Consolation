@@ -4975,283 +4975,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KicadCompDb:Resistors/RES_SMT_00008"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 1.524 1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "2K2"
-				(at 1.524 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:RES_0402"
-				(at 0.508 -22.098 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_51_ROHS_P"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RES 2.2K OHM 1% 1/16W 0402"
-				(at 1.778 -9.906 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "1.00mm x 0.50mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "RES SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0.254 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "1/16W"
-				(at 0.254 -14.224 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "0402"
-				(at 0 -16.256 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO"
-				(at 0.254 -18.288 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer Part Number" "RC0402FR-072K2P"
-				(at 0.254 -7.874 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Distributor" "DigiKey"
-				(at 0 -5.842 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Distributor Part Number" "YAG1260CT-ND"
-				(at 0.762 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Temperature Coefficient" "±100ppm/°C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Operating Temperature" "-55°C ~ 155°C"
-				(at 0.762 -24.384 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "footprint:RES_0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Resistors/RES_SMT_00008_1_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 0) (xy 3.556 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -1.27 0 0)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KicadCompDb:Resistors/RES_SMT_00010"
 			(pin_numbers
 				(hide yes)
@@ -11333,208 +11056,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Resistors/RES_SMT_00008")
-		(at 242.57 91.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4cae973c-9645-4edd-b764-7fcfaf8ac056")
-		(property "Reference" "R1"
-			(at 241.427 88.265 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 241.427 90.805 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprint:RES_0402"
-			(at 264.668 90.932 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_51_ROHS_P"
-			(at 242.57 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RES 2.2K OHM 1% 1/16W 0402"
-			(at 252.476 89.662 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 242.57 91.44 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "RES SMT"
-			(at 242.57 91.44 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 262.89 91.186 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "1/16W"
-			(at 256.794 91.186 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0402"
-			(at 258.826 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 260.858 91.186 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "RC0402FR-072K2P"
-			(at 250.444 91.186 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 248.412 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "YAG1260CT-ND"
-			(at 254.762 90.678 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 242.57 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 266.954 90.678 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f634104b-c92f-4284-a28d-206d2cf804e2")
-		)
-		(pin "2"
-			(uuid "d9096974-cea4-40a1-893c-6137df6dc002")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Regulator/REG_00014")
 		(at 139.7 74.93 0)
 		(unit 1)
@@ -11544,10 +11065,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50254853-d83a-48bd-aea1-735c4c763f1b")
 		(property "Reference" "U1"
-			(at 148.59 69.85 0)
+			(at 148.59 72.136 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11557,7 +11077,7 @@
 			)
 		)
 		(property "Value" "BQ25640VDLR"
-			(at 148.59 72.39 0)
+			(at 148.59 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15413,7 +14933,7 @@
 		(dnp no)
 		(uuid "e514ae2a-b383-4f76-8058-7cb2f8674e46")
 		(property "Reference" "R4"
-			(at 202.692 74.803 0)
+			(at 199.39 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15423,7 +14943,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 202.438 77.851 0)
+			(at 205.74 75.184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15499,8 +15019,7 @@
 			)
 		)
 		(property "Power" "1/4W"
-			(at 202.565 73.025 0)
-			(hide yes)
+			(at 200.152 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15510,8 +15029,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 200.66 92.456 0)
-			(hide yes)
+			(at 205.486 77.724 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15596,6 +15114,209 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
+		(at 242.57 91.44 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb5531e9-4b19-4c15-a3e1-0143a4474448")
+		(property "Reference" "R162"
+			(at 241.681 88.265 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 241.681 90.805 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 220.472 90.932 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 242.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 232.664 89.662 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 222.25 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 228.346 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 226.314 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 224.282 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 234.696 91.186 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 236.728 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-10.0KLRCT-ND"
+			(at 230.378 90.678 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 242.57 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 218.186 90.678 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 242.57 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 242.57 91.44 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "582f97e2-9cdb-4750-ab07-25f222e7f3c9")
+		)
+		(pin "1"
+			(uuid "229254e7-235b-40ae-b6d9-131c05064f01")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "R162")
 					(unit 1)
 				)
 			)

@@ -2725,6 +2725,283 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:Resistors/RES_SMT_00015"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 1.524 1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22R"
+				(at 1.524 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:RES_0402"
+				(at 0.508 -22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RES 22 OHM 1% 1/16W 0402"
+				(at 1.778 -9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0.254 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "1/16W"
+				(at 0.254 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0402"
+				(at 0 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0.254 -18.288 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "RC0402FR-0722RL"
+				(at 0.254 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "311-22.0LRCT-ND"
+				(at 0.762 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 155°C"
+				(at 0.762 -24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "RES SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "1.00mm x 0.50mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "footprint:RES_0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Resistors/RES_SMT_00015_1_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -1.27 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
@@ -2760,6 +3037,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b3ab2c2-db4f-4166-8beb-2b3d8982eb14")
+	)
+	(junction
+		(at 114.935 36.195)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db79960-99ca-490d-8447-506995355fed")
 	)
 	(junction
 		(at 124.46 99.695)
@@ -3356,6 +3639,16 @@
 		)
 		(uuid "0a181a0e-21bc-4ca3-a53b-118210ebc716")
 	)
+	(wire
+		(pts
+			(xy 66.04 36.195) (xy 104.775 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa126cb-c1bb-4c0f-9156-621e618b0b1f")
+	)
 	(bus
 		(pts
 			(xy 243.84 51.435) (xy 241.3 53.975)
@@ -3405,6 +3698,16 @@
 			(type default)
 		)
 		(uuid "170dafa6-4225-4f74-87d4-782904cf8631")
+	)
+	(wire
+		(pts
+			(xy 114.935 36.195) (xy 114.935 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18efb9a0-fa88-4341-a6a6-45911e32248c")
 	)
 	(wire
 		(pts
@@ -3485,16 +3788,6 @@
 			(type default)
 		)
 		(uuid "2b489fb4-c700-4bab-b566-112f653e97bf")
-	)
-	(wire
-		(pts
-			(xy 66.04 36.195) (xy 126.365 36.195)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b957e1f-33ed-4cec-a679-730a589e69b1")
 	)
 	(bus
 		(pts
@@ -3878,6 +4171,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.935 36.195) (xy 126.365 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644213cf-dceb-4c89-ba16-1037483859bb")
+	)
+	(wire
+		(pts
 			(xy 124.46 31.115) (xy 124.46 38.735)
 		)
 		(stroke
@@ -4125,6 +4428,16 @@
 			(type default)
 		)
 		(uuid "80dbd532-4765-4b01-a81b-f81bce31a47c")
+	)
+	(wire
+		(pts
+			(xy 111.125 36.195) (xy 114.935 36.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81965891-c827-4c61-b823-502d1217a4e9")
 	)
 	(wire
 		(pts
@@ -4438,6 +4751,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.125 38.735) (xy 114.935 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b16aec95-c126-4f0e-aae5-2212732ba4df")
+	)
+	(wire
+		(pts
 			(xy 182.245 59.055) (xy 238.76 59.055)
 		)
 		(stroke
@@ -4495,6 +4818,16 @@
 			(type default)
 		)
 		(uuid "c0ebbc5b-65b0-4b9d-ab18-8c56ef9fec69")
+	)
+	(wire
+		(pts
+			(xy 66.04 38.735) (xy 104.775 38.735)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0faba10-a45f-4399-ba41-287d6541e970")
 	)
 	(wire
 		(pts
@@ -5679,6 +6012,17 @@
 		)
 		(uuid "b8058255-04ab-4660-a87f-868b18d64a52")
 	)
+	(hierarchical_label "RP2350_USB_VBUS"
+		(shape output)
+		(at 66.04 38.735 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc3c4bb6-7993-4cad-b49d-a155c1e573ea")
+	)
 	(hierarchical_label "DSI1{MIPI}"
 		(shape bidirectional)
 		(at 242.57 135.255 0)
@@ -6369,6 +6713,207 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
 					(reference "MTG3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00015")
+		(at 109.855 36.195 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f46b246-db27-49dc-954e-7200f7e96bb1")
+		(property "Reference" "R119"
+			(at 103.759 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 111.633 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 109.347 58.293 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 109.855 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 22 OHM 1% 1/16W 0402"
+			(at 108.077 46.101 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 109.601 56.515 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 109.601 50.419 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 109.855 52.451 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.601 54.483 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0722RL"
+			(at 109.601 44.069 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 109.855 42.037 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-22.0LRCT-ND"
+			(at 109.093 48.387 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 109.855 36.195 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 109.093 60.579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 109.855 36.195 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 109.855 36.195 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd080c6f-b8ac-44d9-8ce5-51b77c64b36e")
+		)
+		(pin "2"
+			(uuid "d7e9ef6b-86b1-410b-a8b2-4c7fa76fd5f9")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -7516,6 +8061,207 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
 					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00015")
+		(at 109.855 38.735 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e43e44b8-41fc-4ac1-837b-bee9ea722c92")
+		(property "Reference" "R120"
+			(at 103.759 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22R"
+			(at 111.633 37.846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 109.347 60.833 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 109.855 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 22 OHM 1% 1/16W 0402"
+			(at 108.077 48.641 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 109.601 59.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 109.601 52.959 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 109.855 54.991 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.601 57.023 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0722RL"
+			(at 109.601 46.609 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 109.855 44.577 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-22.0LRCT-ND"
+			(at 109.093 50.927 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 109.855 38.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 109.093 63.119 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 109.855 38.735 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 109.855 38.735 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29be3e64-0af2-47ab-af01-cdb29c448bc5")
+		)
+		(pin "2"
+			(uuid "56f6d14f-4d2e-40d4-a816-108970ead8f5")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e349e81f-8577-4688-9d24-3b63a58130fe"
+					(reference "R120")
 					(unit 1)
 				)
 			)

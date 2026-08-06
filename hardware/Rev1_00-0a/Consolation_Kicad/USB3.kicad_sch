@@ -2883,6 +2883,10 @@
 		(color 0 0 0 0)
 		(uuid "ffece3a2-aecd-4e2e-941b-63b53f983396")
 	)
+	(no_connect
+		(at 194.945 86.36)
+		(uuid "efe0667d-8e7f-4210-b839-3c5b2fa816f8")
+	)
 	(bus_entry
 		(at 135.89 115.57)
 		(size 2.54 -2.54)
@@ -3256,16 +3260,6 @@
 			(type default)
 		)
 		(uuid "85c0430f-67bd-4c72-a3fa-02796326af70")
-	)
-	(wire
-		(pts
-			(xy 194.945 86.36) (xy 203.835 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa58347-4d6c-4dae-873e-1549d9f10cbd")
 	)
 	(wire
 		(pts
@@ -3899,17 +3893,6 @@
 			(justify right)
 		)
 		(uuid "3ee93357-880d-4fca-be72-bc3106073fac")
-	)
-	(hierarchical_label "RP2350_USB_VBUS"
-		(shape output)
-		(at 203.835 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c3d9646-607a-448d-9acb-89f5f3b6a993")
 	)
 	(hierarchical_label "CM5_USB3_0{USB3}"
 		(shape bidirectional)

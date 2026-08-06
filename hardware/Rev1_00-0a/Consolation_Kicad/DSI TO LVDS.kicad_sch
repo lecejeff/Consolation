@@ -7044,7 +7044,7 @@
 		)
 		(uuid "94d6e1da-326e-49f5-b57b-ad44d8c0f06a")
 	)
-	(hierarchical_label "DSI_BRDG_~{RST}"
+	(hierarchical_label "~{DSI_BRDG_RST}"
 		(shape input)
 		(at 38.1 112.395 180)
 		(effects
