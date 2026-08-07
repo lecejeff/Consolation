@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-08-05T19:49:36 ###
+### Footprint positions - created on 2026-08-07T14:31:55 ###
 ### Printed by KiCad version 10.0.0
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -12,10 +12,10 @@ S10       EVQ-Q2P03W       EVQQ2              124.2000  -135.4000  -90.0000  bot
 C2        1u               CAP_NONPOL_0805    122.6000  -131.0000    0.0000  top
 C4        0.1u             CAP_NONPOL_0402    123.0050  -132.7050    0.0000  top
 J3        SFV5R-2STBE1HLF  SFV5R-2ST          125.2923  -126.4836  180.0000  top
-S1        EVQ-Q2P03W       EVQQ2              137.5000  -128.5000  -90.0000  top
-S2        EVQ-Q2P03W       EVQQ2              137.5000  -144.5000  -90.0000  top
-S3        EVQ-Q2P03W       EVQQ2              129.5000  -136.5000  -90.0000  top
-S4        EVQ-Q2P03W       EVQQ2              145.5000  -136.5000  -90.0000  top
+S1        EVQ-Q2P03W       EVQQ2              138.5000  -128.5000  -90.0000  top
+S2        EVQ-Q2P03W       EVQQ2              138.5000  -144.5000  -90.0000  top
+S3        EVQ-Q2P03W       EVQQ2              130.5000  -136.5000  -90.0000  top
+S4        EVQ-Q2P03W       EVQQ2              146.5000  -136.5000  -90.0000  top
 S5        EVQ-Q2P03W       EVQQ2              147.5000  -121.5000    0.0000  top
 S9        TL1014BF160QG    TL1014B            125.3000  -145.7000  -45.0000  top
 S11       TL1014BF160QG    TL1014B            148.3000  -148.7000    0.0000  top
