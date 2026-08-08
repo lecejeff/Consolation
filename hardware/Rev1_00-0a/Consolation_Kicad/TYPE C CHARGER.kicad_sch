@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-03")
-		(rev "1.00-0a")
+		(date "2026-08-08")
+		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
 		(comment 3 "203-1690 rue des quatre-saisons")
@@ -2007,6 +2007,358 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:Connector/CONN_00001"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Operating Temperature" "-40°C ~ 105°C"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rows" "1"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Contact Length (Total)" "11.54mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Pitch" "2.54mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "250V"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Positions" "3"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Current Rating" "3A"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "61300311121"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "7.62mm x 2.54mm x 11.54mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "732-5316-ND"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Contact Material" "Copper Alloy"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Contact Finish" "Gold"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "HEADER"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Gender" "MALE"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Termination" "SOLDER"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Mounting Type" "THT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Shrouding" "UNSHROUDED"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Würth Elektronik"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Reference" "J"
+				(at 1.27 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "61300311121"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:HEADER_3P_2_54MM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CONN HEADER VERT 3POS 2.54MM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "footprint:HEADER_3P_2_54MM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Connector/CONN_00001_1_1"
+				(rectangle
+					(start 0 0)
+					(end 2.54 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KicadCompDb:Connector/CONN_00019"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3383,13 +3735,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KicadCompDb:Inductor/IND_00009"
+		(symbol "KicadCompDb:Inductor/IND_00012"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3406,7 +3757,7 @@
 					)
 				)
 			)
-			(property "Value" "PA5003.152NLT"
+			(property "Value" "PA5003.102NLT"
 				(at 1.524 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3427,7 +3778,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/DATASHEET_P808"
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_P808"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3438,7 +3789,7 @@
 					)
 				)
 			)
-			(property "Description" "FIXED IND 1.5UH 10.5A 11.2 MOHM"
+			(property "Description" "FIXED IND 1UH 12.2A 7.6 MOHM SMD"
 				(at 1.778 -9.906 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3460,7 +3811,7 @@
 					)
 				)
 			)
-			(property "DCR" "0.0112Ohm"
+			(property "DCR" "0.0076Ohm"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3471,7 +3822,7 @@
 					)
 				)
 			)
-			(property "Current (Sat)" "14A"
+			(property "Current (Sat)" "14.3A"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3493,7 +3844,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "553-4086-1-ND"
+			(property "Distributor Part Number" "553-4084-1-ND"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3548,7 +3899,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "PA5003.152NLT"
+			(property "Manufacturer Part Number" "PA5003.102NLT"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3592,7 +3943,7 @@
 					)
 				)
 			)
-			(property "Current (Rated)" "10.5A"
+			(property "Current (Rated)" "12.2A"
 				(at 3.175 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3602,7 +3953,7 @@
 					)
 				)
 			)
-			(property "Inductance" "1.5uH"
+			(property "Inductance" "1.0uH"
 				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3623,7 +3974,7 @@
 					)
 				)
 			)
-			(symbol "Inductor/IND_00009_0_1"
+			(symbol "Inductor/IND_00012_0_1"
 				(arc
 					(start 0 0)
 					(mid 0.186 0.449)
@@ -3703,11 +4054,23 @@
 					)
 				)
 			)
-			(symbol "Inductor/IND_00009_1_1"
+			(symbol "Inductor/IND_00012_1_1"
+				(circle
+					(center 0.635 0)
+					(radius 0.1796)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -1.27 0 0)
 					(length 1.27)
-					(name ""
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3725,7 +4088,7 @@
 				(pin passive line
 					(at 5.08 0 180)
 					(length 1.27)
-					(name ""
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6104,6 +6467,17 @@
 		)
 		(uuid "6cf391ff-8679-4854-bc21-0e2168af6b8d")
 	)
+	(text "For debug / DVT"
+		(exclude_from_sim no)
+		(at 192.278 135.382 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "7bd788eb-3478-444e-90a4-7681d628339d")
+	)
 	(text "Close to BQ25640"
 		(exclude_from_sim no)
 		(at 108.204 105.918 0)
@@ -6397,6 +6771,12 @@
 		(uuid "e2b2a2c7-6c0e-447f-8cee-50b912bf258f")
 	)
 	(junction
+		(at 191.77 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef707884-1e9d-4f04-af2a-1056b7c9c13e")
+	)
+	(junction
 		(at 63.5 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6486,6 +6866,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 123.825) (xy 194.31 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05e8295c-6b48-4058-a964-dda921154e28")
+	)
+	(wire
+		(pts
 			(xy 87.63 103.505) (xy 87.63 104.775)
 		)
 		(stroke
@@ -6546,7 +6936,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 119.38) (xy 245.745 119.38)
+			(xy 160.02 119.38) (xy 191.77 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6606,7 +6996,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 76.2) (xy 209.55 76.2)
+			(xy 205.74 76.2) (xy 245.745 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6956,6 +7346,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 119.38) (xy 245.745 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562f9c66-8aff-45b0-a6cd-61b5743e06b5")
+	)
+	(wire
+		(pts
 			(xy 48.895 76.2) (xy 52.07 76.2)
 		)
 		(stroke
@@ -7126,16 +7526,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 73.025) (xy 209.55 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80428507-e2da-4123-855a-8dcb5ed96bb6")
-	)
-	(wire
-		(pts
 			(xy 48.895 99.06) (xy 52.07 99.06)
 		)
 		(stroke
@@ -7283,6 +7673,16 @@
 			(type default)
 		)
 		(uuid "9fa3b373-d947-4a2f-ac7f-3021e2e2251b")
+	)
+	(wire
+		(pts
+			(xy 209.55 123.825) (xy 209.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a194e9a7-a45d-48a3-b0fa-7e0017558c16")
 	)
 	(wire
 		(pts
@@ -7436,6 +7836,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.895 123.825) (xy 173.99 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8181a7-c96c-4ede-94ff-2b68f60c8543")
+	)
+	(wire
+		(pts
 			(xy 122.555 104.775) (xy 122.555 106.68)
 		)
 		(stroke
@@ -7573,6 +7983,26 @@
 			(type default)
 		)
 		(uuid "cf6026d2-9199-4a1d-ad95-e7bf84a17dca")
+	)
+	(wire
+		(pts
+			(xy 194.31 123.825) (xy 201.295 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d12239f6-bb1d-4a46-b7aa-19156d7ffa47")
+	)
+	(wire
+		(pts
+			(xy 207.645 123.825) (xy 209.55 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d204ed86-cde3-4f35-bcd5-6239034cbf6f")
 	)
 	(wire
 		(pts
@@ -7746,6 +8176,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 119.38) (xy 191.77 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d97deb-ccc4-412b-9512-7cf961fce2b2")
+	)
+	(wire
+		(pts
 			(xy 148.59 124.46) (xy 151.13 124.46)
 		)
 		(stroke
@@ -7826,6 +8266,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 123.825) (xy 189.23 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f526eca0-fd79-4bf6-8535-c3187cca99fa")
+	)
+	(wire
+		(pts
 			(xy 160.02 109.22) (xy 233.68 109.22)
 		)
 		(stroke
@@ -7883,6 +8333,16 @@
 			(type default)
 		)
 		(uuid "f735b8db-0d90-4940-904e-770cd549106f")
+	)
+	(wire
+		(pts
+			(xy 189.23 123.825) (xy 182.245 123.825)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8cd07c7-b5fd-4d7b-b4cd-ee8c86f6e45b")
 	)
 	(image
 		(at 81.28 137.668)
@@ -8399,7 +8859,7 @@
 		)
 		(uuid "14a4ba9f-bb56-4808-96ac-b008aee669b3")
 	)
-	(label "~{BAT_CHRG_RESET}"
+	(label "~{BAT_CHRG_RST}"
 		(at 162.56 104.14 0)
 		(effects
 			(font
@@ -8469,6 +8929,17 @@
 		)
 		(uuid "bb8f7665-4001-43f4-89ea-6543f69a5ac1")
 	)
+	(hierarchical_label "VSYS"
+		(shape output)
+		(at 245.745 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36a023e5-165c-409b-90f9-c9bf1d2e4bb4")
+	)
 	(hierarchical_label "~{BAT_CHRG_PG}"
 		(shape output)
 		(at 245.745 114.3 0)
@@ -8513,7 +8984,7 @@
 		)
 		(uuid "b4deade1-5bd7-4224-bc87-1ad571c1a0a8")
 	)
-	(hierarchical_label "~{BAT_CHRG_RESET}"
+	(hierarchical_label "~{BAT_CHRG_RST}"
 		(shape input)
 		(at 245.745 104.14 0)
 		(effects
@@ -8728,84 +9199,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 209.55 73.025 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "04f8bcbc-dcb1-43c0-b4f6-720b73935d9e")
-		(property "Reference" "#PWR0141"
-			(at 209.55 76.835 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VSYS"
-			(at 207.01 69.469 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.55 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 209.55 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 209.55 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02a2f0ff-e637-45c2-9ebc-4f5e4a8c16c1")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 99.06 116.205 0)
 		(mirror y)
@@ -8878,6 +9271,745 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Connector/CONN_00001")
+		(at 195.58 128.905 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "0852fb06-cc4b-4a53-8669-ebc5b59000d3")
+		(property "Reference" "J10"
+			(at 195.834 130.048 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "61300311121"
+			(at 184.658 132.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:HEADER_3P_2_54MM"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/61300311121.pdf"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-40°C ~ 105°C"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rows" "1"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Length (Total)" "11.54mm"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pitch" "2.54mm"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "250V"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Positions" "3"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current Rating" "3A"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "61300311121"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "7.62mm x 2.54mm x 11.54mm"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "732-5316-ND"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Material" "Copper Alloy"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Finish" "Gold"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "HEADER"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Gender" "MALE"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Termination" "SOLDER"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Type" "THT"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shrouding" "UNSHROUDED"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 195.58 128.905 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69d470e0-4701-48f1-951c-f18aa6b9bbd6")
+		)
+		(pin "3"
+			(uuid "49b27b19-4dbf-4bbb-a081-921dab91ca7d")
+		)
+		(pin "2"
+			(uuid "3f9f0657-51dd-403f-8f50-15983dc45ca0")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Inductor/IND_00012")
+		(at 170.18 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ff3d576-524d-4939-b526-a3d1f82b7bbe")
+		(property "Reference" "L1"
+			(at 172.212 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PA5003.102NLT"
+			(at 172.085 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:PA5003"
+			(at 170.688 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/DATASHEET_P808"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "FIXED IND 1UH 12.2A 7.6 MOHM SMD"
+			(at 171.958 86.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-40°C ~ 125°C"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DCR" "0.0076Ohm"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current (Sat)" "14.3A"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "5.50mm x 5.30mm"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "553-4084-1-ND"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "COMPOSITE"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Core Material" "FERRITE"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "PA5003"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "PA5003.102NLT"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Pulse Electronics"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shielding" "SHIELDED"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±20%"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Current (Rated)" "12.2A"
+			(at 172.212 79.248 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Inductance" "1.0uH"
+			(at 172.212 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af4972f5-966f-4766-ac27-175c981bca5c")
+		)
+		(pin "2"
+			(uuid "d704287d-139c-4585-bd3f-9e6d459635f8")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
+		(at 206.375 123.825 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "19ce8e44-96bf-4aa7-b8f5-204280468beb")
+		(property "Reference" "R173"
+			(at 202.184 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 202.692 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 205.867 145.923 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 206.375 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 204.597 133.731 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 206.121 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 206.121 138.049 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 206.375 140.081 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 206.121 142.113 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 206.121 131.699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 206.375 129.667 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-10.0KLRCT-ND"
+			(at 205.613 136.017 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 206.375 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 205.613 148.209 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 206.375 123.825 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 206.375 123.825 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e010207a-b8ff-4775-874b-86ffe7264125")
+		)
+		(pin "1"
+			(uuid "23be4ed6-db16-42da-9978-2d540a0aa2a3")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "R173")
 					(unit 1)
 				)
 			)
@@ -11553,6 +12685,83 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 209.55 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5ba263ae-3aa9-4cd5-945d-90d8a882c55d")
+		(property "Reference" "#PWR07"
+			(at 209.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.423 129.159 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 209.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76c2081e-af3b-4ef9-a3b2-e590c0f3384e")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 129.54 125.73 0)
 		(unit 1)
 		(body_style 1)
@@ -11623,250 +12832,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Inductor/IND_00009")
-		(at 170.18 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "638096ae-c14f-4e77-87a3-f23cc8650fd1")
-		(property "Reference" "L1"
-			(at 172.212 74.295 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PA5003.152NLT"
-			(at 172.085 67.945 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:PA5003"
-			(at 170.688 98.298 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/DATASHEET_P808"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "FIXED IND 1.5UH 10.5A 11.2 MOHM"
-			(at 171.958 86.106 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-40°C ~ 125°C"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DCR" "0.0112Ohm"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current (Sat)" "14A"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "5.50mm x 5.30mm"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "553-4086-1-ND"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "COMPOSITE"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Core Material" "FERRITE"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "PA5003"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "PA5003.152NLT"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Pulse Electronics"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Shielding" "SHIELDED"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±20%"
-			(at 170.18 76.2 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current (Rated)" "10.5A"
-			(at 172.085 70.485 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Inductance" "1.5uH"
-			(at 172.212 77.597 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "de844bdf-47cd-4b44-a24d-b8487bfb74f1")
-		)
-		(pin "2"
-			(uuid "d1ff220c-64a9-4858-99af-cec5a4865e97")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
-					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -13519,6 +14484,84 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:+3V3")
+		(at 173.99 123.825 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b46c8f2c-b9df-4319-9e68-021a0125be25")
+		(property "Reference" "#PWR0149"
+			(at 177.8 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 171.196 123.952 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 173.99 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5529d6d6-493d-493f-a94d-37d471c6dbd0")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -15394,6 +16437,208 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
+		(at 177.165 123.825 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "f43645a0-6c6b-4b57-b306-2d316f892fae")
+		(property "Reference" "R174"
+			(at 181.356 122.428 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 180.848 125.476 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 177.673 145.923 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 177.165 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 178.943 133.731 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 177.419 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 177.419 138.049 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 177.165 140.081 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 177.419 142.113 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 177.419 131.699 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 177.165 129.667 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-10.0KLRCT-ND"
+			(at 177.927 136.017 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 177.165 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 177.927 148.209 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 177.165 123.825 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 177.165 123.825 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f76791ca-8ad3-4dd6-a925-507d48009c04")
+		)
+		(pin "1"
+			(uuid "1e7dc363-4607-4007-9d04-e869d9be2fce")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "R174")
 					(unit 1)
 				)
 			)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-03")
-		(rev "1.00-0a")
+		(date "2026-08-08")
+		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
 		(comment 3 "203-1690 rue des quatre-saisons")
@@ -5960,7 +5960,7 @@
 		)
 		(uuid "30221766-e14b-4abd-b5a6-b43ec32724cc")
 	)
-	(hierarchical_label "CODEC_~{RST}"
+	(hierarchical_label "~{CODEC_RST}"
 		(shape input)
 		(at 31.75 62.865 180)
 		(effects
@@ -9916,9 +9916,8 @@
 			)
 		)
 		(property "Frequency" "12MHz"
-			(at 62.865 61.595 0)
-			(hide yes)
-			(show_name yes)
+			(at 67.818 65.278 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -10015,9 +10014,8 @@
 			)
 		)
 		(property "Manufacturer Part Number" "ECS-2016MVQ-120-BP-TR"
-			(at 62.865 61.595 0)
-			(hide yes)
-			(show_name yes)
+			(at 74.422 70.104 0)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font

@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.00-0a"
+      "sch_revision": "1.00-0A"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -1211,7 +1211,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "#PWR75,#PWR184,#PWR218,#PWR221,#PWR244,R26,R119-120,R140,R160-162,R180,R281,C101,C106,C114,Q13,Q15-16",
+    "used_designators": "D7,D10-11,D13-14,D17-19,D34,#PWR7,#PWR9,#PWR41-46,#PWR149,#PWR151,#PWR242-243,#PWR264,#PWR269,#PWR274-280,#PWR282-285,#PWR300-305,#PWR307-308,#PWR317-329,#PWR350,#PWR370-372,C43-44,C121-123,C135-137,C191-193,C201-206,C227-228,Q7-9,Q14,Q17-22,J10,J14-15,J17,R36-42,R90,R121-124,R128,R136,R169-176,R180,R209,R211-212,R267-273,R282-284,R307-314,TP12-18,U11,U30-32,U35,S2-3",
     "variants": [
       {
         "description": "No capacitive touch available",
@@ -1271,6 +1271,14 @@
     [
       "1887e3c8-5c57-4b36-9861-d62642bbcc6e",
       "SD_CARD"
+    ],
+    [
+      "cf95963f-e4ab-4f20-ac86-121fcc1166ea",
+      "Power Supply"
+    ],
+    [
+      "512bde86-5f80-4975-85bc-7a58e2b3bb29",
+      "RESET SUPERVISOR"
     ]
   ],
   "text_variables": {},

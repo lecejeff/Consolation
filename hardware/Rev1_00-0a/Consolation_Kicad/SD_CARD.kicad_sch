@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-03")
-		(rev "1.00-0a")
+		(date "2026-08-08")
+		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
 		(comment 3 "203-1690 rue des quatre-saisons")
@@ -4427,7 +4427,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
+		(property "Value" "3V3"
 			(at 76.2 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
+		(property "Value" "3V3"
 			(at 86.36 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,7 +5746,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
+		(property "Value" "3V3"
 			(at 256.54 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8393,7 +8393,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
+		(property "Value" "3V3"
 			(at 125.095 37.465 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8729,7 +8729,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_CB"
+		(property "Value" "3V3"
 			(at 100.965 37.465 0)
 			(show_name no)
 			(do_not_autoplace no)
