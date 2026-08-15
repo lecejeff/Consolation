@@ -1,5 +1,5 @@
 Drill report for ConJoy_KiCad.kicad_pcb
-Created on 2026-08-07T14:30:42
+Created on 2026-08-15T09:35:46
 
 Copper Layer Stackup:
     =============================================================
@@ -10,9 +10,9 @@ Copper Layer Stackup:
 Drill file 'ConJoy_KiCad-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (113 holes))
+    T1  0.300mm  0.0118"  (116 holes))
 
-    Total plated holes count 113
+    Total plated holes count 116
 
 
 Drill file 'ConJoy_KiCad-NPTH-drl.gbr' contains
