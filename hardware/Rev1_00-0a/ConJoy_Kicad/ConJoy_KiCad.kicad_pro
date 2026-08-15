@@ -841,7 +841,7 @@
         "uuid": "6e11427c-7ebb-4670-a9a1-99a8ba00a979"
       }
     ],
-    "used_designators": "D1,FID1-7",
+    "used_designators": "D1,FID1-7,J3,J5",
     "variants": [
       {
         "description": "Assembly option for left controller",

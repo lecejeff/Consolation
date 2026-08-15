@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ConJoy [Console Joystick]")
-		(date "2026-08-05")
+		(date "2026-08-15")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -2110,7 +2110,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KicadCompDb:Connector/CONN_00028"
+		(symbol "KicadCompDb:Connector/CONN_00030"
 			(pin_names
 				(hide yes)
 			)
@@ -2129,7 +2129,7 @@
 					)
 				)
 			)
-			(property "Value" "SFV5R-2STBE1HLF"
+			(property "Value" "SFV5R-1STE1HLF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2139,7 +2139,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprint:SFV5R-2ST"
+			(property "Footprint" "footprint:SFV5R-1ST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2238,7 +2238,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "609-SFV5R-2STBE1HLFCT-ND"
+			(property "Distributor Part Number" "609-4330-1-ND"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2337,7 +2337,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "SFV5R-2STBE1HLF"
+			(property "Manufacturer Part Number" "SFV5R-1STE1HLF"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2381,7 +2381,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "footprint:SFV5R-2ST"
+			(property "ki_fp_filters" "footprint:SFV5R-1ST"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2392,7 +2392,7 @@
 					)
 				)
 			)
-			(symbol "Connector/CONN_00028_1_1"
+			(symbol "Connector/CONN_00030_1_1"
 				(rectangle
 					(start 0 0)
 					(end 2.54 -12.7)
@@ -3439,7 +3439,7 @@
 		)
 		(uuid "54f4c630-a959-4853-82ad-d266e026884e")
 	)
-	(text "Top facing contacts\nPin 1 Conn\n=\nPin 5 Joycon"
+	(text "Bottom facing contacts\nPin 1 Conn\n=\nPin 1 Joycon"
 		(exclude_from_sim no)
 		(at 177.292 38.989 0)
 		(effects
@@ -3587,12 +3587,6 @@
 		(uuid "d1b7e839-8def-42d8-8193-b9086d12579e")
 	)
 	(junction
-		(at 185.42 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e7a75e3c-c8e1-4df4-8ee6-8917d6f75539")
-	)
-	(junction
 		(at 92.71 120.015)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3627,12 +3621,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f718dceb-bba4-469a-aa64-3d5b0cdb4498")
-	)
-	(junction
-		(at 185.42 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8ac95ca-7a25-4257-bffb-f34619be463c")
 	)
 	(junction
 		(at 170.815 86.995)
@@ -3733,16 +3721,6 @@
 			(type default)
 		)
 		(uuid "189eeed1-a285-4c3b-8640-497e7ea11bbd")
-	)
-	(wire
-		(pts
-			(xy 185.42 58.42) (xy 193.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a94b092-b7cb-4d59-9744-ebb164cbe2d4")
 	)
 	(wire
 		(pts
@@ -3926,16 +3904,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 49.53) (xy 185.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a44af24-9a47-48cf-87a1-fe7b86d6691e")
-	)
-	(wire
-		(pts
 			(xy 170.815 86.995) (xy 170.815 89.535)
 		)
 		(stroke
@@ -3943,16 +3911,6 @@
 			(type default)
 		)
 		(uuid "4ba37009-df28-4190-89d0-648c82796226")
-	)
-	(wire
-		(pts
-			(xy 185.42 59.69) (xy 185.42 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c5e1c28-be8c-4589-a10d-499f264708f7")
 	)
 	(wire
 		(pts
@@ -3983,16 +3941,6 @@
 			(type default)
 		)
 		(uuid "59dd6a19-66a8-44a4-9af8-5937230d434f")
-	)
-	(wire
-		(pts
-			(xy 185.42 58.42) (xy 185.42 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62029bcb-b0d6-4f1e-805d-9543d881df94")
 	)
 	(wire
 		(pts
@@ -4063,16 +4011,6 @@
 			(type default)
 		)
 		(uuid "779cbd9e-71ca-42b0-8f67-01ed0bab27ab")
-	)
-	(wire
-		(pts
-			(xy 193.04 50.8) (xy 193.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f4b3b0-ac45-4906-9031-b982f8015810")
 	)
 	(wire
 		(pts
@@ -4406,16 +4344,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 50.8) (xy 193.04 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c88425-f901-4b47-a39c-0cbe033824ba")
-	)
-	(wire
-		(pts
 			(xy 102.235 112.395) (xy 173.99 112.395)
 		)
 		(stroke
@@ -4433,16 +4361,6 @@
 			(type default)
 		)
 		(uuid "d2c0ec91-92d1-4b27-be41-0dac345a7a8f")
-	)
-	(wire
-		(pts
-			(xy 193.04 57.15) (xy 193.04 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d63d34a4-2bd4-45d1-8813-b89da43d7776")
 	)
 	(wire
 		(pts
@@ -4573,16 +4491,6 @@
 			(type default)
 		)
 		(uuid "f071a305-3c90-4c2c-8431-c8da8f7fb2dc")
-	)
-	(wire
-		(pts
-			(xy 185.42 50.8) (xy 185.42 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0d688da-b779-480b-9d56-6a73f730ee7d")
 	)
 	(wire
 		(pts
@@ -9152,7 +9060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "006caf6c-27c6-445e-ba52-b526d06c7aa1")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 186.563 83.947 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9338,7 +9246,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 					(variant
 						(name "Left Controller")
@@ -10934,393 +10842,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 185.42 59.69 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5994cb2f-ca55-4a3e-858d-752ce4b80fab")
-		(property "Reference" "#PWR08"
-			(at 185.42 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 63.373 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5e07dc0-6692-4293-bda6-3fa6da40d7e3")
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR08")
-					(unit 1)
-					(variant
-						(name "Right Controller")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Connector/CONN_00028")
-		(at 176.53 64.135 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5ddfd208-07e7-4d7c-aca6-d35cc0349d6f")
-		(property "Reference" "J3"
-			(at 176.53 50.165 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SFV5R-2STBE1HLF"
-			(at 171.196 65.405 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprint:SFV5R-2ST"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10171070.pdf"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN FFC FPC TOP 5POS 0.5MM R/A"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 105°C"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Current Rating" "0.5A"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pitch" "0.5mm"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rows" "1"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Positions" "5"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "609-SFV5R-2STBE1HLFCT-ND"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "8.0mm x 4.9mm x 1.8mm"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Amphenol ICC (FCI)"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Gender" "FEMALE"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "FFC FPC"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Finish" "Gold"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Length (Total)" "NA"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Material" "Phosphor Bronze"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "SFV5R-2STBE1HLF"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Shrouding" "SHROUDED"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Type" "SMT"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Termination" "SOLDER"
-			(at 176.53 64.135 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2f1adfce-63c1-4603-b310-3190f49bf695")
-		)
-		(pin "1"
-			(uuid "a860ea01-8d8d-4e86-8eae-1346bbc90a90")
-		)
-		(pin "3"
-			(uuid "27148d55-1f72-47b0-8bb4-ca575d49bcce")
-		)
-		(pin "4"
-			(uuid "dbe2bbb6-6c5c-46aa-b985-5807caba11d4")
-		)
-		(pin "5"
-			(uuid "f136c167-4db8-4e80-b9fe-be3e26e0c6ba")
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "J3")
-					(unit 1)
-					(variant
-						(name "Left Controller")
-					)
-					(variant
-						(name "Right Controller")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Diodes/DIODE_00001")
 		(at 200.66 83.82 270)
 		(unit 1)
@@ -12789,8 +12310,8 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 193.04 57.15 90)
+		(lib_id "KicadCompDb:Connector/CONN_00030")
+		(at 176.53 51.435 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12798,31 +12319,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a506a4f6-47c7-4c6b-b4fc-3a80c55d6d3b")
-		(property "Reference" "C3"
-			(at 194.31 53.34 90)
+		(uuid "9d50604c-aa9f-4e92-bef2-3b0eb4a3b227")
+		(property "Reference" "J3"
+			(at 177.8 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 194.31 55.88 90)
+		(property "Value" "SFV5R-1STE1HLF"
+			(at 180.594 57.912 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 215.138 56.642 0)
+		(property "Footprint" "footprint:SFV5R-1ST"
+			(at 176.53 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12832,8 +12351,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R71H104KE14-01.pdf"
-			(at 193.04 57.15 0)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10171070.pdf"
+			(at 176.53 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12843,8 +12362,8 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 202.946 55.372 0)
+		(property "Description" "CONN FFC FPC TOP 5POS 0.5MM R/A"
+			(at 176.53 51.435 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,8 +12373,8 @@
 				)
 			)
 		)
-		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 193.04 57.15 0)
+		(property "Operating Temperature" "-55°C ~ 105°C"
+			(at 176.53 51.435 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12865,8 +12384,8 @@
 				)
 			)
 		)
-		(property "Type" "CER SMT"
-			(at 193.04 57.15 0)
+		(property "Current Rating" "0.5A"
+			(at 176.53 51.435 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -12876,10 +12395,10 @@
 				)
 			)
 		)
-		(property "Tolerance" "±10%"
-			(at 213.36 56.896 0)
+		(property "Pitch" "0.5mm"
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12887,10 +12406,10 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
-			(at 207.264 56.896 0)
+		(property "Rows" "1"
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12898,21 +12417,10 @@
 				)
 			)
 		)
-		(property "Package" "0402"
-			(at 209.296 57.15 0)
+		(property "Positions" "5"
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 217.424 56.388 0)
-			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12921,9 +12429,9 @@
 			)
 		)
 		(property "Voltage Rating" "50V"
-			(at 193.04 57.15 0)
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12931,10 +12439,10 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
-			(at 211.328 56.896 0)
+		(property "Distributor Part Number" "609-4330-1-ND"
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12942,10 +12450,21 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 200.914 56.896 0)
+		(property "Dimensions" "8.0mm x 4.9mm x 1.8mm"
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Amphenol ICC (FCI)"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12954,9 +12473,9 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 198.882 57.15 0)
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12964,10 +12483,10 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 205.232 56.388 0)
+		(property "Gender" "FEMALE"
+			(at 176.53 51.435 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -12975,23 +12494,114 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "0ea9f815-4cc9-444c-b56e-3b6e7b6dc866")
+		(property "Type" "FFC FPC"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Finish" "Gold"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Length (Total)" "NA"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Material" "Phosphor Bronze"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SFV5R-1STE1HLF"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Shrouding" "SHROUDED"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Type" "SMT"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Termination" "SOLDER"
+			(at 176.53 51.435 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "511f384b-d865-4df8-88ca-5f160448f151")
+			(uuid "555b1e62-db7e-47d0-bcd2-190339376706")
+		)
+		(pin "3"
+			(uuid "f007492b-99f7-46a4-9436-2dca9df714cd")
+		)
+		(pin "2"
+			(uuid "050a4b3b-7446-40aa-9636-4f31486af1d2")
+		)
+		(pin "4"
+			(uuid "168eba3d-cc43-444f-8cee-9608d85d09ae")
+		)
+		(pin "5"
+			(uuid "b5b56c49-14a3-48bf-a94f-84c2ec2561ab")
 		)
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C3")
+					(reference "J3")
 					(unit 1)
-					(variant
-						(name "Left Controller")
-					)
-					(variant
-						(name "Right Controller")
-					)
 				)
 			)
 		)
@@ -13916,215 +13526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00002")
-		(at 185.42 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c71b96ba-5a10-4ba6-a618-cda7796696a0")
-		(property "Reference" "C1"
-			(at 186.563 52.832 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 186.563 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprint:CAP_NONPOL_0805"
-			(at 207.518 56.642 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 1UF 50V X7R 0805"
-			(at 195.326 55.372 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 205.74 56.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 199.644 56.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 186.563 56.388 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 209.804 56.388 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "50V"
-			(at 186.436 55.753 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 203.708 56.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
-			(at 193.294 56.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 191.262 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "311-1886-1-ND"
-			(at 197.612 56.388 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "CER SMT"
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "2.00mm x 1.25mm"
-			(at 185.42 57.15 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "298649c9-c430-454e-81e1-51724ab255df")
-		)
-		(pin "2"
-			(uuid "24ab548f-ca0f-4a88-ab94-147086d5eb87")
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C1")
-					(unit 1)
-					(variant
-						(name "Left Controller")
-					)
-					(variant
-						(name "Right Controller")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Connector/CONN_00006")
 		(at 176.53 139.065 0)
 		(mirror x)
@@ -14739,88 +14140,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 185.42 49.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e34ad0b7-88ed-4746-ad39-11123844f6a6")
-		(property "Reference" "#PWR07"
-			(at 185.42 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 187.198 46.101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 185.42 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4369068f-60b9-4422-a7fd-82c7ae92de6f")
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "#PWR07")
-					(unit 1)
-					(variant
-						(name "Right Controller")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00015")
 		(at 97.155 132.715 0)
 		(unit 1)
@@ -15338,7 +14657,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eeada9ec-3db8-4528-82cd-1d56d68c265e")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 194.31 84.455 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15523,7 +14842,7 @@
 		(instances
 			(project "ConJoy_KiCad"
 				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 					(variant
 						(name "Left Controller")
