@@ -16266,10 +16266,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C149")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -17090,10 +17086,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C143")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -17725,10 +17717,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C126")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -17932,10 +17920,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C146")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -18659,10 +18643,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C145")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -19855,10 +19835,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C154")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -20062,10 +20038,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C133")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -20672,10 +20644,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C130")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -22582,10 +22550,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C129")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -22788,10 +22752,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C140")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -23197,10 +23157,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C148")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -25527,10 +25483,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C141")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -25735,10 +25687,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C155")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -26175,10 +26123,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C132")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -26458,10 +26402,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C150")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -27622,10 +27562,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C153")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -29036,10 +28972,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C127")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -29915,10 +29847,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C131")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -31125,10 +31053,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C139")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -31332,10 +31256,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C134")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -32295,10 +32215,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C128")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -34564,10 +34480,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C147")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -34770,10 +34682,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C151")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -35254,10 +35162,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C142")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -35460,10 +35364,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C152")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -35868,10 +35768,6 @@
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/921be37e-c275-4af7-b310-f07754ed63f5"
 					(reference "C144")
 					(unit 1)
-					(variant
-						(name "No CapTouch")
-						(dnp yes)
-					)
 				)
 			)
 		)

@@ -2089,7 +2089,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KicadCompDb:Mosfet/MOSFET_00001"
+		(symbol "KicadCompDb:Mosfet/MOSFET_00002"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2109,7 +2109,7 @@
 					)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "SSM3K56FS,LF"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2119,18 +2119,7 @@
 					)
 				)
 			)
-			(property "Footprint" "footprint:SOT-23-3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11303.pdf"
+			(property "Footprint" "footprint:SC-75"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2141,7 +2130,7 @@
 					)
 				)
 			)
-			(property "Description" "MOSFET N-CH 60V 115MA SOT23-3"
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13419&prodName=SSM3K56FS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2152,74 +2141,9 @@
 					)
 				)
 			)
-			(property "VDS" "60V"
+			(property "Description" "MOSFET N-CH 20V 800MA SSM"
 				(at 0 0 0)
 				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "SOT-23-3"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "NFET"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "I(drain)" "0.115A"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "VGS(th)" "2.5V"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RDS(on)" "7.5Ohm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "0.37W"
-				(at 0 0 0)
-				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -2239,7 +2163,7 @@
 					)
 				)
 			)
-			(property "Dimensions" "2.90mm x 2.40mm"
+			(property "Power" "0.15W"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2250,7 +2174,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Diodes Incorporated"
+			(property "RDS(on)" "0.235Ohm"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2261,7 +2185,40 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "2N7002-7-F"
+			(property "I(drain)" "0.8A"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "1.60mm x 1.60mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VGS(th)" "1V"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2283,7 +2240,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "2N7002-FDICT-ND"
+			(property "Type" "NFET"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -2294,7 +2251,39 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "footprint:SOT-23-3"
+			(property "Manufacturer Part Number" "SSM3K56FS,LF"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Toshiba Semiconductor and Storage"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VDS" "20V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "SC-75"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2305,7 +2294,18 @@
 					)
 				)
 			)
-			(symbol "Mosfet/MOSFET_00001_1_1"
+			(property "ki_fp_filters" "footprint:SC-75"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Mosfet/MOSFET_00002_1_1"
 				(polyline
 					(pts
 						(xy 1.651 0) (xy 2.159 0) (xy 2.159 2.286)
@@ -3877,7 +3877,7 @@
 		(cells
 			(table_cell "SD_VDD"
 				(exclude_from_sim no)
-				(at 119.38 77.47 0)
+				(at 188.595 43.815 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3894,7 +3894,7 @@
 			)
 			(table_cell "SD_PWR_ON"
 				(exclude_from_sim no)
-				(at 128.905 77.47 0)
+				(at 198.12 43.815 0)
 				(size 13.335 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3911,7 +3911,7 @@
 			)
 			(table_cell "SD_CD"
 				(exclude_from_sim no)
-				(at 142.24 77.47 0)
+				(at 211.455 43.815 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3928,7 +3928,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 119.38 80.01 0)
+				(at 188.595 46.355 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3945,7 +3945,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 128.905 80.01 0)
+				(at 198.12 46.355 0)
 				(size 13.335 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3962,7 +3962,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 142.24 80.01 0)
+				(at 211.455 46.355 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3979,7 +3979,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 119.38 82.55 0)
+				(at 188.595 48.895 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3996,7 +3996,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 128.905 82.55 0)
+				(at 198.12 48.895 0)
 				(size 13.335 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4013,7 +4013,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 142.24 82.55 0)
+				(at 211.455 48.895 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4030,7 +4030,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 119.38 85.09 0)
+				(at 188.595 51.435 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4047,7 +4047,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 128.905 85.09 0)
+				(at 198.12 51.435 0)
 				(size 13.335 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4064,7 +4064,7 @@
 			)
 			(table_cell "0"
 				(exclude_from_sim no)
-				(at 142.24 85.09 0)
+				(at 211.455 51.435 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4081,7 +4081,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 119.38 87.63 0)
+				(at 188.595 53.975 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4098,7 +4098,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 128.905 87.63 0)
+				(at 198.12 53.975 0)
 				(size 13.335 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4115,7 +4115,7 @@
 			)
 			(table_cell "1"
 				(exclude_from_sim no)
-				(at 142.24 87.63 0)
+				(at 211.455 53.975 0)
 				(size 9.525 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -4708,234 +4708,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Mosfet/MOSFET_00001")
-		(at 97.155 60.325 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "12d64331-8fd6-4c89-8c02-efa055179331")
-		(property "Reference" "Q6"
-			(at 103.505 56.6419 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 103.505 59.1819 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprint:SOT-23-3"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11303.pdf"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 115MA SOT23-3"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "60V"
-			(at 103.505 61.7219 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "SOT-23-3"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "NFET"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I(drain)" "0.115A"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VGS(th)" "2.5V"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDS(on)" "7.5Ohm"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.37W"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 150°C"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "2.90mm x 2.40mm"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "2N7002-7-F"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "2N7002-FDICT-ND"
-			(at 97.155 60.325 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "301661c5-d49a-4fcb-943d-4f809ad715c9")
-		)
-		(pin "2"
-			(uuid "65c21dc6-bd4f-43c1-83be-7f2928b5bb45")
-		)
-		(pin "1"
-			(uuid "fbafd028-5099-4da0-8808-46339e372985")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -6675,6 +6447,234 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Mosfet/MOSFET_00002")
+		(at 82.55 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61b2ae40-ec9c-46b3-8402-66cb2b4e51e8")
+		(property "Reference" "Q23"
+			(at 88.519 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3K56FS,LF"
+			(at 86.487 70.612 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SC-75"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13419&prodName=SSM3K56FS"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOSFET N-CH 20V 800MA SSM"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 150°C"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.15W"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDS(on)" "0.235Ohm"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I(drain)" "0.8A"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.60mm x 1.60mm"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VGS(th)" "1V"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "NFET"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SSM3K56FS,LF"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "20V"
+			(at 88.392 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "SC-75"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e46e87c-8133-48d9-b6b6-27e5b793777b")
+		)
+		(pin "3"
+			(uuid "14dcaf53-349b-4144-8411-57c2d0c02003")
+		)
+		(pin "1"
+			(uuid "ede0b522-e66f-4949-a92c-f1c4c6c9f326")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
+					(reference "Q23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
 		(at 118.745 45.085 0)
 		(unit 1)
@@ -7762,7 +7762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Mosfet/MOSFET_00001")
+		(lib_id "KicadCompDb:Mosfet/MOSFET_00002")
 		(at 82.55 82.55 0)
 		(unit 1)
 		(body_style 1)
@@ -7771,10 +7771,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9da44e7c-58a7-4cd4-b0fc-bb46f51aefae")
-		(property "Reference" "Q5"
-			(at 88.9 78.8669 0)
+		(uuid "9eb9986e-8cda-4cb4-aa6b-e854436846df")
+		(property "Reference" "Q25"
+			(at 88.519 81.534 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7784,8 +7783,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 88.9 81.4069 0)
+		(property "Value" "SSM3K56FS,LF"
+			(at 86.487 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7795,7 +7794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprint:SOT-23-3"
+		(property "Footprint" "footprint:SC-75"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7806,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11303.pdf"
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13419&prodName=SSM3K56FS"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7817,87 +7816,10 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET N-CH 60V 115MA SOT23-3"
+		(property "Description" "MOSFET N-CH 20V 800MA SSM"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "60V"
-			(at 88.9 83.9469 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "SOT-23-3"
-			(at 82.55 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "NFET"
-			(at 82.55 82.55 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I(drain)" "0.115A"
-			(at 82.55 82.55 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VGS(th)" "2.5V"
-			(at 82.55 82.55 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDS(on)" "7.5Ohm"
-			(at 82.55 82.55 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.37W"
-			(at 82.55 82.55 0)
-			(hide yes)
-			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7916,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Dimensions" "2.90mm x 2.40mm"
+		(property "Power" "0.15W"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name yes)
@@ -7927,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Diodes Incorporated"
+		(property "RDS(on)" "0.235Ohm"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name yes)
@@ -7938,7 +7860,40 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "2N7002-7-F"
+		(property "I(drain)" "0.8A"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.60mm x 1.60mm"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VGS(th)" "1V"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name yes)
@@ -7960,7 +7915,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "2N7002-FDICT-ND"
+		(property "Type" "NFET"
 			(at 82.55 82.55 0)
 			(hide yes)
 			(show_name yes)
@@ -7971,19 +7926,64 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "0ad6e909-117f-4ecc-a8d3-0a93e7976796")
+		(property "Manufacturer Part Number" "SSM3K56FS,LF"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "f9ef6c48-9000-4fec-96b7-e6e1934e1e41")
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "20V"
+			(at 88.392 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "SC-75"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "1e877302-e0d2-499d-9a28-6a85252f665a")
+			(uuid "7e901310-cd65-4f9e-80e7-2881927953c1")
+		)
+		(pin "3"
+			(uuid "e4c82d48-bf40-420e-812e-e4437bdfb12f")
+		)
+		(pin "1"
+			(uuid "d3bb3a3b-7b07-44c2-b2b6-0450ae969606")
 		)
 		(instances
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
-					(reference "Q5")
+					(reference "Q25")
 					(unit 1)
 				)
 			)
@@ -8138,234 +8138,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Mosfet/MOSFET_00001")
-		(at 82.55 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbcc3d94-1563-4961-b407-61453f9e50e4")
-		(property "Reference" "Q4"
-			(at 88.9 64.8969 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 88.9 67.4369 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprint:SOT-23-3"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11303.pdf"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "MOSFET N-CH 60V 115MA SOT23-3"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VDS" "60V"
-			(at 88.9 69.9769 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Package" "SOT-23-3"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "NFET"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "I(drain)" "0.115A"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "VGS(th)" "2.5V"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "RDS(on)" "7.5Ohm"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "0.37W"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 150°C"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "2.90mm x 2.40mm"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Diodes Incorporated"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "2N7002-7-F"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "2N7002-FDICT-ND"
-			(at 82.55 68.58 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a1b58d29-f379-4e11-9d1b-0814c3cc6118")
-		)
-		(pin "3"
-			(uuid "1c53fe88-b269-40c5-a074-7ee7e56e4015")
-		)
-		(pin "2"
-			(uuid "10cb7725-afea-4ea3-8909-774b4e2e7bb9")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8702,6 +8474,234 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Mosfet/MOSFET_00002")
+		(at 97.155 60.325 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d97e7fef-d2c4-41b4-97db-b02900866612")
+		(property "Reference" "Q24"
+			(at 103.124 59.309 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SSM3K56FS,LF"
+			(at 101.092 62.357 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SC-75"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13419&prodName=SSM3K56FS"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOSFET N-CH 20V 800MA SSM"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 150°C"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.15W"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RDS(on)" "0.235Ohm"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I(drain)" "0.8A"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.60mm x 1.60mm"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VGS(th)" "1V"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "NFET"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SSM3K56FS,LF"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "VDS" "20V"
+			(at 102.997 61.595 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Package" "SC-75"
+			(at 97.155 60.325 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8ffa0cd1-3974-49fb-bb1d-e8f7fa7d9268")
+		)
+		(pin "3"
+			(uuid "2fe64ad8-f570-4f59-a28f-a4c797250ca2")
+		)
+		(pin "1"
+			(uuid "d59ecc67-4e11-4aaf-926b-aca4c623886d")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
+					(reference "Q24")
 					(unit 1)
 				)
 			)

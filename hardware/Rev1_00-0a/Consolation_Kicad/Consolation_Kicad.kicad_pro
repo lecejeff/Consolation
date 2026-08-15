@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 20.0,
+          "height": 5.0,
+          "width": 20.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -530,6 +530,24 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/CM5_CONN_A/SDIO_CLK": [
+        "SD_CARD"
+      ],
+      "/CM5_CONN_A/SDIO_CMD": [
+        "SD_CARD"
+      ],
+      "/CM5_CONN_A/SDIO_D0": [
+        "SD_CARD"
+      ],
+      "/CM5_CONN_A/SDIO_D1": [
+        "SD_CARD"
+      ],
+      "/CM5_CONN_A/SDIO_D2": [
+        "SD_CARD"
+      ],
+      "/CM5_CONN_A/SDIO_D3": [
+        "SD_CARD"
+      ],
       "/CM5_CONN_B/CM5_USB3_0.U3RXD_N": [
         "DP_90R"
       ],
@@ -660,6 +678,12 @@
         "DP_90R"
       ],
       "/CM5_CONN_B/USB2_RP2350.USB_P": [
+        "DP_90R"
+      ],
+      "/CM5_CONN_B/USB_PROG_N": [
+        "DP_90R"
+      ],
+      "/CM5_CONN_B/USB_PROG_P": [
         "DP_90R"
       ],
       "/CONTROLLER/CM5_USB3_1.USB_N": [
@@ -992,6 +1016,30 @@
       "/USB2 MUX/USB_OTG.USB_P": [
         "DP_90R"
       ],
+      "/USB2_CTP.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2_CTP.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2_DOCK.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2_DOCK.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2_NATIVE.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2_NATIVE.USB_P": [
+        "DP_90R"
+      ],
+      "/USB2_OTG.USB_N": [
+        "DP_90R"
+      ],
+      "/USB2_OTG.USB_P": [
+        "DP_90R"
+      ],
       "/USB2_PROG/USB2_OTG.USB_N": [
         "DP_90R"
       ],
@@ -1166,9 +1214,75 @@
       "sort_field": "Reference"
     },
     "bus_aliases": {
+      "HDMI": [
+        "CEC",
+        "HPD",
+        "SDA",
+        "SCL",
+        "D0_P",
+        "D0_N",
+        "D1_P",
+        "D1_N",
+        "D2_P",
+        "D2_N",
+        "CLK_P",
+        "CLK_N"
+      ],
       "I2C": [
         "I2C_SDA",
         "I2C_SCL"
+      ],
+      "I2S": [
+        "I2S_DOUT",
+        "I2S_DIN",
+        "I2C_SCLK",
+        "I2S_COFS"
+      ],
+      "LVDS": [
+        "D0_P",
+        "D0_N",
+        "D1_P",
+        "D1_N",
+        "D2_P",
+        "D2_N",
+        "D3_P",
+        "D3_N",
+        "CLK_P",
+        "CLK_N"
+      ],
+      "MIPI": [
+        "D0_P",
+        "D0_N",
+        "D1_P",
+        "D1_N",
+        "D2_P",
+        "D2_N",
+        "D3_P",
+        "D3_N",
+        "CLK_P",
+        "CLK_N"
+      ],
+      "SDIO": [
+        "SDIO_CLK",
+        "SDIO_CMD",
+        "SDIO_D0",
+        "SDIO_D1",
+        "SDIO_D2",
+        "SDIO_D3"
+      ],
+      "USB2": [
+        "USB_P",
+        "USB_N",
+        "OTG_ID"
+      ],
+      "USB3": [
+        "U3RXD_N",
+        "U3RXD_P",
+        "U3TXD_N",
+        "U3TXD_P",
+        "USB_P",
+        "USB_N",
+        "OTG_ID"
       ]
     },
     "connection_grid_size": 50.0,
@@ -1178,7 +1292,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": true,
@@ -1211,13 +1325,8 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "D7,D10-11,D13-14,D17-19,D34,#PWR7,#PWR9,#PWR41-46,#PWR149,#PWR151,#PWR242-243,#PWR264,#PWR269,#PWR274-280,#PWR282-285,#PWR300-305,#PWR307-308,#PWR317-329,#PWR350,#PWR370-372,C43-44,C121-123,C135-137,C191-193,C201-206,C227-228,Q7-9,Q14,Q17-22,J10,J14-15,J17,R36-42,R90,R121-124,R128,R136,R169-176,R180,R209,R211-212,R267-273,R282-284,R307-314,TP12-18,U11,U30-32,U35,S2-3",
-    "variants": [
-      {
-        "description": "No capacitive touch available",
-        "name": "No CapTouch"
-      }
-    ]
+    "used_designators": "Q23-28,#PWR141,#PWR151-152,#PWR154,R101,R108-109,C11-12",
+    "variants": []
   },
   "sheets": [
     [
@@ -1235,10 +1344,6 @@
     [
       "c81e7ef2-aeaa-4a92-bec0-2bc97d679418",
       "HDMI"
-    ],
-    [
-      "6050f2a0-ab64-4181-b373-b4a2383e2041",
-      "USB3"
     ],
     [
       "840a7f6c-235f-45c3-9d8a-e775048afd33",
@@ -1259,14 +1364,6 @@
     [
       "bcdde681-3692-4bfd-9d78-d87f7aaa0ed1",
       "CODEC"
-    ],
-    [
-      "58eed5f4-f91f-496e-90ab-6b45bd76b39f",
-      "USB2 MUX"
-    ],
-    [
-      "416df97c-424e-4c80-a6c8-e3332037416d",
-      "USB2_PROG"
     ],
     [
       "1887e3c8-5c57-4b36-9861-d62642bbcc6e",
