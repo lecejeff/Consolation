@@ -4723,10 +4723,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "18687081-b570-4b53-b4ba-4202ee46516d")
 		(property "Reference" "U6"
-			(at 135.255 40.005 0)
+			(at 135.128 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4736,7 +4735,7 @@
 			)
 		)
 		(property "Value" "AP22913W6-7"
-			(at 135.255 42.545 0)
+			(at 135.128 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5575,7 +5574,8 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
-		(at 125.095 59.055 90)
+		(at 125.095 59.055 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5585,7 +5585,7 @@
 		(dnp yes)
 		(uuid "49a26380-a300-4692-8809-4cf94dddd41e")
 		(property "Reference" "C19"
-			(at 126.365 55.245 90)
+			(at 123.825 55.245 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5596,7 +5596,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 126.365 57.785 90)
+			(at 123.825 57.785 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5607,7 +5607,7 @@
 			)
 		)
 		(property "Footprint" "footprint:CAP_NONPOL_0402"
-			(at 147.193 58.547 0)
+			(at 102.997 58.547 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5629,7 +5629,7 @@
 			)
 		)
 		(property "Description" "CAP CER 0.1UF 50V X7R 0402"
-			(at 135.001 57.277 0)
+			(at 115.189 57.277 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5640,7 +5640,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 145.415 58.801 0)
+			(at 104.775 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5651,7 +5651,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 139.319 58.801 0)
+			(at 110.871 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5662,7 +5662,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 141.351 59.055 0)
+			(at 108.839 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5673,7 +5673,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 125°C"
-			(at 149.479 58.293 0)
+			(at 100.711 58.293 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,7 +5695,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 143.383 58.801 0)
+			(at 106.807 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5706,7 +5706,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM155R71H104KE14D"
-			(at 132.969 58.801 0)
+			(at 117.221 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5717,7 +5717,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 130.937 59.055 0)
+			(at 119.253 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5728,7 +5728,7 @@
 			)
 		)
 		(property "Distributor Part Number" "490-10700-1-ND"
-			(at 137.287 58.293 0)
+			(at 112.903 58.293 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

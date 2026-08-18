@@ -4903,12 +4903,6 @@
 		(uuid "04593f8c-36a1-467d-924f-76f6472c3cc9")
 	)
 	(junction
-		(at 78.105 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11c7e36c-28a2-4332-a1dd-45f046eaa623")
-	)
-	(junction
 		(at 209.55 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4969,10 +4963,10 @@
 		(uuid "40566929-8dd5-4187-908b-56488de8c538")
 	)
 	(junction
-		(at 92.075 62.23)
+		(at 64.135 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4b255f74-bcdd-4148-ab34-f1331c3a8e50")
+		(uuid "4c8ca952-d7a4-4f7b-87c0-24e6e388265b")
 	)
 	(junction
 		(at 92.075 80.645)
@@ -5005,10 +4999,16 @@
 		(uuid "792ecba0-f57d-49b7-a81f-2c610b5555f3")
 	)
 	(junction
-		(at 64.135 67.31)
+		(at 78.105 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a2ebcd1-b371-4f16-bbe9-24c86722708e")
+		(uuid "a6de1548-88a4-4e92-b38b-4605c92b5044")
+	)
+	(junction
+		(at 92.075 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a6cd78-f37b-4efb-863b-f3e8069a83c2")
 	)
 	(junction
 		(at 126.365 62.23)
@@ -5130,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 44.45) (xy 50.165 59.69)
+			(xy 50.165 52.705) (xy 50.165 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5370,7 +5370,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 44.45) (xy 78.105 64.77)
+			(xy 78.105 52.705) (xy 78.105 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5560,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 56.515) (xy 92.075 62.23)
+			(xy 92.075 60.325) (xy 92.075 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5570,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.365 44.45) (xy 126.365 54.61)
+			(xy 126.365 52.705) (xy 126.365 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5657,6 +5657,16 @@
 			(type default)
 		)
 		(uuid "81cb0d69-7834-4eb9-9cc4-b88670288cf2")
+	)
+	(wire
+		(pts
+			(xy 64.135 67.31) (xy 64.135 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827d0a7f-36db-4e32-beb5-29821164741f")
 	)
 	(wire
 		(pts
@@ -5820,7 +5830,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 44.45) (xy 92.075 50.165)
+			(xy 92.075 52.705) (xy 92.075 53.975)
 		)
 		(stroke
 			(width 0)
@@ -5980,16 +5990,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 67.31) (xy 64.135 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec79844e-81d5-4d88-b4ee-a0575c34c8e5")
-	)
-	(wire
-		(pts
 			(xy 235.585 62.23) (xy 235.585 63.5)
 		)
 		(stroke
@@ -6000,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 44.45) (xy 64.135 67.31)
+			(xy 64.135 52.705) (xy 64.135 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6915,7 +6915,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 50.165 44.45 0)
+		(at 50.165 52.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6925,7 +6925,7 @@
 		(dnp no)
 		(uuid "29ebf870-0e62-45c3-9bf5-9852f3b1f1ce")
 		(property "Reference" "#PWR0300"
-			(at 50.165 48.26 0)
+			(at 50.165 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6936,7 +6936,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 49.911 40.64 0)
+			(at 49.911 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6946,7 +6946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.165 44.45 0)
+			(at 50.165 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6957,7 +6957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.165 44.45 0)
+			(at 50.165 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +6968,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 50.165 44.45 0)
+			(at 50.165 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +6992,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 78.105 44.45 0)
+		(at 78.105 52.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7002,7 +7002,7 @@
 		(dnp no)
 		(uuid "3cae0a8e-d7e7-4c1a-8414-68189ddf3eb0")
 		(property "Reference" "#PWR0304"
-			(at 78.105 48.26 0)
+			(at 78.105 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7013,7 +7013,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 78.105 40.64 0)
+			(at 78.105 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7023,7 +7023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.105 44.45 0)
+			(at 78.105 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7034,7 +7034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 44.45 0)
+			(at 78.105 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 78.105 44.45 0)
+			(at 78.105 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7289,7 +7289,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3"
+		(property "Value" "5V0"
 			(at 140.335 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8061,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00001")
-		(at 92.075 55.245 90)
+		(at 92.075 59.055 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8071,7 +8071,7 @@
 		(dnp no)
 		(uuid "70f0fb5a-514a-456f-96cd-f5fa7735236a")
 		(property "Reference" "R169"
-			(at 95.504 52.578 90)
+			(at 95.504 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8081,7 +8081,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 94.234 54.356 90)
+			(at 94.234 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8091,7 +8091,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 114.173 54.737 0)
+			(at 114.173 58.547 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8102,7 +8102,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 92.075 55.245 0)
+			(at 92.075 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8113,7 +8113,7 @@
 			)
 		)
 		(property "Description" "RES 0 OHM JUMPER 1/16W 0402"
-			(at 101.981 53.467 0)
+			(at 101.981 57.277 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8124,7 +8124,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 112.395 54.991 0)
+			(at 112.395 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8135,7 +8135,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 106.299 54.991 0)
+			(at 106.299 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8146,7 +8146,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 108.331 55.245 0)
+			(at 108.331 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8157,7 +8157,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 110.363 54.991 0)
+			(at 110.363 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8168,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-071KL"
-			(at 99.949 54.991 0)
+			(at 99.949 58.801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8179,7 +8179,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 97.917 55.245 0)
+			(at 97.917 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,7 +8190,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-0.0JRCT-ND"
-			(at 104.267 54.483 0)
+			(at 104.267 58.293 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8201,7 +8201,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 92.075 55.245 0)
+			(at 92.075 59.055 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,7 +8212,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 116.459 54.483 0)
+			(at 116.459 58.293 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8223,7 +8223,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 92.075 55.245 0)
+			(at 92.075 59.055 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8234,7 +8234,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 92.075 55.245 0)
+			(at 92.075 59.055 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10431,7 +10431,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 126.365 44.45 0)
+		(at 126.365 52.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10441,7 +10441,7 @@
 		(dnp no)
 		(uuid "9de4413b-7ec9-472a-9e58-b7a420633744")
 		(property "Reference" "#PWR0318"
-			(at 126.365 48.26 0)
+			(at 126.365 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10452,7 +10452,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 126.365 40.64 0)
+			(at 126.365 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10462,7 +10462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 126.365 44.45 0)
+			(at 126.365 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10473,7 +10473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 126.365 44.45 0)
+			(at 126.365 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10484,7 +10484,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 126.365 44.45 0)
+			(at 126.365 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11777,7 +11777,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "bb94fb79-e5c9-4c4a-a55c-bb97519f3e22")
 		(property "Reference" "C203"
 			(at 46.609 73.914 90)
@@ -12833,7 +12833,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 64.135 44.45 0)
+		(at 64.135 52.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12843,7 +12843,7 @@
 		(dnp no)
 		(uuid "e184bb93-a042-41d6-9d19-f74d994f80d3")
 		(property "Reference" "#PWR0302"
-			(at 64.135 48.26 0)
+			(at 64.135 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12854,7 +12854,7 @@
 			)
 		)
 		(property "Value" "1V8"
-			(at 64.135 40.64 0)
+			(at 64.135 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12864,7 +12864,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.135 44.45 0)
+			(at 64.135 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12875,7 +12875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.135 44.45 0)
+			(at 64.135 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12886,7 +12886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 64.135 44.45 0)
+			(at 64.135 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13901,7 +13901,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+1V8")
-		(at 92.075 44.45 0)
+		(at 92.075 52.705 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13911,7 +13911,7 @@
 		(dnp no)
 		(uuid "fe892f5f-8ae1-42e1-b49b-6ec6394b9840")
 		(property "Reference" "#PWR0307"
-			(at 92.075 48.26 0)
+			(at 92.075 56.515 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13922,7 +13922,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 92.075 40.64 0)
+			(at 92.075 48.895 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13932,7 +13932,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.075 44.45 0)
+			(at 92.075 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13943,7 +13943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.075 44.45 0)
+			(at 92.075 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13954,7 +13954,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 92.075 44.45 0)
+			(at 92.075 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

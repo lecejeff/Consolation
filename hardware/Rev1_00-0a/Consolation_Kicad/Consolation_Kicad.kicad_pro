@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 20.0,
-          "height": 5.0,
-          "width": 20.0
+          "drill": 2.6,
+          "height": 2.6,
+          "width": 2.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -137,7 +137,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.127,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
@@ -1134,7 +1134,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1325,7 +1325,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "Q23-28,#PWR141,#PWR151-152,#PWR154,R101,R108-109,C11-12",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
