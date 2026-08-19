@@ -3735,6 +3735,428 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:ESD Diodes/ESD_DIODE_00001"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 3.048 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD7016MUTAG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:UDFN8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7016-d.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TVS DIODE 5VWM 10VC 8UDFN"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "ESD TVS SEXT SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V(r)" "5V"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V(br)" "5.5V"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "V(cl)" "10V"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "I(pp)" "1A"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Capacitance" "0.15pF"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 125°C"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "8-UDFN"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "3.30mm x 1.00mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "ESD7016MUTAG"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "ESD7016MUTAGOSCT-ND"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "footprint:UDFN8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ESD Diodes/ESD_DIODE_00001_0_1"
+				(rectangle
+					(start 0 0)
+					(end 6.35 -25.4)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD Diodes/ESD_DIODE_00001_1_1"
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "I/O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -11.43 0)
+					(length 2.54)
+					(name "I/O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "I/O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -16.51 0)
+					(length 2.54)
+					(name "I/O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -21.59 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 -24.13 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "KicadCompDb:Inductor/IND_00012"
 			(pin_numbers
 				(hide yes)
@@ -6489,17 +6911,6 @@
 		)
 		(uuid "98ceb898-3996-43c3-adea-b07122bb838f")
 	)
-	(text "Add ESD diodes"
-		(exclude_from_sim no)
-		(at 91.694 87.376 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 194 0 0 1)
-			)
-		)
-		(uuid "9f838a9f-62b0-4b48-8ebf-f2cfcf899b63")
-	)
 	(text "Value TBD"
 		(exclude_from_sim no)
 		(at 171.704 72.263 0)
@@ -6657,6 +7068,12 @@
 		(uuid "31ed42f3-821f-442d-b35c-0855cdb46a4c")
 	)
 	(junction
+		(at 52.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32686f1c-ebe6-44d5-a580-7ffc4f9ba1e1")
+	)
+	(junction
 		(at 36.195 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6675,12 +7092,6 @@
 		(uuid "4f7a77ed-8714-4d79-a3f3-fec3e76a39f9")
 	)
 	(junction
-		(at 50.8 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50b8457b-17b6-4a14-b305-13af507f33b2")
-	)
-	(junction
 		(at 117.475 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6691,6 +7102,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "551d266b-357e-4a1f-b45c-62d8917c8524")
+	)
+	(junction
+		(at 54.61 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd11e40-e7b2-4b09-a428-adff04b08632")
 	)
 	(junction
 		(at 122.555 114.3)
@@ -6741,10 +7158,22 @@
 		(uuid "98b874fa-7f49-4b04-a6eb-4e1d4975eec4")
 	)
 	(junction
+		(at 50.165 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d274c2a-1ea5-4e0c-bf59-3a52d65dd5e7")
+	)
+	(junction
 		(at 208.28 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e6d7213-072a-4ca3-9294-bda62fcc4b6f")
+	)
+	(junction
+		(at 57.785 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d5cf30-6c86-4454-ade9-59ec85416e9d")
 	)
 	(junction
 		(at 191.77 119.38)
@@ -6759,12 +7188,6 @@
 		(uuid "bad829c3-a340-4b9d-b55b-9f7d13a4dff1")
 	)
 	(junction
-		(at 50.8 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8af5dcc-aa31-42bc-960e-6c3eba93f2f5")
-	)
-	(junction
 		(at 95.25 104.775)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6775,6 +7198,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2b2a2c7-6c0e-447f-8cee-50b912bf258f")
+	)
+	(junction
+		(at 57.785 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7fad306-31df-4754-8f9b-2120b7cab8ef")
+	)
+	(junction
+		(at 57.785 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5de1af-f488-4d7d-bbae-736fee86387e")
+	)
+	(junction
+		(at 57.785 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9e1e9a5-7654-49c5-ae24-a41216040c1b")
 	)
 	(junction
 		(at 63.5 76.2)
@@ -6795,6 +7236,10 @@
 		(uuid "26044778-17a5-4db9-8ca4-47b47c18ed8a")
 	)
 	(no_connect
+		(at 57.785 93.98)
+		(uuid "2737eb2f-32d6-4b53-a1a0-62063fd9073b")
+	)
+	(no_connect
 		(at 24.765 106.68)
 		(uuid "2c70976c-c373-4450-a2bd-685925d02301")
 	)
@@ -6813,6 +7258,10 @@
 	(no_connect
 		(at 24.765 91.44)
 		(uuid "7293961c-8b60-4266-b7fc-da69eda67469")
+	)
+	(no_connect
+		(at 57.785 96.52)
+		(uuid "87c4da3b-462c-47c9-8c9b-6aaae72cc68b")
 	)
 	(no_connect
 		(at 24.765 99.06)
@@ -6872,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 88.9) (xy 50.8 88.9)
+			(xy 48.895 88.9) (xy 52.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6882,13 +7331,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 146.685) (xy 256.54 146.685)
+			(xy 50.165 99.06) (xy 50.165 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "022619e8-cd57-49c2-8dc8-8dd75712706e")
+		(uuid "02be29ec-53f6-4a13-9c18-c95251dec902")
 	)
 	(wire
 		(pts
@@ -6952,6 +7401,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.755 101.6) (xy 71.755 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e322774-f86f-4394-b40e-aad07cf23d58")
+	)
+	(wire
+		(pts
 			(xy 122.555 114.3) (xy 129.54 114.3)
 		)
 		(stroke
@@ -6982,6 +7441,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.755 149.225) (xy 256.54 149.225)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13377a6b-6783-4a2c-9d5b-f62d6d0bfb1a")
+	)
+	(wire
+		(pts
 			(xy 41.275 115.57) (xy 41.275 116.84)
 		)
 		(stroke
@@ -7002,7 +7471,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 96.52) (xy 50.8 96.52)
+			(xy 74.295 99.06) (xy 74.295 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c007d68-2fa8-4733-8b57-b03f22f84431")
+	)
+	(wire
+		(pts
+			(xy 48.895 96.52) (xy 50.165 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7072,6 +7551,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 109.22) (xy 54.61 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28536f5b-4096-4664-ac52-46f933427d4b")
+	)
+	(wire
+		(pts
 			(xy 99.06 113.665) (xy 99.06 114.935)
 		)
 		(stroke
@@ -7079,6 +7568,16 @@
 			(type default)
 		)
 		(uuid "2867c12a-0710-4cde-a41a-2c653d1a5cb3")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 54.61 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2894bc07-608e-44ff-a773-95aa604d4ac4")
 	)
 	(wire
 		(pts
@@ -7202,7 +7701,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 50.8 91.44)
+			(xy 52.07 88.9) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7219,6 +7718,16 @@
 			(type default)
 		)
 		(uuid "372aac70-c5d8-4e78-988d-a437c5c576f2")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 57.785 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3911d5bd-f794-4308-96c1-80e13a6a1ee4")
 	)
 	(wire
 		(pts
@@ -7292,7 +7801,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 99.06) (xy 50.8 99.06)
+			(xy 48.895 99.06) (xy 50.165 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7372,33 +7881,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 67.31 99.06)
+			(xy 52.07 99.06) (xy 57.785 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4d73be01-ee6f-4166-b79b-2e917a289d68")
-	)
-	(wire
-		(pts
-			(xy 67.31 149.225) (xy 256.54 149.225)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f4e6351-20ed-460f-be62-6a20132de0b4")
-	)
-	(wire
-		(pts
-			(xy 69.85 91.44) (xy 69.85 146.685)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50d5e44e-963e-4ada-936b-4c5fb33427db")
+		(uuid "4ec54e1c-9df9-4191-8245-b6aedb4e58f5")
 	)
 	(wire
 		(pts
@@ -7522,6 +8011,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 104.14) (xy 76.835 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ec62f71-5bb8-4430-9b70-b9dc2b371098")
+	)
+	(wire
+		(pts
 			(xy 76.835 88.9) (xy 137.16 88.9)
 		)
 		(stroke
@@ -7632,6 +8131,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.785 99.06) (xy 74.295 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803617a7-a914-4114-8d43-2d8617a9b677")
+	)
+	(wire
+		(pts
 			(xy 160.02 76.2) (xy 167.64 76.2)
 		)
 		(stroke
@@ -7649,6 +8158,16 @@
 			(type default)
 		)
 		(uuid "84586d67-b297-43f0-97d6-ffcb7c1b781d")
+	)
+	(wire
+		(pts
+			(xy 57.785 106.68) (xy 79.375 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870d69da-b3c4-4c3d-99f6-69eb92b12a13")
 	)
 	(wire
 		(pts
@@ -7702,6 +8221,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.165 101.6) (xy 57.785 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "942b1a34-da91-4277-904b-9efa608af7a6")
+	)
+	(wire
+		(pts
 			(xy 117.475 123.19) (xy 117.475 125.73)
 		)
 		(stroke
@@ -7722,7 +8251,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 91.44) (xy 50.8 91.44)
+			(xy 48.895 91.44) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7812,7 +8341,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 50.8 99.06)
+			(xy 74.295 146.685) (xy 256.54 146.685)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8815735-69d4-47d6-9cb0-703241b8c444")
+	)
+	(wire
+		(pts
+			(xy 50.165 96.52) (xy 50.165 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7842,7 +8381,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 106.68) (xy 79.375 106.68)
+			(xy 48.895 106.68) (xy 57.785 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7922,6 +8461,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 91.44) (xy 52.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b949367d-3cfd-4e8a-b429-e75d601a1bf2")
+	)
+	(wire
+		(pts
 			(xy 175.895 123.825) (xy 173.99 123.825)
 		)
 		(stroke
@@ -7939,16 +8488,6 @@
 			(type default)
 		)
 		(uuid "bb952e5c-2dfe-48b1-b9a0-bd9635345ce4")
-	)
-	(wire
-		(pts
-			(xy 50.8 91.44) (xy 69.85 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb25cf2-9c21-4a2d-a95f-365721c17fbf")
 	)
 	(wire
 		(pts
@@ -7989,16 +8528,6 @@
 			(type default)
 		)
 		(uuid "c440035b-490a-4806-b47e-0486377f1b9b")
-	)
-	(wire
-		(pts
-			(xy 67.31 99.06) (xy 67.31 149.225)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c77e82ca-0cfc-42e1-b77c-16e44ad9f17e")
 	)
 	(wire
 		(pts
@@ -8222,7 +8751,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.895 104.14) (xy 76.835 104.14)
+			(xy 57.785 101.6) (xy 71.755 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ade72a-ab35-4f62-af33-4b28e6f2217c")
+	)
+	(wire
+		(pts
+			(xy 48.895 104.14) (xy 57.785 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8419,6 +8958,16 @@
 			(type default)
 		)
 		(uuid "f8cd07c7-b5fd-4d7b-b4cd-ee8c86f6e45b")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 57.785 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa36ba5f-bc92-416e-8797-402ab4f46a5f")
 	)
 	(image
 		(at 147.955 51.943)
@@ -13171,6 +13720,83 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 54.61 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6bcb62a9-0ac3-4184-8270-bd5fda48a9aa")
+		(property "Reference" "#PWR06"
+			(at 54.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.483 127.889 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "011e35f3-4d56-42df-bfff-829a2e24b266")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 55.88 84.455 0)
 		(unit 1)
 		(body_style 1)
@@ -17373,6 +17999,265 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
 					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00001")
+		(at 60.325 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f95c6dd4-8b8c-4d76-919e-6919b2c31d96")
+		(property "Reference" "D26"
+			(at 61.468 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD7016MUTAG"
+			(at 56.642 118.364 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:UDFN8"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7016-d.pdf"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS DIODE 5VWM 10VC 8UDFN"
+			(at 60.325 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "ESD TVS SEXT SMT"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(r)" "5V"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(br)" "5.5V"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(cl)" "10V"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I(pp)" "1A"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "NA"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.15pF"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "8-UDFN"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "3.30mm x 1.00mm"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ESD7016MUTAG"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "ESD7016MUTAGOSCT-ND"
+			(at 60.325 90.17 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "da958ce0-7378-4a13-a8c0-c7f281fa5264")
+		)
+		(pin "1"
+			(uuid "cbced462-504d-4c9c-8ba0-186cd0dc17f2")
+		)
+		(pin "2"
+			(uuid "1dea87a9-2416-4dd7-88e2-547027ec54fe")
+		)
+		(pin "4"
+			(uuid "7b321368-955d-460f-a0c9-66fffd21bbc8")
+		)
+		(pin "5"
+			(uuid "e6480d6d-cd59-499e-901a-40d4f36d6a69")
+		)
+		(pin "7"
+			(uuid "83ed3f03-b991-43d8-ba24-a5ddfacd2e19")
+		)
+		(pin "6"
+			(uuid "0986c60e-835a-481f-b29f-4ab4c67d564a")
+		)
+		(pin "8"
+			(uuid "e08c4d14-1587-45c2-a238-7265be4eb0ac")
+		)
+		(pin "9"
+			(uuid "5efc6e07-2311-4165-8213-5507dde31fb3")
+		)
+		(pin "10"
+			(uuid "0e324ae6-6d53-4580-9dce-9151d708d78d")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/e7d38f96-19c4-4995-a877-8c1df288247f"
+					(reference "D26")
 					(unit 1)
 				)
 			)
