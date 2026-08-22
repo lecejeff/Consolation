@@ -1340,6 +1340,59 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 2.032 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD7351HT1G"
+				(at 1.524 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SOD-323"
+				(at 0.508 -22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TVS DIODE 3.3VWM SOD323"
+				(at 1.778 -9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Capacitance" "0.6pF"
 				(at 0 0 0)
 				(show_name yes)
@@ -1409,59 +1462,6 @@
 			(property "Type" "ESD TVS 3V3"
 				(at 0 0 0)
 				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Reference" "D"
-				(at 2.032 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD7351HT1G"
-				(at 1.524 -1.524 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:SOD-323"
-				(at 0.508 -22.098 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "TVS DIODE 3.3VWM SOD323"
-				(at 1.778 -9.906 0)
-				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -11233,16 +11233,6 @@
 				(justify left top)
 			)
 		)
-		(pin "USB_RP2350{USB2}" bidirectional
-			(at 44.45 45.72 0)
-			(uuid "3996fbf8-ab8d-4188-96db-d3ee60797ee1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "I2C2{I2C}" bidirectional
 			(at 44.45 76.835 0)
 			(uuid "695e0af9-40f8-4ea6-879f-7cd92f49065a")
@@ -11306,6 +11296,16 @@
 		(pin "RP2350_SW_RESET" input
 			(at 44.45 71.755 0)
 			(uuid "27264d48-bac9-4aea-807b-1033fb6cd598")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB2_RP2350{USB2}" bidirectional
+			(at 44.45 45.72 0)
+			(uuid "ba260770-cdf7-40b4-80d0-190006ff85e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11678,16 +11678,6 @@
 				(justify left)
 			)
 		)
-		(pin "RP2350_USB_VBUS" output
-			(at 127 50.8 180)
-			(uuid "96ae9272-99c4-49f8-8a29-6bb42d6a5646")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "USB_PROG_OTG_ID" output
 			(at 127 53.34 180)
 			(uuid "3092692d-04f6-43a1-b7b2-ceb436c77b6b")
@@ -11701,6 +11691,16 @@
 		(pin "USB2_DOCK{USB2}" bidirectional
 			(at 127 40.64 180)
 			(uuid "384850f4-42bb-468e-8121-20671b2a7742")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RP2350_VBUS" output
+			(at 127 50.8 180)
+			(uuid "62ff8434-66cd-45a6-9058-36885b6be7c1")
 			(effects
 				(font
 					(size 1.27 1.27)

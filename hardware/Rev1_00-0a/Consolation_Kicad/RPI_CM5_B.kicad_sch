@@ -7060,7 +7060,7 @@
 		)
 		(uuid "7fe362d3-e80c-4d8f-95b5-aede66a42a14")
 	)
-	(hierarchical_label "RP2350_USB_VBUS"
+	(hierarchical_label "RP2350_VBUS"
 		(shape output)
 		(at 66.04 36.195 180)
 		(effects

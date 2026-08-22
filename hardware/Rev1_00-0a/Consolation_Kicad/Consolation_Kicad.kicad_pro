@@ -124,7 +124,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
@@ -479,7 +479,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -490,10 +490,10 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.127,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -690,6 +690,12 @@
         "DP_90R"
       ],
       "/CONTROLLER/CM5_USB3_1.USB_P": [
+        "DP_90R"
+      ],
+      "/CONTROLLER/USB_N": [
+        "DP_90R"
+      ],
+      "/CONTROLLER/USB_P": [
         "DP_90R"
       ],
       "/DSI TO LVDS/DSI1.CLK_N": [
@@ -1325,7 +1331,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "R121,R124,R136,R142,R181,R185-203,D1,D19-20,D23-29,D31,#PWR6,#PWR48-51,#PWR214-217,#PWR219,#PWR223-225,#PWR252-256,#PWR286,#PWR288-294,#PWR388-391",
+    "used_designators": "R13-14,R204,C45-46",
     "variants": []
   },
   "sheets": [
