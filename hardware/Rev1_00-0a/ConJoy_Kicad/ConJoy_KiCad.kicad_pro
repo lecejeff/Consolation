@@ -54,7 +54,56 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "holes_co_located|124327727|146672272|1c95bba3-e688-4dea-9ca1-a8af10fc8a12|2fa44e2d-948f-46c0-b938-eeb6207b2079",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "holes_co_located|124327728|96327728|0d6b8a36-b92c-406d-a8ac-6975ec7a91b4|17cda23e-7d02-4bd8-9883-aedc6f8b38cb",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "holes_co_located|126272271|144727728|6f264637-63e8-4f99-bb50-9bc653659117|ed5cf949-36d3-4b26-95c0-495b335d476b",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "holes_co_located|126272272|98272272|36ad4295-31c4-4c20-b293-4c4b1da047b1|c7be911f-ede2-47ed-b738-cf8aa5c75700",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|124327727|146672272|1c95bba3-e688-4dea-9ca1-a8af10fc8a12|d3265158-132e-446f-8e19-012d299b9b63",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|124327728|146672272|2fa44e2d-948f-46c0-b938-eeb6207b2079|0179b242-8836-4035-a652-b2ac40283d5c",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|124327728|96327728|0d6b8a36-b92c-406d-a8ac-6975ec7a91b4|cca5fda2-21b3-4d08-982f-f74194e43e1a",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|124327728|96327728|17cda23e-7d02-4bd8-9883-aedc6f8b38cb|ddc4d9be-561b-4658-a085-daafeeefc362",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|126272271|144727728|ed5cf949-36d3-4b26-95c0-495b335d476b|d3265158-132e-446f-8e19-012d299b9b63",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|126272272|144727728|6f264637-63e8-4f99-bb50-9bc653659117|0179b242-8836-4035-a652-b2ac40283d5c",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|126272272|98272272|36ad4295-31c4-4c20-b293-4c4b1da047b1|cca5fda2-21b3-4d08-982f-f74194e43e1a",
+          "Overlapping footprint allowed for triggers"
+        ],
+        [
+          "npth_inside_courtyard|126272272|98272272|c7be911f-ede2-47ed-b738-cf8aa5c75700|ddc4d9be-561b-4658-a085-daafeeefc362",
+          "Overlapping footprint allowed for triggers"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -841,7 +890,7 @@
         "uuid": "6e11427c-7ebb-4670-a9a1-99a8ba00a979"
       }
     ],
-    "used_designators": "D1,FID1-7,J3,J5",
+    "used_designators": "#PWR11-12,D1,FID1-7,J3,J5,C3,S7,S10",
     "variants": [
       {
         "description": "Assembly option for left controller",

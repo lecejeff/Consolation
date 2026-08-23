@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ConJoy [Console Joystick]")
-		(date "2026-08-15")
+		(date "2026-08-23")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3714,6 +3714,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 49.53) (xy 187.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bdfb8f-fb7a-497c-9607-9f50539e9a5c")
+	)
+	(wire
+		(pts
 			(xy 92.71 122.555) (xy 92.71 125.095)
 		)
 		(stroke
@@ -3981,6 +3991,16 @@
 			(type default)
 		)
 		(uuid "7179f647-6886-40de-9eb2-29cf345ade05")
+	)
+	(wire
+		(pts
+			(xy 187.96 57.15) (xy 187.96 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72674e6b-c768-4afe-9ade-422f7d82ae10")
 	)
 	(wire
 		(pts
@@ -9629,6 +9649,88 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad_Pwr_Symbols:+3V3")
+		(at 187.96 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1d041161-d462-47a0-97de-778d4b7d5d00")
+		(property "Reference" "#PWR011"
+			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 189.738 46.101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 187.96 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93dfd16f-78bf-412e-96e7-b66c8ff46d61")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "#PWR011")
+					(unit 1)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Miscellaneous/MISC_00015")
 		(at 97.155 125.095 0)
 		(unit 1)
@@ -9915,7 +10017,7 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Miscellaneous/MISC_00015")
+		(lib_id "KicadCompDb:Miscellaneous/MISC_00016")
 		(at 97.155 147.955 0)
 		(unit 1)
 		(body_style 1)
@@ -9924,9 +10026,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "27a69a6c-3388-42f7-8b72-ac4e3621e46a")
+		(uuid "23f61e5c-d171-41d8-8b7c-b69eb040f99c")
 		(property "Reference" "S10"
-			(at 99.314 145.923 0)
+			(at 99.441 145.923 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9935,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Value" "EVQ-Q2P03W"
+		(property "Value" "TL1014BF160QG"
 			(at 99.06 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -9946,7 +10048,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:EVQQ2"
+		(property "Footprint" "footprint:TL1014B"
 			(at 97.663 170.053 0)
 			(hide yes)
 			(show_name no)
@@ -9957,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL1014.pdf"
 			(at 97.155 147.955 0)
 			(hide yes)
 			(show_name no)
@@ -9968,7 +10070,7 @@
 				)
 			)
 		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.02A 15V"
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 			(at 98.933 157.861 0)
 			(hide yes)
 			(show_name no)
@@ -9979,7 +10081,7 @@
 				)
 			)
 		)
-		(property "Dimensions" "6.5mm x 6.0mm x 3.1mm"
+		(property "Dimensions" "6.40mm x 4.50mm x 1.65mm"
 			(at 97.155 147.955 0)
 			(hide yes)
 			(show_name yes)
@@ -10034,7 +10136,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Panasonic Industry"
+		(property "Manufacturer" "E-Switch"
 			(at 97.409 166.243 0)
 			(hide yes)
 			(show_name no)
@@ -10045,8 +10147,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "EVQ-Q2P03W"
-			(at 107.442 146.939 0)
+		(property "Manufacturer Part Number" "TL1014BF160QG"
+			(at 108.712 146.939 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10066,7 +10168,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "P12949SCT-ND"
+		(property "Distributor Part Number" "EG5042CT-ND"
 			(at 97.917 160.147 0)
 			(hide yes)
 			(show_name no)
@@ -10100,10 +10202,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5aa813e8-0e61-4db2-8e52-b772744935ec")
+			(uuid "98ffdfc0-652e-47b9-987a-9e2aa4c10b80")
 		)
 		(pin "2"
-			(uuid "8e6e903e-1c79-4bb6-8a24-cd8b533fa7ae")
+			(uuid "43ff0917-8172-4df1-8bef-40c191f6acc0")
 		)
 		(instances
 			(project "ConJoy_KiCad"
@@ -10842,6 +10944,215 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00002")
+		(at 187.96 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5457452e-f2c1-46a0-bdd5-459c009dd85f")
+		(property "Reference" "C3"
+			(at 189.103 52.832 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 189.103 54.61 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprint:CAP_NONPOL_0805"
+			(at 210.058 56.642 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 1UF 50V X7R 0805"
+			(at 197.866 55.372 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 208.28 56.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 202.184 56.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 189.103 56.388 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 212.344 56.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 188.976 55.753 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 206.248 56.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+			(at 195.834 56.896 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 193.802 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-1886-1-ND"
+			(at 200.152 56.388 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "CER SMT"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "2.00mm x 1.25mm"
+			(at 187.96 57.15 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e17e6f26-3895-43ae-9bce-0786aa28c8d0")
+		)
+		(pin "2"
+			(uuid "22041d2b-c30d-48fe-bc75-8674ee541afc")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "C3")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+					)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Diodes/DIODE_00001")
 		(at 200.66 83.82 270)
 		(unit 1)
@@ -11429,6 +11740,214 @@
 					)
 					(variant
 						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Miscellaneous/MISC_00016")
+		(at 97.155 132.715 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "76097383-b5f0-4824-91ff-3e0910cdd278")
+		(property "Reference" "S7"
+			(at 99.441 130.683 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TL1014BF160QG"
+			(at 99.06 128.905 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprint:TL1014B"
+			(at 97.663 154.813 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://configured-product-images.s3.amazonaws.com/Datasheets/TL1014.pdf"
+			(at 97.155 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
+			(at 98.933 142.621 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "6.40mm x 4.50mm x 1.65mm"
+			(at 97.155 132.715 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SWITCH TACTILE SPST"
+			(at 97.155 132.715 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 97.409 153.035 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 97.409 146.939 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "CUSTOM"
+			(at 97.155 148.971 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 97.409 151.003 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TL1014BF160QG"
+			(at 108.712 131.699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 97.155 138.557 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "EG5042CT-ND"
+			(at 97.917 144.907 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" ""
+			(at 97.155 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-40°C ~ 85°C"
+			(at 97.917 157.099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29617217-1e80-4f17-9682-2ee976449088")
+		)
+		(pin "2"
+			(uuid "8c880579-aa70-455d-93d0-4618b3e8ba86")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "S7")
+					(unit 1)
+					(variant
+						(name "Left Controller")
+						(in_pos_files no)
+					)
+					(variant
+						(name "Right Controller")
+						(dnp yes)
 					)
 				)
 			)
@@ -14140,214 +14659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Miscellaneous/MISC_00015")
-		(at 97.155 132.715 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e43386b5-388e-48b1-8ce0-bb8169fb51fc")
-		(property "Reference" "S7"
-			(at 99.314 130.683 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EVQ-Q2P03W"
-			(at 99.06 128.905 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:EVQQ2"
-			(at 97.663 154.813 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_6s_th.pdf"
-			(at 97.155 132.715 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SWITCH TACTILE SPST-NO 0.02A 15V"
-			(at 98.933 142.621 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "6.5mm x 6.0mm x 3.1mm"
-			(at 97.155 132.715 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SWITCH TACTILE SPST"
-			(at 97.155 132.715 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 97.409 153.035 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" ""
-			(at 97.409 146.939 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "CUSTOM"
-			(at 97.155 148.971 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Panasonic Industry"
-			(at 97.409 151.003 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "EVQ-Q2P03W"
-			(at 107.442 131.699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 97.155 138.557 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "P12949SCT-ND"
-			(at 97.917 144.907 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Temperature Coefficient" ""
-			(at 97.155 132.715 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-40°C ~ 85°C"
-			(at 97.917 157.099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "564357e1-77a7-4901-8bf9-4b405c194b6c")
-		)
-		(pin "2"
-			(uuid "c4d41380-3f2b-4f53-ba6e-82e8e05f2efc")
-		)
-		(instances
-			(project "ConJoy_KiCad"
-				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
-					(reference "S7")
-					(unit 1)
-					(variant
-						(name "Left Controller")
-						(in_pos_files no)
-					)
-					(variant
-						(name "Right Controller")
-						(dnp yes)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Connector/CONN_00027")
 		(at 134.62 90.805 0)
 		(mirror y)
@@ -14847,6 +15158,87 @@
 					(variant
 						(name "Left Controller")
 					)
+					(variant
+						(name "Right Controller")
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 187.96 59.69 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f8d10ed0-f23b-43f7-8dce-a5d1f3274198")
+		(property "Reference" "#PWR012"
+			(at 187.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 63.373 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "346f134f-6c03-49ef-9155-a329ffd00f75")
+		)
+		(instances
+			(project "ConJoy_KiCad"
+				(path "/6e11427c-7ebb-4670-a9a1-99a8ba00a979"
+					(reference "#PWR012")
+					(unit 1)
 					(variant
 						(name "Right Controller")
 					)

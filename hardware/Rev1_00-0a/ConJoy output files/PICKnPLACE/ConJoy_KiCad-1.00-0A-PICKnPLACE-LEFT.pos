@@ -1,15 +1,16 @@
-### Footprint positions - created on 2026-08-16T20:55:28 ###
+### Footprint positions - created on 2026-08-23T10:18:20 ###
 ### Printed by KiCad version 10.0.0
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val             Package                PosX       PosY       Rot  Side
 C1        1u              CAP_NONPOL_0805    151.2500  -127.4000   90.0000  bottom
 C2        0.1u            CAP_NONPOL_0402    153.0759  -127.2349   90.0000  bottom
+C3        1u              CAP_NONPOL_0805    123.4500  -129.4000    0.0000  bottom
 D1        MMSZ5226B-7-F   SOD-123            149.2000  -128.3500  -90.0000  bottom
 J2        0532610271      0532610271         155.5000  -131.7000    0.0000  bottom
 J3        SFV5R-1STE1HLF  SFV5R-1ST          125.3500  -124.5000    0.0000  bottom
 J4        5051102291      5051102291         157.0125  -121.5000  -90.0000  bottom
-S7        EVQ-Q2P03W      EVQQ2              124.2000  -107.6000  -90.0000  bottom
+S7        TL1014BF160QG   TL1014B            125.3000   -97.3000   45.0000  bottom
 S1        EVQ-Q2P03W      EVQQ2              138.5000  -128.5000  -90.0000  top
 S2        EVQ-Q2P03W      EVQQ2              138.5000  -144.5000  -90.0000  top
 S3        EVQ-Q2P03W      EVQQ2              130.5000  -136.5000  -90.0000  top

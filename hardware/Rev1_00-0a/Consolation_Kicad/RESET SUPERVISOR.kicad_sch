@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-08")
+		(date "2026-08-23")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -10528,7 +10528,7 @@
 			)
 		)
 		(property "Value" "STM6710DWB6F"
-			(at 112.395 76.454 0)
+			(at 112.268 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
