@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-23")
+		(date "2026-08-29")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4274,17 +4274,6 @@
 		)
 		(uuid "590bb432-c016-4d4e-9c1c-4bc6129ebfbf")
 	)
-	(text "1x 0.1u and 1x 10u per pin"
-		(exclude_from_sim no)
-		(at 198.247 77.597 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "6a34835a-768c-4a87-97c9-12c70cb7c7cb")
-	)
 	(text "I2C2 PU Pop'd at DSI bridge"
 		(exclude_from_sim no)
 		(at 104.14 89.154 0)
@@ -4300,7 +4289,7 @@
 		(at 201.295 75.565)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "07268877-69fd-4f10-8ff4-b54e73232904")
+		(uuid "06b9660f-b247-4946-8765-ec528991f7ca")
 	)
 	(junction
 		(at 208.28 67.945)
@@ -4309,16 +4298,16 @@
 		(uuid "0ee2c4c3-02ce-4303-a763-5bb0e1886cf9")
 	)
 	(junction
+		(at 215.265 67.945)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "138470cc-45ca-407d-b0be-479dc1a96a7b")
+	)
+	(junction
 		(at 193.675 67.945)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c108d66-28a1-4b8a-b087-6483d27a44e5")
-	)
-	(junction
-		(at 208.28 75.565)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "376f8282-d020-43b4-8721-f5edcb947b0b")
 	)
 	(junction
 		(at 208.28 102.235)
@@ -4375,6 +4364,18 @@
 		(uuid "65fad1d0-8cde-457a-9201-9cad51d06391")
 	)
 	(junction
+		(at 200.66 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f88bf2b-62c9-485e-9775-59aaa3b51fff")
+	)
+	(junction
+		(at 215.265 75.565)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b59a648-d9bc-4fc3-bd04-fb4d106b755f")
+	)
+	(junction
 		(at 163.83 67.945)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4417,18 +4418,6 @@
 		(uuid "a271b75a-96ae-4983-a2dd-e7ba3bfa6246")
 	)
 	(junction
-		(at 215.265 67.945)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab41328d-6b3b-46cd-9c36-e05a8477d8ab")
-	)
-	(junction
-		(at 222.25 67.945)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba856a5b-e30b-46a6-b5a0-09759b9bbf74")
-	)
-	(junction
 		(at 208.28 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4447,22 +4436,16 @@
 		(uuid "d02156df-db83-4385-91f6-cabb70bab20f")
 	)
 	(junction
-		(at 222.25 75.565)
+		(at 208.28 75.565)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6827ee6-7dc5-4863-8971-6f70521ee541")
+		(uuid "dbfc15e4-b0f8-4ec5-9aeb-f4cdb69699e3")
 	)
 	(junction
 		(at 173.355 78.105)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecac55e1-ea5b-46bd-8c12-bfed7c2a8a31")
-	)
-	(junction
-		(at 215.265 75.565)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f482d776-e495-4c11-899a-ea27778265a5")
 	)
 	(junction
 		(at 186.055 75.565)
@@ -4618,6 +4601,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 97.79) (xy 200.66 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1c6315-4cbf-4caa-9fbe-1ff6a8a40ac6")
+	)
+	(wire
+		(pts
 			(xy 244.475 88.265) (xy 244.475 89.535)
 		)
 		(stroke
@@ -4665,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "17e6ad3c-d965-4be8-add7-bd641c9bdb14")
-	)
-	(wire
-		(pts
-			(xy 201.295 75.565) (xy 222.25 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "183ec763-4070-4511-a900-a8cd991ed3c0")
 	)
 	(wire
 		(pts
@@ -4778,6 +4761,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.295 75.565) (xy 208.28 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27b80b80-9603-4eb4-8349-167876d4bb4d")
+	)
+	(wire
+		(pts
 			(xy 213.36 107.315) (xy 213.36 109.22)
 		)
 		(stroke
@@ -4815,6 +4808,16 @@
 			(type default)
 		)
 		(uuid "2e3e99a8-b962-40b8-b193-779101a90297")
+	)
+	(wire
+		(pts
+			(xy 200.66 115.57) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32065d2c-6310-49a6-b491-18f225b0175d")
 	)
 	(wire
 		(pts
@@ -4948,6 +4951,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.265 75.565) (xy 215.265 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf5111b-0b69-4f18-bb14-2814cf967241")
+	)
+	(wire
+		(pts
 			(xy 193.675 67.945) (xy 201.295 67.945)
 		)
 		(stroke
@@ -5028,7 +5041,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.265 75.565) (xy 215.265 74.295)
+			(xy 215.265 74.295) (xy 215.265 75.565)
 		)
 		(stroke
 			(width 0)
@@ -5178,6 +5191,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 75.565) (xy 215.265 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8167bf7d-0855-45dc-b6b8-f49a2d03070a")
+	)
+	(wire
+		(pts
 			(xy 66.675 67.945) (xy 67.945 67.945)
 		)
 		(stroke
@@ -5268,6 +5291,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 97.79) (xy 219.075 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95997627-96f2-42c8-a1dd-b52d30161065")
+	)
+	(wire
+		(pts
 			(xy 87.63 95.885) (xy 129.54 95.885)
 		)
 		(stroke
@@ -5275,16 +5308,6 @@
 			(type default)
 		)
 		(uuid "99fe4b74-ca1b-4f97-aa36-2760afac3545")
-	)
-	(wire
-		(pts
-			(xy 222.25 74.295) (xy 222.25 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a7f3de6-2ba1-4195-83b6-20e9824d53a1")
 	)
 	(wire
 		(pts
@@ -5338,6 +5361,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.265 66.675) (xy 215.265 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12af135-5da2-442e-9f2d-018c3c8708af")
+	)
+	(wire
+		(pts
 			(xy 244.475 97.79) (xy 244.475 104.775)
 		)
 		(stroke
@@ -5385,16 +5418,6 @@
 			(type default)
 		)
 		(uuid "a732f5dc-eb6d-466e-9954-4f63f07e766c")
-	)
-	(wire
-		(pts
-			(xy 222.25 75.565) (xy 222.25 76.835)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a909da02-53da-4407-ac82-6a84ea8fcdfa")
 	)
 	(wire
 		(pts
@@ -5468,7 +5491,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.275 97.79) (xy 219.075 97.79)
+			(xy 168.275 97.79) (xy 200.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5495,16 +5518,6 @@
 			(type default)
 		)
 		(uuid "bfcdcbee-16dd-4f42-86b3-3876ddd270df")
-	)
-	(wire
-		(pts
-			(xy 222.25 66.04) (xy 222.25 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c193f9c7-32b5-49ba-9593-9d27a3f3bf6b")
 	)
 	(wire
 		(pts
@@ -5758,16 +5771,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 67.945) (xy 222.25 69.215)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e706eb32-ff3d-4b57-910a-0060c555e7ce")
-	)
-	(wire
-		(pts
 			(xy 195.58 106.045) (xy 195.58 107.315)
 		)
 		(stroke
@@ -5825,16 +5828,6 @@
 			(type default)
 		)
 		(uuid "fc4ec6d7-0ac0-4b6c-9483-871818c5ec95")
-	)
-	(wire
-		(pts
-			(xy 215.265 67.945) (xy 222.25 67.945)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff8b50b8-9cd6-4341-8c2a-7be13af24785")
 	)
 	(wire
 		(pts
@@ -6023,7 +6016,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 222.25 76.835 0)
+		(at 215.265 76.835 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6033,7 +6026,7 @@
 		(dnp no)
 		(uuid "046dd3df-1a94-4ce4-a178-d0ae19e10a6a")
 		(property "Reference" "#PWR0339"
-			(at 222.25 83.185 0)
+			(at 215.265 83.185 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6044,7 +6037,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.25 80.518 0)
+			(at 215.265 80.518 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6054,7 +6047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 76.835 0)
+			(at 215.265 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 76.835 0)
+			(at 215.265 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6076,7 +6069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 222.25 76.835 0)
+			(at 215.265 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6295,208 +6288,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "C223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00004")
-		(at 222.25 74.295 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0ea31deb-5907-4440-9145-4843401bd807")
-		(property "Reference" "C216"
-			(at 223.139 69.342 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 223.266 70.993 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprint:CAP_NONPOL_0805"
-			(at 244.348 73.787 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf"
-			(at 222.25 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 10UF 16V X5R 0805"
-			(at 232.156 72.517 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±10%"
-			(at 242.57 74.041 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 236.474 74.041 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 223.266 74.549 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 85°C"
-			(at 246.634 73.533 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "16V"
-			(at 223.266 72.771 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 240.538 74.041 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL21A106KOQNNNE"
-			(at 230.124 74.041 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 228.092 74.295 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "1276-1096-1-ND"
-			(at 234.442 73.533 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "CER SMT"
-			(at 222.25 74.295 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "2.00mm x 1.25mm"
-			(at 222.25 74.295 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "75ac6162-8e09-46bd-8a28-102a3e4e28a2")
-		)
-		(pin "1"
-			(uuid "65e46269-8111-4612-8464-557250935694")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
-					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -8585,6 +8376,83 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 200.66 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "579c85ae-900e-410e-8a43-c87bba6b8fae")
+		(property "Reference" "#PWR0392"
+			(at 200.66 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 120.396 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b98796a2-5666-406d-878d-fd42f224e226")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "#PWR0392")
 					(unit 1)
 				)
 			)
@@ -10925,6 +10793,7 @@
 		)
 		(property "Value" "ESD7351HT1G"
 			(at 206.375 113.6649 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12126,7 +11995,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:+3V3")
-		(at 222.25 66.04 0)
+		(at 215.265 66.675 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12137,7 +12006,7 @@
 		(dnp no)
 		(uuid "cbe1352c-1b86-49b1-b11b-e010d40ef7ae")
 		(property "Reference" "#PWR0349"
-			(at 222.25 69.85 0)
+			(at 215.265 70.485 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +12017,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 224.028 62.611 0)
+			(at 217.043 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12159,7 +12028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 222.25 66.04 0)
+			(at 215.265 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12170,7 +12039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 66.04 0)
+			(at 215.265 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12181,7 +12050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 222.25 66.04 0)
+			(at 215.265 66.675 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,6 +12267,297 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "R276")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00006")
+		(at 200.66 110.49 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbd9e35b-5aa2-47c1-90fe-a0c884b05464")
+		(property "Reference" "D28"
+			(at 198.755 111.1249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD7351HT1G"
+			(at 198.755 113.6649 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOD-323"
+			(at 222.758 110.998 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM SOD323"
+			(at 210.566 112.268 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.6pF"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "2.50mm x 1.25mm"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(r)" "3.3V"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I(pp)" "3A"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(br)" "5V"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(cl)" "8.0V"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "ESD TVS 3V3"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(f)" ""
+			(at 220.98 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(z)" ""
+			(at 214.884 110.744 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 216.916 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.15W"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Impedance" ""
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Leakage Current" ""
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 150°C"
+			(at 225.044 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 200.66 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 218.948 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ESD7351HT1G"
+			(at 208.534 110.744 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 206.502 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "ESD7351HT1GOSCT-ND"
+			(at 212.852 111.252 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6df297b-9e36-4eb8-9bc5-0520d065be9d")
+		)
+		(pin "2"
+			(uuid "85329e0b-da83-47c2-bac8-9b2cdf4b2e6d")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "D28")
 					(unit 1)
 				)
 			)

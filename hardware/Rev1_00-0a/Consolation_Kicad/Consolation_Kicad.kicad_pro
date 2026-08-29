@@ -795,6 +795,9 @@
       "/HDMI/HDMI0.D2_P": [
         "DP_100R"
       ],
+      "/RESET SUPERVISOR/PWG": [
+        "CRITICAL"
+      ],
       "/RPI_CM5_A/ETH_P0_N": [
         "DP_100R"
       ],
@@ -1348,7 +1351,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "R13-14,R119,R204,C45-47,#PWR48,D27",
+    "used_designators": "#PWR124,#PWR295,#PWR330,#PWR392,D28,R95-96,R205-207,R213-215,R272",
     "variants": []
   },
   "sheets": [

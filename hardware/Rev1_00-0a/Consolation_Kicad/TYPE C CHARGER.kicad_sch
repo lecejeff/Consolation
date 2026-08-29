@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-23")
+		(date "2026-08-29")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -14704,7 +14704,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ad0b1834-823e-465f-af8e-263f0f2f0083")
 		(property "Reference" "R104"
 			(at 215.646 88.265 90)
@@ -17344,7 +17344,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8f13edf-703d-4b4f-b42c-cd4fb168d65d")
 		(property "Reference" "R105"
 			(at 207.391 88.265 90)
