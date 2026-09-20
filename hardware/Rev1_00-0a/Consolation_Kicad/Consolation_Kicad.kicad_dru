@@ -1,27 +1,27 @@
 (version 1)
 #### Differential pairs begin ####
-# Inner differential pair rule for DP_90R net class based on 6-layer stackup from NextPCB 06161HA2-7628H
+# Inner differential pair rule for DP_90R net class based on 6-layer stackup from NextPCB 061611A3-7628H (1oz/1oz)
 (rule dp_inner_90R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.1778mm))
+	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1651mm))
 	(constraint diff_pair_uncoupled (max 15mm))
-	(constraint track_width (min 0.127mm)(opt 0.2032mm))
+	(constraint track_width (min 0.1016mm)(opt 0.1651mm))
 	(constraint skew (opt 0.25mm))
-	(constraint clearance (min 0.05mm))
+	(constraint clearance (min 0.1016mm))
 )
 
-# Inner differential pair rule for DP_100R net class based on 6-layer stackup from NextPCB 06161HA2-7628H
+# Inner differential pair rule for DP_100R net class based on 6-layer stackup from NextPCB 061611A3-7628H (1oz/1oz)
 (rule dp_inner_100R
 	(layer inner)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.1788mm))
+	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1925mm))
 	(constraint diff_pair_uncoupled (max 15mm))
-	(constraint track_width (min 0.127mm)(opt 0.2275mm))
+	(constraint track_width (min 0.1016mm)(opt 0.1377mm))
 	(constraint skew (opt 0.25mm))
-	(constraint clearance (min 0.05mm))
+	(constraint clearance (min 0.1016mm))
 )
 
 (rule dp_inner_polypour_to_via_clearance
@@ -36,26 +36,26 @@
 	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
 )
 
-# Outer differential pair rule for DP_90R net class based on 6-layer stackup from NextPCB 06161HA2-7628H
+# Outer differential pair rule for DP_90R net class based on 6-layer stackup from NextPCB 061611A3-7628H (1oz/1oz)
 (rule dp_outer_90R
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_90R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.1328mm))
+	(constraint diff_pair_gap (min 0.1016mm)(opt 0.113mm))
 	(constraint diff_pair_uncoupled (max 15mm))
-	(constraint track_width (min 0.127mm)(opt 0.2481mm))
+	(constraint track_width (min 0.1016mm)(opt 0.2172mm))
 	(constraint skew (opt 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
 
-# Outer differential pair rule for DP_100R net class based on 6-layer stackup from NextPCB 06161HA2-7628H
+# Outer differential pair rule for DP_100R net class based on 6-layer stackup from NextPCB 061611A3-7628H (1oz/1oz)
 (rule dp_outer_100R
 	(layer outer)
 	(condition "A.inDiffPair('*')")
 	(condition "A.hasNetclass('DP_100R')")
-	(constraint diff_pair_gap (min 0.1mm)(opt 0.1775mm))
+	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1407mm))
 	(constraint diff_pair_uncoupled (max 15mm))
-	(constraint track_width (min 0.127mm)(opt 0.2288mm))
+	(constraint track_width (min 0.1016mm)(opt 0.1895mm))
 	(constraint skew (opt 0.25mm))
 	(constraint clearance (min 0.05mm))
 )
@@ -72,8 +72,49 @@
 	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
 )
 
-# Rule length matching SDIO signals
+# SDIO rules
 (rule length_match_sdio
 	(constraint length (min 49mm)(max 51mm))
 	(condition "A.NetClass == 'SDIO'")
+)
+
+(rule track_width_sdio_outer
+	(layer outer)
+	(constraint track_width (min 0.254mm)(opt 0.381mm))
+	(condition "A.NetClass == 'SDIO'")
+)
+
+(rule track_width_sdio_inner
+	(layer inner)
+	(constraint track_width (min 0.1778mm)(opt 0.2092mm))
+	(condition "A.NetClass == 'SDIO'")
+)
+
+# Electrical clearance via to zone
+(rule zone_to_via_default_clearance
+	(condition "A.Type == 'Zone' && B.Type == 'Via' && !B.inDiffPair('*')")
+	(constraint clearance (min 0.2mm)(opt 0.2mm))
+)
+
+(rule no_connect_clearance
+	(condition "A.Type == 'Pad' && A.Pin_Type == 'unconnected'")
+	(constraint clearance (min 0.05mm))
+)
+
+(rule polygon_to_polygon_clearance
+	(condition "A.Type == 'Zone' && !A.hasNetclass('CGND') && !A.hasNetclass('GND')")
+	(condition "B.Type == 'Zone' && !B.hasNetclass('GND') && !B.hasNetclass('CGND')")
+	(constraint clearance (min 0.2mm))
+)
+
+(rule polygon_to_no_connect_clearance
+	(condition "A.Type == 'Zone' && B.Pin_Type == 'unconnected' && !B.hasComponentClass('FIDUCIALS')")
+	(constraint clearance (min 0.35mm))
+)
+
+## Rule to allow components under RPI CMx module ##
+(rule ITEM1_courtyard_overlap
+	(severity exclusion)
+	(constraint courtyard_clearance)
+	(condition "A.Reference == 'ITEM1' && B.Reference == '*'")
 )

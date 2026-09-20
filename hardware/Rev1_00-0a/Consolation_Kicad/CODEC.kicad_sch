@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-08-29")
+		(date "2026-09-20")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4262,6 +4262,213 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KicadCompDb:Test Point/TP_00004"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0.635 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Value" "75 mils"
+				(at 0.635 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" "footprint:SMT_TP_75_MILS"
+				(at 0 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "NA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMT TP 75 mils"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "75 mils"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "NA"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "footprint:SMT_TP_75_MILS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Test Point/TP_00004_0_1"
+				(circle
+					(center 0.635 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Test Point/TP_00004_1_1"
+				(text "75\nmil"
+					(at 0.635 0 0)
+					(effects
+						(font
+							(size 0.254 0.254)
+							(color 0 0 255 1)
+						)
+					)
+				)
+				(pin input line
+					(at -1.27 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
@@ -4310,6 +4517,12 @@
 		(uuid "1c108d66-28a1-4b8a-b087-6483d27a44e5")
 	)
 	(junction
+		(at 102.235 73.025)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32cac1c5-e7aa-4004-97a2-9a998e4b23cd")
+	)
+	(junction
 		(at 208.28 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4352,6 +4565,12 @@
 		(uuid "5258259e-4fab-402e-b52e-bf96f4587a70")
 	)
 	(junction
+		(at 104.14 75.565)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "572cdb87-86ef-48b1-a083-0c2fe8c2c9ba")
+	)
+	(junction
 		(at 229.235 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4370,6 +4589,18 @@
 		(uuid "6f88bf2b-62c9-485e-9775-59aaa3b51fff")
 	)
 	(junction
+		(at 241.3 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fc5a177-878f-4da0-817a-7254124cef42")
+	)
+	(junction
+		(at 241.3 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "711674d7-55bb-4630-8945-459f1547ed69")
+	)
+	(junction
 		(at 215.265 75.565)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4386,6 +4617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d40c1bc-d2ec-4672-8870-5107c799f767")
+	)
+	(junction
+		(at 107.95 80.645)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "858b8fa3-d4fc-4b03-bf46-ab88c83c8dc7")
 	)
 	(junction
 		(at 170.815 67.945)
@@ -4412,10 +4649,22 @@
 		(uuid "9b2a0da7-44ca-4faf-898f-ac7693e74913")
 	)
 	(junction
+		(at 106.045 78.105)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1b592f6-e1c7-4f1f-aa8a-9a9d9c51d80b")
+	)
+	(junction
 		(at 186.055 67.945)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a271b75a-96ae-4983-a2dd-e7ba3bfa6246")
+	)
+	(junction
+		(at 241.3 107.315)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9e6ab9e-5efc-45e2-a5bd-337b921daf6a")
 	)
 	(junction
 		(at 208.28 128.27)
@@ -4446,6 +4695,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecac55e1-ea5b-46bd-8c12-bfed7c2a8a31")
+	)
+	(junction
+		(at 241.3 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eda65044-a944-400a-a454-85a1ca755900")
 	)
 	(junction
 		(at 186.055 75.565)
@@ -4591,6 +4846,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.235 73.025) (xy 129.54 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0868d91a-0e82-431c-8dfd-e2950c49b39f")
+	)
+	(wire
+		(pts
 			(xy 163.83 67.945) (xy 170.815 67.945)
 		)
 		(stroke
@@ -4641,7 +4906,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 73.025) (xy 129.54 73.025)
+			(xy 87.63 73.025) (xy 102.235 73.025)
 		)
 		(stroke
 			(width 0)
@@ -4781,13 +5046,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.105) (xy 129.54 78.105)
+			(xy 87.63 78.105) (xy 106.045 78.105)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "286b466d-f798-4c17-9e34-d599f0fd1e73")
+	)
+	(wire
+		(pts
+			(xy 104.14 75.565) (xy 116.84 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "291c3f61-687c-481f-842c-0a6351ff8fec")
 	)
 	(wire
 		(pts
@@ -4911,6 +5186,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.045 78.105) (xy 129.54 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fac662-8502-4744-aed5-7192b34451bd")
+	)
+	(wire
+		(pts
 			(xy 178.435 74.295) (xy 178.435 75.565)
 		)
 		(stroke
@@ -4941,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 128.27) (xy 247.015 128.27)
+			(xy 208.28 128.27) (xy 241.3 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5089,6 +5374,16 @@
 		)
 		(uuid "65730f64-f10b-4380-8fee-9b001e7429c3")
 	)
+	(wire
+		(pts
+			(xy 107.95 80.645) (xy 129.54 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662279fd-f59b-4a10-b817-d79edc129abd")
+	)
 	(bus
 		(pts
 			(xy 82.55 85.725) (xy 85.09 83.185)
@@ -5099,6 +5394,16 @@
 		)
 		(uuid "6750ba97-d9b7-490b-baad-23f081c295f1")
 	)
+	(wire
+		(pts
+			(xy 241.3 102.235) (xy 249.555 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68adac8e-27de-4fe9-b800-0829ddedbc3d")
+	)
 	(bus
 		(pts
 			(xy 85.09 95.885) (xy 85.09 98.425)
@@ -5108,6 +5413,16 @@
 			(type default)
 		)
 		(uuid "7021ef59-308c-400e-812c-fc1dec7d61f2")
+	)
+	(wire
+		(pts
+			(xy 241.3 128.27) (xy 247.015 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71135933-86ee-4f06-8eb3-764156485a2f")
 	)
 	(wire
 		(pts
@@ -5171,7 +5486,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 107.315) (xy 249.555 107.315)
+			(xy 236.22 107.315) (xy 241.3 107.315)
 		)
 		(stroke
 			(width 0)
@@ -5188,6 +5503,16 @@
 			(type default)
 		)
 		(uuid "7fa850f1-5529-4286-bf0a-1c2660128f53")
+	)
+	(wire
+		(pts
+			(xy 241.3 134.62) (xy 247.015 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "815e7939-04db-4188-9dbd-f8028dd28810")
 	)
 	(wire
 		(pts
@@ -5401,6 +5726,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 107.315) (xy 249.555 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a43000ea-7ae5-486a-bad5-a4cf5edbfca1")
+	)
+	(wire
+		(pts
 			(xy 123.19 67.945) (xy 129.54 67.945)
 		)
 		(stroke
@@ -5521,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.235 102.235) (xy 249.555 102.235)
+			(xy 229.235 102.235) (xy 241.3 102.235)
 		)
 		(stroke
 			(width 0)
@@ -5541,7 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 80.645) (xy 129.54 80.645)
+			(xy 87.63 80.645) (xy 107.95 80.645)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 134.62) (xy 247.015 134.62)
+			(xy 213.36 134.62) (xy 241.3 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5701,7 +6036,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 75.565) (xy 116.84 75.565)
+			(xy 87.63 75.565) (xy 104.14 75.565)
 		)
 		(stroke
 			(width 0)
@@ -7218,6 +7553,172 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 200.66 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "315defe5-5237-4c07-afd7-90c10e543ce8")
+		(property "Reference" "TP20"
+			(at 199.898 94.488 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 201.676 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 202.565 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 200.66 96.52 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c2ff3b8-abac-42e7-b0b2-c8d4ae5e60c5")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")
 		(at 170.815 74.295 90)
 		(unit 1)
@@ -8094,6 +8595,338 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "C222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 104.775 78.105 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4c961f60-0a9c-41c4-a164-04463855265e")
+		(property "Reference" "TP28"
+			(at 102.87 76.962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 104.14 77.089 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 104.775 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 104.775 78.105 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "955874a7-bafe-481a-8acb-9791fb6bd9ba")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 240.03 128.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "53db83aa-0e92-4191-accb-a14efacd68fc")
+		(property "Reference" "TP32"
+			(at 238.125 127.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 239.395 127.254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 240.03 126.365 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 240.03 128.27 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d1b37c5-4fcb-418a-8103-15a6a0b6a616")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP32")
 					(unit 1)
 				)
 			)
@@ -9326,6 +10159,172 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 102.87 75.565 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77a1d882-56f2-4746-94ba-506d49d70145")
+		(property "Reference" "TP27"
+			(at 100.965 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 102.235 74.549 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 102.87 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 102.87 75.565 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ab11758-9ecf-40b6-a3e6-b99e4c6d743d")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
 		(at 229.235 116.84 0)
 		(unit 1)
@@ -9476,6 +10475,172 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "#PWR0358")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 106.68 80.645 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e7937ce-3720-4e70-91b8-3407e4009ebd")
+		(property "Reference" "TP29"
+			(at 104.775 79.502 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 106.045 79.629 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 106.68 80.645 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "def5f70b-7a52-4a85-9039-746a32467338")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -11137,6 +12302,172 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 240.03 102.235 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "addf3da3-f931-4d17-9096-cfd3c96f4a94")
+		(property "Reference" "TP30"
+			(at 238.125 101.092 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 239.395 101.219 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 240.03 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 240.03 102.235 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "158ac025-41ff-466b-ad36-cdb51e4a4e93")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Connector/CONN_00026")
 		(at 258.445 111.125 180)
 		(unit 1)
@@ -11792,6 +13123,172 @@
 		)
 	)
 	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 100.965 73.025 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8c28148-247c-400f-8685-e4c276f07ee2")
+		(property "Reference" "TP26"
+			(at 99.06 71.882 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 100.33 72.009 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 100.965 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 100.965 73.025 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7170a48-38d6-49c2-8aaa-39d0166b6d15")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00004")
 		(at 180.34 85.09 90)
 		(unit 1)
@@ -12067,6 +13564,172 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "#PWR0349")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 240.03 107.315 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce26ee8b-7fe7-4a69-9bbe-33b47da10da7")
+		(property "Reference" "TP31"
+			(at 238.125 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 239.395 106.299 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 240.03 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 240.03 107.315 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ac39b19-9ba3-496e-a785-c94232cd4066")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP31")
 					(unit 1)
 				)
 			)
@@ -13162,6 +14825,172 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 240.03 134.62 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f626b7b5-c85b-4b1e-b850-ddde0a7e1ca8")
+		(property "Reference" "TP33"
+			(at 238.125 133.477 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 239.395 133.604 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 240.03 132.715 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 240.03 134.62 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b0da8fc-a703-4529-a8b3-0ddcabc51813")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/bcdde681-3692-4bfd-9d78-d87f7aaa0ed1"
+					(reference "TP33")
 					(unit 1)
 				)
 			)

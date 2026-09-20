@@ -128,8 +128,8 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.127,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.1016,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
@@ -479,7 +479,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.1016,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -490,7 +490,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.127,
+        "track_width": 0.1016,
         "tuning_profile": "",
         "via_diameter": 0.4,
         "via_drill": 0.2,
@@ -1160,7 +1160,7 @@
       "specctra_dsn": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A4.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1351,7 +1351,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "#PWR124,#PWR295,#PWR330,#PWR392,D28,R95-96,R205-207,R213-215,R272",
+    "used_designators": "C13,R108,TP1-51",
     "variants": []
   },
   "sheets": [
