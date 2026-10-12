@@ -8,7 +8,7 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1651mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.1651mm))
-	(constraint skew (opt 0.25mm))
+	(constraint skew (max 0.3mm))
 	(constraint clearance (min 0.1016mm))
 )
 
@@ -20,7 +20,7 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1925mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.1377mm))
-	(constraint skew (opt 0.25mm))
+	(constraint skew (max 0.3mm))
 	(constraint clearance (min 0.1016mm))
 )
 
@@ -44,7 +44,7 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.113mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.2172mm))
-	(constraint skew (opt 0.25mm))
+	(constraint skew (max 0.3mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -56,7 +56,7 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1407mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.1895mm))
-	(constraint skew (opt 0.25mm))
+	(constraint skew (max 0.3mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -70,24 +70,6 @@
 	(layer outer)
 	(constraint clearance (min 0.6mm))
 	(condition "A.inDiffPair('*') && A.Type == 'Track' && B.Type == 'Zone'")
-)
-
-# SDIO rules
-(rule length_match_sdio
-	(constraint length (min 49mm)(max 51mm))
-	(condition "A.NetClass == 'SDIO'")
-)
-
-(rule track_width_sdio_outer
-	(layer outer)
-	(constraint track_width (min 0.254mm)(opt 0.381mm))
-	(condition "A.NetClass == 'SDIO'")
-)
-
-(rule track_width_sdio_inner
-	(layer inner)
-	(constraint track_width (min 0.1778mm)(opt 0.2092mm))
-	(condition "A.NetClass == 'SDIO'")
 )
 
 # Electrical clearance via to zone

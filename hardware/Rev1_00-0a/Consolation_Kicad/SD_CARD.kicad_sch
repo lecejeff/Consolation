@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -5095,7 +5095,7 @@
 			(justify left bottom)
 		)
 		(uuid "1fd3cb97-9481-4ac5-bc35-8d0455ed2dd6")
-		(property "Net Class" "SD_CARD"
+		(property "Netclass" "SD_CARD"
 			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5119,7 +5119,7 @@
 			(justify left bottom)
 		)
 		(uuid "359a2c8e-605a-4f2e-8931-00ea0783615f")
-		(property "Net Class" "SD_CARD"
+		(property "Netclass" "SD_CARD"
 			(at 177.8 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5153,7 +5153,7 @@
 			(justify left bottom)
 		)
 		(uuid "449c8a73-5f35-4f04-b0bb-b07f645473ec")
-		(property "Net Class" "SD_CARD"
+		(property "Netclass" "SD_CARD"
 			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5187,7 +5187,7 @@
 			(justify left bottom)
 		)
 		(uuid "5e3699a2-9a13-4b71-b7a0-c74e7c52ac46")
-		(property "Net Class" "SD_CARD"
+		(property "Netclass" "SD_CARD"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5211,7 +5211,7 @@
 			(justify left bottom)
 		)
 		(uuid "6bbdd2ee-7905-4be0-92fb-17dbb9e2705e")
-		(property "Net Class" "SD_CARD"
+		(property "Netclass" "SD_CARD"
 			(at 177.8 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5235,7 +5235,7 @@
 			(justify left bottom)
 		)
 		(uuid "774ce11e-a6ee-4024-be62-7fa30e2863fc")
-		(property "Net Class" "SD_CARD"
+		(property "Netclass" "SD_CARD"
 			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5313,7 +5313,7 @@
 			(justify left bottom)
 		)
 		(uuid "667cfe62-2f47-44dc-ab91-44db72e10014")
-		(property "Net Class" "SDIO"
+		(property "Netclass" "SDIO"
 			(at 177.8635 81.915 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -8082,7 +8082,7 @@
 			(justify left bottom)
 		)
 		(uuid "0651d8cf-6e48-4b33-937f-1844ee7bc385")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8114,7 +8114,7 @@
 			(justify left bottom)
 		)
 		(uuid "2d0fbc88-e4d2-4c51-828c-c94d351a32eb")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8136,7 +8136,7 @@
 			(justify left bottom)
 		)
 		(uuid "360bd1ab-0fd1-4f57-b7c5-8a4873e6e42c")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8168,7 +8168,7 @@
 			(justify left bottom)
 		)
 		(uuid "456d7337-b343-4122-84f1-bc017b9c3714")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8200,7 +8200,7 @@
 			(justify left bottom)
 		)
 		(uuid "81f30a2a-2abf-4457-9ee2-1afd53fb07bd")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,7 +8222,7 @@
 			(justify left bottom)
 		)
 		(uuid "9548629f-f78c-4ebf-8067-55146b1dab5f")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +8244,7 @@
 			(justify left bottom)
 		)
 		(uuid "9c084fb2-62c6-4f25-bad6-4aa39e5297dc")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 37.084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8266,7 +8266,7 @@
 			(justify left bottom)
 		)
 		(uuid "b7c87cb4-f20e-41f2-b011-b89b25cf2988")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 34.544 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8288,7 +8288,7 @@
 			(justify left bottom)
 		)
 		(uuid "ce346fa3-6b6b-475e-9e1c-f117080fcf69")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +8310,7 @@
 			(justify left bottom)
 		)
 		(uuid "f11e4eea-b6e2-464f-8ca1-bd2ebe37c178")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 162.56 42.164 0)
 			(show_name no)
 			(do_not_autoplace no)

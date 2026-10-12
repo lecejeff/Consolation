@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -7038,18 +7038,7 @@
 		)
 		(uuid "e0b2f6dd-af06-498f-ac22-d109e3f4abaf")
 	)
-	(hierarchical_label "~{TFT_RST}"
-		(shape output)
-		(at 229.235 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "41f7795d-e999-48cf-9bc7-4dea5237e67b")
-	)
-	(hierarchical_label "~{RP2350_RST}"
+	(hierarchical_label "~{DSI_BRDG_RST}"
 		(shape output)
 		(at 229.235 97.79 0)
 		(effects
@@ -7058,7 +7047,18 @@
 			)
 			(justify left)
 		)
-		(uuid "4dafc3c1-2dce-4565-a617-cdfb517f0034")
+		(uuid "1443944e-c890-4ce8-bfbc-0fa6b88f9d38")
+	)
+	(hierarchical_label "~{RP2350_RST}"
+		(shape output)
+		(at 229.235 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "677eab0a-e8d6-475f-8047-cdaef948c3a9")
 	)
 	(hierarchical_label "EXT_~{RST}"
 		(shape input)
@@ -7070,17 +7070,6 @@
 			(justify right)
 		)
 		(uuid "97162623-d876-4af1-870b-83ebc68236da")
-	)
-	(hierarchical_label "~{DSI_BRDG_RST}"
-		(shape output)
-		(at 229.235 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9f1529bf-0c2c-49f1-98b0-363e863029ea")
 	)
 	(hierarchical_label "~{HDMI_RST}"
 		(shape output)
@@ -7095,16 +7084,16 @@
 	)
 	(hierarchical_label "~{BAT_CHRG_RST}"
 		(shape output)
-		(at 229.235 95.25 0)
+		(at 229.235 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c6ca0033-9b14-4a39-92b3-d43f7459b269")
+		(uuid "c5774f54-6fc7-4f25-89c5-40734729a785")
 	)
-	(hierarchical_label "~{CODEC_RST}"
+	(hierarchical_label "~{TFT_RST}"
 		(shape output)
 		(at 229.235 100.33 0)
 		(effects
@@ -7113,7 +7102,18 @@
 			)
 			(justify left)
 		)
-		(uuid "f40f82ca-8d1c-4778-8efd-0204fe3c9a42")
+		(uuid "ccd1d05e-b50f-470f-88a5-456992f7ff10")
+	)
+	(hierarchical_label "~{CODEC_RST}"
+		(shape output)
+		(at 229.235 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3068f42-7ac4-4b7a-8cdc-bbaabf87e8e4")
 	)
 	(netclass_flag ""
 		(length 2.54)
@@ -7127,7 +7127,7 @@
 			(justify left bottom)
 		)
 		(uuid "efcab03d-d5e9-40c2-9921-7fb5ead7e4db")
-		(property "Net Class" "CRITICAL"
+		(property "Netclass" "CRITICAL"
 			(at 146.1135 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)

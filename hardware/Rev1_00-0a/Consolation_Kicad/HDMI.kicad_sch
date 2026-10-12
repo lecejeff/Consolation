@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4309,7 +4309,7 @@
 			(justify left bottom)
 		)
 		(uuid "340bce65-ec03-4752-9bc5-b7736bc318c9")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 51.181 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4331,7 +4331,7 @@
 			(justify left bottom)
 		)
 		(uuid "36ab266d-c8e0-4112-a41d-6c87ab9985bb")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 56.261 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4363,7 +4363,7 @@
 			(justify left bottom)
 		)
 		(uuid "6fe10468-06f5-46e7-bfb0-3409829d203d")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 79.629 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4395,7 @@
 			(justify left bottom)
 		)
 		(uuid "9b8909c4-350e-4580-a90e-92bcf339654d")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 58.801 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4417,7 +4417,7 @@
 			(justify left bottom)
 		)
 		(uuid "9d31dd2c-29a3-401f-8e0f-7844ed3d97e8")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 61.341 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +4449,7 @@
 			(justify left bottom)
 		)
 		(uuid "a8926f5c-6d73-4c99-88ca-cf0fb0327d8d")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 48.641 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4481,7 +4481,7 @@
 			(justify left bottom)
 		)
 		(uuid "d62dc987-0a1b-40e1-9312-aff3258c8280")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 82.169 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4503,7 +4503,7 @@
 			(justify left bottom)
 		)
 		(uuid "e15f858f-38a8-41ba-a72e-389ea8b61bd3")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 139.954 53.721 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6267,7 +6267,7 @@
 				)
 			)
 		)
-		(property "Value" "5V0_CB"
+		(property "Value" "5V0"
 			(at 128.27 104.775 0)
 			(show_name no)
 			(do_not_autoplace no)

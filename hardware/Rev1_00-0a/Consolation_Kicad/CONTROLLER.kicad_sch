@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -14158,7 +14158,7 @@
 			(justify left bottom)
 		)
 		(uuid "1d9a747c-fc6a-41d9-a812-7b0195aebb77")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 63.246 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14281,7 +14281,7 @@
 			(justify left bottom)
 		)
 		(uuid "38623bc5-01fe-401a-b287-e5cfdc221d8c")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 81.915 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14414,7 +14414,7 @@
 			(justify left bottom)
 		)
 		(uuid "7fa31966-9fab-4bb6-99b6-dbc38023d626")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 63.246 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14547,7 +14547,7 @@
 			(justify left bottom)
 		)
 		(uuid "ac26c133-4cd3-40fa-b0ee-74760793bf4a")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 81.915 68.58 0)
 			(hide yes)
 			(show_name no)

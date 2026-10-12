@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -6669,7 +6669,7 @@
 			(justify right bottom)
 		)
 		(uuid "11f12d27-7f1a-476a-8d1a-3cd1aa6fe4eb")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6691,7 +6691,7 @@
 			(justify right bottom)
 		)
 		(uuid "15fa0bf6-756f-4406-a42c-95c0b97ada9a")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 208.788 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +6713,7 @@
 			(justify right bottom)
 		)
 		(uuid "18a7744b-4c01-4d95-a248-717fb9b23200")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 111.506 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6735,7 @@
 			(justify left bottom)
 		)
 		(uuid "1e43bcf3-1244-48e5-8a80-298ec508a8c5")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6757,7 +6757,7 @@
 			(justify left bottom)
 		)
 		(uuid "1ecfcd2c-6013-406f-88ea-10bdac87f3c6")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 104.394 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6779,7 +6779,7 @@
 			(justify right bottom)
 		)
 		(uuid "2691450d-4b44-4be7-b92a-f670c912bdbe")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +6801,7 @@
 			(justify right bottom)
 		)
 		(uuid "3232e3fd-759b-4e4d-98bc-4867dbd5173c")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6823,7 +6823,7 @@
 			(justify left bottom)
 		)
 		(uuid "3344144d-4367-4dbc-bfb1-71c42634090f")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 126.746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6845,7 +6845,7 @@
 			(justify left bottom)
 		)
 		(uuid "34cc00f6-9e1a-42d3-b20f-01e054c58d4c")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 104.394 103.886 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6877,7 +6877,7 @@
 			(justify right bottom)
 		)
 		(uuid "4c40eed4-8d8a-428b-ab8c-7de2f5b7cc8e")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6899,7 +6899,7 @@
 			(justify right bottom)
 		)
 		(uuid "56d7763c-6ca9-4514-b77a-ab9df0b35346")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6921,7 +6921,7 @@
 			(justify left bottom)
 		)
 		(uuid "654d977c-3f8b-453b-bca1-a8c96dc7ab11")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 104.394 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6943,7 +6943,7 @@
 			(justify right bottom)
 		)
 		(uuid "6bb3c33e-6c3f-4331-a5bf-f06bc7a0bbbc")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6965,7 +6965,7 @@
 			(justify left bottom)
 		)
 		(uuid "713f89b5-d0c0-48fe-9a9d-9f7ce33dab54")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6997,7 +6997,7 @@
 			(justify left bottom)
 		)
 		(uuid "7b1229f3-5201-4de2-9ebb-bd1816504fc3")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7019,7 +7019,7 @@
 			(justify left bottom)
 		)
 		(uuid "aa9fb8b1-714c-4a42-8b60-db8d3060afe8")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7051,7 +7051,7 @@
 			(justify left bottom)
 		)
 		(uuid "b4032fc5-a792-4cfb-8b99-2e1bd79cb18c")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,7 +7073,7 @@
 			(justify left bottom)
 		)
 		(uuid "b40d5cc0-d500-4c8f-b329-ecdedd72c2cd")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7095,7 +7095,7 @@
 			(justify right bottom)
 		)
 		(uuid "bea4a2dc-773a-4c40-b321-9ebb2989b1bf")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7117,7 +7117,7 @@
 			(justify right bottom)
 		)
 		(uuid "c8534b06-1c65-4959-b03a-c89db27f0c3d")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +7139,7 @@
 			(justify right bottom)
 		)
 		(uuid "cad59092-9478-4e80-aa8b-45e20d93f92f")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 210.312 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7171,7 +7171,7 @@
 			(justify left bottom)
 		)
 		(uuid "e7a3d4bf-c3c9-44c3-b0a1-e47971abaeac")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 104.394 101.346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7193,7 +7193,7 @@
 			(justify right bottom)
 		)
 		(uuid "ecf959c9-e7a9-4e01-8a27-a46c88b1cfb1")
-		(property "Net Class" "DP_90R"
+		(property "Netclass" "DP_90R"
 			(at 208.788 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7215,7 +7215,7 @@
 			(justify left bottom)
 		)
 		(uuid "ff8a9da7-6065-4e1e-81b5-07c281a0b33e")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 104.394 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7337,6 +7337,168 @@
 			(justify left)
 		)
 		(uuid "ec626179-dd6b-4869-b42b-dac792d7bf9e")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 117.475 144.78) (xy 117.475 114.3) (xy 99.695 114.3) (xy 99.695 144.78)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "79198646-f30c-48ff-9a6f-d298d48e66df")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 215.9 144.145) (xy 215.9 137.795) (xy 198.12 137.795) (xy 198.12 144.145)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "f31b8506-b653-4b9f-971b-ab2bc92928e7")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 215.9 136.525) (xy 215.9 106.045) (xy 198.12 106.045) (xy 198.12 136.525)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "fd3d1f19-85de-411b-bb48-82046e4ce12e")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 99.695 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36ce6090-a29c-4f66-8ab8-7cfd6b3b9ce6")
+		(property "Netclass" "MIPI_DSI"
+			(at 100.3935 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -45.72 28.575 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.12 144.145 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c63058c7-883f-4f28-8624-d1b39d5975cc")
+		(property "Netclass" "MIPI_DSI"
+			(at 198.8185 146.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 52.705 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 198.755 106.045 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6c8d00f-d780-47ea-a4a2-a427600de77c")
+		(property "Netclass" "HDMI"
+			(at 199.4535 103.505 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 53.34 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00001")

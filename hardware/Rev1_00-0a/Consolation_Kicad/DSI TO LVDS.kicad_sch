@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-09-20")
+		(date "2026-10-12")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -472,6 +472,294 @@
 				)
 			)
 			(symbol "Capacitors/CAP_CER_SMT_00001_1_1"
+				(polyline
+					(pts
+						(xy 2.159 0.889) (xy 2.159 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.889) (xy 2.921 -0.889)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 2.921 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KicadCompDb:Capacitors/CAP_CER_SMT_00002"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 2.54 1.651 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1u"
+				(at 1.524 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprint:CAP_NONPOL_0805"
+				(at 0.508 -22.098 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CAP CER 1UF 50V X7R 0805"
+				(at 1.778 -9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "2.00mm x 1.25mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Type" "CER SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "±10%"
+				(at 0.254 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dielectric" "X7R"
+				(at 0.254 -14.224 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "0805"
+				(at 0 -16.256 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 125°C"
+				(at 0.762 -24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0.254 -18.288 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+				(at 0.254 -7.874 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor" "DigiKey"
+				(at 0 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "311-1886-1-ND"
+				(at 0.762 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "footprint:CAP_NONPOL_0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Capacitors/CAP_CER_SMT_00002_1_1"
 				(polyline
 					(pts
 						(xy 2.159 0.889) (xy 2.159 -0.889)
@@ -5265,7 +5553,7 @@
 			(justify left bottom)
 		)
 		(uuid "02ae0574-f9ba-4694-91ea-63a6f2210df3")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 70.231 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,7 +5575,7 @@
 			(justify left bottom)
 		)
 		(uuid "0e17ebde-2c16-43ce-9e8e-43da3b36a514")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 60.071 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5309,7 +5597,7 @@
 			(justify left bottom)
 		)
 		(uuid "163e00ed-7021-410d-90d2-c204522dbc91")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 65.151 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5331,7 +5619,7 @@
 			(justify left bottom)
 		)
 		(uuid "19ffa450-5ff6-4d7f-bdb7-fdf01044b924")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 62.611 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5641,7 @@
 			(justify left bottom)
 		)
 		(uuid "21eca20b-7567-4297-9c77-eda48f0160ef")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 65.151 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,7 +5663,7 @@
 			(justify left bottom)
 		)
 		(uuid "2ed376cc-24f7-47da-9afb-e88bcd039ba9")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 60.071 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,7 +5685,7 @@
 			(justify left bottom)
 		)
 		(uuid "377f350b-63fe-4e4e-822f-c85ebb2736b7")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 67.691 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5707,7 @@
 			(justify left bottom)
 		)
 		(uuid "3a7ba982-5583-4fac-9aaa-ded74e1d0e19")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 54.991 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5461,7 +5749,7 @@
 			(justify left bottom)
 		)
 		(uuid "4d4a7d18-0458-4b5f-8b11-bb821093c73e")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 52.451 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5483,7 +5771,7 @@
 			(justify left bottom)
 		)
 		(uuid "5ee35577-fc24-4309-a4e6-3fb7f5116592")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 54.991 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5505,7 +5793,7 @@
 			(justify left bottom)
 		)
 		(uuid "6d1bfdc4-3bdd-46c2-9995-5cc7f6bc4dfa")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 67.691 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5527,7 +5815,7 @@
 			(justify left bottom)
 		)
 		(uuid "819ec771-1275-42f3-bce4-c01ee0da0260")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 75.311 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,7 +5837,7 @@
 			(justify left bottom)
 		)
 		(uuid "931f98b1-4181-43ba-bd5f-9403987e0ffa")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 75.311 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5581,7 +5869,7 @@
 			(justify left bottom)
 		)
 		(uuid "ad1f32d6-e9af-4a71-8d82-92d37ded0c07")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 70.231 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5603,7 +5891,7 @@
 			(justify left bottom)
 		)
 		(uuid "d06ca113-ad6d-459c-83ba-240744496c2d")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 62.611 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5625,7 +5913,7 @@
 			(justify left bottom)
 		)
 		(uuid "d667f955-42e3-4aa2-8234-a2971b92e0f4")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 57.531 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5647,7 +5935,7 @@
 			(justify left bottom)
 		)
 		(uuid "dd27b11d-616e-4bb7-b96d-3732a2b0209b")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 57.531 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5669,7 +5957,7 @@
 			(justify left bottom)
 		)
 		(uuid "ddf8ac70-199f-45f9-8b7c-42cbc155d50f")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 72.771 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5979,7 @@
 			(justify left bottom)
 		)
 		(uuid "de36fbd7-c4e4-4e3a-8d19-4eb38800739d")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 152.654 52.451 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5713,7 +6001,7 @@
 			(justify left bottom)
 		)
 		(uuid "ef46655b-99cc-4989-b739-1551df73a2a7")
-		(property "Net Class" "DP_100R"
+		(property "Netclass" "DP_100R"
 			(at 201.168 72.771 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5769,6 +6057,60 @@
 			(justify right)
 		)
 		(uuid "dd708616-975e-42ba-946e-3b96cc01f6df")
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 211.455 50.165) (xy 227.6474 50.165) (xy 227.33 77.47) (xy 211.455 77.47)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "16aa8ee2-cc06-4b5d-b8a3-49de7323a5d0")
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 211.455 50.165 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01fe8543-e119-4ad0-b803-6d75c4e2f4c6")
+		(property "Netclass" "LVDS"
+			(at 212.1535 47.625 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 66.04 -35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
@@ -7086,208 +7428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00011")
-		(at 156.845 133.35 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4698b7c2-39ab-4e94-8cfe-a188859fa729")
-		(property "Reference" "C118"
-			(at 157.861 128.397 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 157.861 130.175 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "footprint:CAP_NONPOL_0805"
-			(at 178.943 132.842 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
-			(at 156.845 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
-			(at 166.751 131.572 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" "±20%"
-			(at 177.165 133.096 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 171.069 133.096 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "0805"
-			(at 157.861 131.953 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Operating Temperature" "-55°C ~ 85°C"
-			(at 181.229 132.588 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" "25V"
-			(at 157.861 133.731 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 175.133 133.096 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
-			(at 164.719 133.096 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "DigiKey"
-			(at 162.687 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
-			(at 169.037 132.588 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "CER SMT"
-			(at 156.845 133.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "2.00mm x 1.25mm"
-			(at 156.845 133.35 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b6a4322-6ee0-4d58-a963-fa04ebb9d833")
-		)
-		(pin "2"
-			(uuid "a2c17ba3-5e06-4351-81d7-09e4ec49ab2b")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
-					(reference "C118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "KicadCompDb:Test Point/TP_00004")
 		(at 87.63 95.885 270)
 		(mirror x)
@@ -8412,6 +8552,208 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
 					(reference "R95")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Capacitors/CAP_CER_SMT_00002")
+		(at 156.845 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "892b8128-8bbe-42d0-bfd4-fd27f4ca44a5")
+		(property "Reference" "C48"
+			(at 158.115 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 158.115 130.048 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprint:CAP_NONPOL_0805"
+			(at 178.943 132.842 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 156.845 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CAP CER 1UF 50V X7R 0805"
+			(at 166.751 131.572 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "2.00mm x 1.25mm"
+			(at 156.845 133.35 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "CER SMT"
+			(at 156.845 133.35 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 177.165 133.096 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 171.069 133.096 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0805"
+			(at 158.115 131.826 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 125°C"
+			(at 181.229 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating" "50V"
+			(at 158.115 133.604 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 175.133 133.096 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+			(at 164.719 133.096 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 162.687 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-1886-1-ND"
+			(at 169.037 132.588 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a63ad02d-89dd-4174-a414-fd89d4650c83")
+		)
+		(pin "2"
+			(uuid "0dcde282-7d6b-4463-815d-0e76b95687d3")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/840a7f6c-235f-45c3-9d8a-e775048afd33"
+					(reference "C48")
 					(unit 1)
 				)
 			)
