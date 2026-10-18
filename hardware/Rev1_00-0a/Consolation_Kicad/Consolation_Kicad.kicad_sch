@@ -4417,16 +4417,16 @@
 		(uuid "23eae10f-f5cc-4358-9730-959cb0d96c9e")
 	)
 	(junction
+		(at 125.095 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30e1a036-97be-4d42-b434-9b1ec4beba03")
+	)
+	(junction
 		(at 281.94 128.905)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bf9b452-4b1b-444c-93c6-d7a3dbb48a70")
-	)
-	(junction
-		(at 206.375 86.995)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "417c6364-31d1-4b78-94c8-51d4bbe45742")
 	)
 	(junction
 		(at 219.71 98.425)
@@ -4435,22 +4435,22 @@
 		(uuid "49c6832c-9d0d-4ca8-bd0a-6004973f84a1")
 	)
 	(junction
-		(at 92.71 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53e1a0fa-d8e9-49ca-a89c-af7317c9b3d1")
-	)
-	(junction
 		(at 231.14 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "603496ad-77d8-4914-9d38-a4bab2109ebf")
 	)
 	(junction
-		(at 88.8812 146.05)
+		(at 193.675 86.995)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cb6097f-8adb-4ddb-b95b-58a4fd4ccb77")
+		(uuid "72288610-9dac-4562-a974-9120b151ddff")
+	)
+	(junction
+		(at 125.095 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73fa0192-336d-4476-bd1e-f8b915374083")
 	)
 	(junction
 		(at 231.14 87.63)
@@ -4600,6 +4600,16 @@
 		)
 		(uuid "12eaffad-760d-45a2-96e9-7b9cc481128b")
 	)
+	(wire
+		(pts
+			(xy 198.755 86.995) (xy 198.755 92.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1723cb9e-4196-4481-bbf8-f94a8aa6f125")
+	)
 	(bus
 		(pts
 			(xy 171.45 50.8) (xy 254 50.8)
@@ -4652,7 +4662,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 146.05) (xy 127 146.05)
+			(xy 116.84 146.05) (xy 125.095 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4669,16 +4679,6 @@
 			(type default)
 		)
 		(uuid "2775c3ab-cdbb-400a-bfbf-e747bb9b6a65")
-	)
-	(wire
-		(pts
-			(xy 201.295 86.995) (xy 206.375 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bd9ee89-68da-4f79-947d-6e0badd087d8")
 	)
 	(wire
 		(pts
@@ -4720,16 +4720,6 @@
 		)
 		(uuid "3dc1d521-fb3b-4dcc-9692-9f4d788aabd3")
 	)
-	(wire
-		(pts
-			(xy 201.295 92.075) (xy 201.295 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432627f1-7677-4c18-9482-0b5952667460")
-	)
 	(bus
 		(pts
 			(xy 44.45 109.855) (xy 63.5 109.855)
@@ -4762,16 +4752,6 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 86.995) (xy 206.375 88.265)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4813c91c-bf2c-44c3-8472-bad2207ac537")
-	)
-	(wire
-		(pts
 			(xy 233.045 133.985) (xy 233.045 135.89)
 		)
 		(stroke
@@ -4792,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 142.24) (xy 100.33 142.24)
+			(xy 71.755 142.24) (xy 100.33 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4872,16 +4852,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 95.885) (xy 206.375 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d25e18-e29b-48c5-acb6-28a1e13c9e59")
-	)
-	(wire
-		(pts
 			(xy 71.755 152.4) (xy 71.755 153.67)
 		)
 		(stroke
@@ -4912,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 142.24) (xy 113.665 142.24)
+			(xy 100.33 142.24) (xy 110.49 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4952,6 +4922,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.095 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ada7e2b-4fcb-4ad9-90e6-39954fb4bb34")
+	)
+	(wire
+		(pts
+			(xy 193.675 86.995) (xy 198.755 86.995)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c05cdab-2ee6-452b-b443-a3485d16c9d6")
+	)
+	(wire
+		(pts
 			(xy 247.65 115.57) (xy 228.6 115.57)
 		)
 		(stroke
@@ -4962,7 +4952,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.8812 146.05) (xy 105.41 146.05)
+			(xy 79.375 146.05) (xy 105.41 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5072,16 +5062,6 @@
 	)
 	(wire
 		(pts
-			(xy 79.375 146.05) (xy 88.8812 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8034bbe3-9efd-4581-880d-f8be5e95239a")
-	)
-	(wire
-		(pts
 			(xy 233.045 144.78) (xy 227.33 144.78)
 		)
 		(stroke
@@ -5169,16 +5149,6 @@
 			(type default)
 		)
 		(uuid "8e301b3a-ea63-43cd-a0ef-20b4bbadec83")
-	)
-	(wire
-		(pts
-			(xy 71.755 142.24) (xy 92.71 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9073cc95-37af-49ae-9401-350e5b7197a4")
 	)
 	(wire
 		(pts
@@ -5332,7 +5302,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.015 142.24) (xy 127 142.24)
+			(xy 116.84 142.24) (xy 125.095 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5492,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 146.05) (xy 113.665 146.05)
+			(xy 105.41 146.05) (xy 110.49 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5532,6 +5502,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.095 142.24) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda071aa-ff59-4ee2-9bb3-a6b781fde083")
+	)
+	(wire
+		(pts
 			(xy 90.17 190.5) (xy 90.17 191.77)
 		)
 		(stroke
@@ -5562,6 +5542,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.835 95.885) (xy 206.375 95.885)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43f8305-a02b-4388-8357-a3fa44a3c9e6")
+	)
+	(wire
+		(pts
 			(xy 115.57 190.5) (xy 115.57 191.77)
 		)
 		(stroke
@@ -5572,7 +5562,7 @@
 	)
 	(wire
 		(pts
-			(xy 206.375 85.725) (xy 206.375 86.995)
+			(xy 206.375 85.725) (xy 206.375 88.265)
 		)
 		(stroke
 			(width 0)
@@ -5662,13 +5652,23 @@
 	)
 	(wire
 		(pts
-			(xy 193.675 85.725) (xy 193.675 88.265)
+			(xy 193.675 85.725) (xy 193.675 86.995)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f0ed1258-9408-4f45-9502-499972e67721")
+	)
+	(wire
+		(pts
+			(xy 193.675 86.995) (xy 193.675 88.265)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f369763e-cf3e-41e3-b703-5e5236fd0817")
 	)
 	(wire
 		(pts
@@ -6002,6 +6002,173 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
 					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 125.095 144.78 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "098cdb38-7337-436d-ad70-a41147b34f9d")
+		(property "Reference" "TP25"
+			(at 124.3142 144.018 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 124.079 144.145 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 123.19 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 125.095 144.78 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73bc8c94-3061-420a-ad7a-2f20de4cc0a6")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -6606,172 +6773,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
 					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Test Point/TP_00004")
-		(at 92.71 140.97 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1a04b920-96d4-45d8-ac63-3a643f074414")
-		(property "Reference" "TP24"
-			(at 93.472 140.462 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75 mils"
-			(at 93.726 140.335 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "footprint:SMT_TP_75_MILS"
-			(at 94.615 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMT TP 75 mils"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "75 mils"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "NA"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
-			(at 92.71 140.97 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14c3cfaf-a7ca-4ec8-bfe0-3d32126c52ce")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
-					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -9968,7 +9969,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00015")
-		(at 118.745 146.05 0)
+		(at 115.57 146.05 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9979,7 +9980,7 @@
 		(dnp no)
 		(uuid "764b531f-5a57-451e-8a42-bc27d85fb863")
 		(property "Reference" "R124"
-			(at 112.649 145.161 0)
+			(at 109.474 145.161 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9989,7 +9990,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 120.523 145.161 0)
+			(at 117.348 145.161 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9999,7 +10000,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 118.237 168.148 0)
+			(at 115.062 168.148 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10010,7 +10011,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 118.745 146.05 0)
+			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10021,7 +10022,7 @@
 			)
 		)
 		(property "Description" "RES 22 OHM 1% 1/16W 0402"
-			(at 116.967 155.956 0)
+			(at 113.792 155.956 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10032,7 +10033,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 118.491 166.37 0)
+			(at 115.316 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10043,7 +10044,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 118.491 160.274 0)
+			(at 115.316 160.274 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10054,7 +10055,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 118.745 162.306 0)
+			(at 115.57 162.306 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10065,7 +10066,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 118.491 164.338 0)
+			(at 115.316 164.338 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,7 +10077,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-0722RL"
-			(at 118.491 153.924 0)
+			(at 115.316 153.924 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10087,7 +10088,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 118.745 151.892 0)
+			(at 115.57 151.892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10098,7 +10099,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-22.0LRCT-ND"
-			(at 117.983 158.242 0)
+			(at 114.808 158.242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10109,7 +10110,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 118.745 146.05 0)
+			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,7 +10121,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 117.983 170.434 0)
+			(at 114.808 170.434 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +10132,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 118.745 146.05 0)
+			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -10142,7 +10143,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 118.745 146.05 0)
+			(at 115.57 146.05 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -11416,6 +11417,173 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
 					(reference "#PWR0296")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Test Point/TP_00004")
+		(at 125.095 140.97 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2dfd469-8963-4c0a-8515-9f5136a76f40")
+		(property "Reference" "TP24"
+			(at 124.333 140.462 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "75 mils"
+			(at 124.079 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "footprint:SMT_TP_75_MILS"
+			(at 123.19 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMT TP 75 mils"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "75 mils"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "NA"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "SMT"
+			(at 125.095 140.97 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ea7a71c-79f9-4519-a1ce-d84215625640")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -12941,8 +13109,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Mosfet/MOSFET_00002")
-		(at 201.295 92.075 90)
-		(mirror x)
+		(at 198.755 92.075 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12952,7 +13119,7 @@
 		(dnp no)
 		(uuid "bfad7c78-e420-4d74-b850-28977500181f")
 		(property "Reference" "Q12"
-			(at 200.406 99.568 90)
+			(at 199.644 99.568 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12962,7 +13129,7 @@
 			)
 		)
 		(property "Value" "SSM3K56FS,LF"
-			(at 200.914 101.6 90)
+			(at 199.136 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12972,7 +13139,7 @@
 			)
 		)
 		(property "Footprint" "footprint:SC-75"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12983,7 +13150,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=13419&prodName=SSM3K56FS"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12994,7 +13161,7 @@
 			)
 		)
 		(property "Description" "MOSFET N-CH 20V 800MA SSM"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13172,7 @@
 			)
 		)
 		(property "VDS" "20V"
-			(at 200.152 105.41 90)
+			(at 199.898 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13016,7 +13183,7 @@
 			)
 		)
 		(property "Package" "SC-75"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13027,7 +13194,7 @@
 			)
 		)
 		(property "Type" "NFET"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13038,7 +13205,7 @@
 			)
 		)
 		(property "I(drain)" "0.8A"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13049,7 +13216,7 @@
 			)
 		)
 		(property "VGS(th)" "1V"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13060,7 +13227,7 @@
 			)
 		)
 		(property "RDS(on)" "0.235Ohm"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13071,7 +13238,7 @@
 			)
 		)
 		(property "Power" "0.15W"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13082,7 +13249,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 150°C"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13093,7 +13260,7 @@
 			)
 		)
 		(property "Dimensions" "1.60mm x 1.60mm"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13104,7 +13271,7 @@
 			)
 		)
 		(property "Manufacturer" "Toshiba Semiconductor and Storage"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13115,7 +13282,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "SSM3K56FS,LF"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13126,7 +13293,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13137,7 +13304,7 @@
 			)
 		)
 		(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
-			(at 201.295 92.075 0)
+			(at 198.755 92.075 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13244,7 +13411,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00015")
-		(at 118.745 142.24 0)
+		(at 115.57 142.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13255,7 +13422,7 @@
 		(dnp no)
 		(uuid "c893232d-9d8d-426d-82e1-9fc610137c71")
 		(property "Reference" "R121"
-			(at 112.649 141.351 0)
+			(at 109.474 141.351 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13265,7 +13432,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 120.523 141.351 0)
+			(at 117.348 141.351 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13275,7 +13442,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0402"
-			(at 118.237 164.338 0)
+			(at 115.062 164.338 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13286,7 +13453,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 118.745 142.24 0)
+			(at 115.57 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13297,7 +13464,7 @@
 			)
 		)
 		(property "Description" "RES 22 OHM 1% 1/16W 0402"
-			(at 116.967 152.146 0)
+			(at 113.792 152.146 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13308,7 +13475,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 118.491 162.56 0)
+			(at 115.316 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13319,7 +13486,7 @@
 			)
 		)
 		(property "Power" "1/16W"
-			(at 118.491 156.464 0)
+			(at 115.316 156.464 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13330,7 +13497,7 @@
 			)
 		)
 		(property "Package" "0402"
-			(at 118.745 158.496 0)
+			(at 115.57 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13341,7 +13508,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 118.491 160.528 0)
+			(at 115.316 160.528 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13352,7 +13519,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0402FR-0722RL"
-			(at 118.491 150.114 0)
+			(at 115.316 150.114 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13363,7 +13530,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 118.745 148.082 0)
+			(at 115.57 148.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13374,7 +13541,7 @@
 			)
 		)
 		(property "Distributor Part Number" "311-22.0LRCT-ND"
-			(at 117.983 154.432 0)
+			(at 114.808 154.432 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13385,7 +13552,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 118.745 142.24 0)
+			(at 115.57 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13396,7 +13563,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 117.983 166.624 0)
+			(at 114.808 166.624 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13407,7 +13574,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 118.745 142.24 0)
+			(at 115.57 142.24 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13418,7 +13585,7 @@
 			)
 		)
 		(property "Dimensions" "1.00mm x 0.50mm"
-			(at 118.745 142.24 0)
+			(at 115.57 142.24 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14087,172 +14254,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
 					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KicadCompDb:Test Point/TP_00004")
-		(at 88.8812 144.78 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d9b4ae7b-05b5-4779-be63-9ffc7435896b")
-		(property "Reference" "TP25"
-			(at 89.662 144.018 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "75 mils"
-			(at 89.8972 144.145 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" "footprint:SMT_TP_75_MILS"
-			(at 90.7862 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMT TP 75 mils"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dimensions" "75 mils"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Distributor Part Number" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "NA"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Type" "SMT"
-			(at 88.8812 144.78 0)
-			(hide yes)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "084c5a6f-e811-4791-9683-a7fc5889bbe9")
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
-					(reference "TP25")
 					(unit 1)
 				)
 			)

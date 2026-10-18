@@ -961,7 +961,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "C48,HOLE8-11,J1,TP52-53",
+    "used_designators": "#PWR183,#PWR297-299,#PWR306,C32,C48,C124,HOLE8-11,J1,Q27-29,R136,R142,TP24-25,TP52-55",
     "variants": []
   },
   "sheets": [
