@@ -770,7 +770,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -871,7 +871,7 @@
       "I2S": [
         "I2S_DOUT",
         "I2S_DIN",
-        "I2C_SCLK",
+        "I2S_SCLK",
         "I2S_COFS"
       ],
       "LVDS": [

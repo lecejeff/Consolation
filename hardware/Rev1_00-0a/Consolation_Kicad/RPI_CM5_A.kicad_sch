@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-12")
+		(date "2026-10-25")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -8209,6 +8209,15 @@
 		(uuid "19fec568-2f3c-4199-830a-388d792b1e2c")
 	)
 	(bus_entry
+		(at 31.115 75.565)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "274a2831-6684-41ae-8563-3ac833417310")
+	)
+	(bus_entry
 		(at 31.115 85.725)
 		(size 2.54 2.54)
 		(stroke
@@ -8288,15 +8297,6 @@
 			(type default)
 		)
 		(uuid "ac12bfee-5809-4783-b593-7f57c57e6651")
-	)
-	(bus_entry
-		(at 31.115 75.565)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acc551d7-c292-42da-9981-ddd6aa303cb2")
 	)
 	(bus_entry
 		(at 31.115 90.805)
@@ -8556,16 +8556,6 @@
 			(type default)
 		)
 		(uuid "12aa80f9-b97a-4a65-a383-6108994dc3e6")
-	)
-	(bus
-		(pts
-			(xy 28.575 73.025) (xy 31.115 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12f251ba-735f-4154-949d-50cb3b2c7a1e")
 	)
 	(wire
 		(pts
@@ -9719,16 +9709,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 78.105) (xy 97.79 78.105)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fc111be-30e2-425b-984e-e198d81e89de")
-	)
-	(wire
-		(pts
 			(xy 106.045 172.085) (xy 107.315 172.085)
 		)
 		(stroke
@@ -9796,6 +9776,16 @@
 			(type default)
 		)
 		(uuid "751ec656-3609-4f86-992c-8dd724c5df91")
+	)
+	(wire
+		(pts
+			(xy 33.655 78.105) (xy 97.79 78.105)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76385436-c535-4ea2-aecd-ffbc342a6e4f")
 	)
 	(wire
 		(pts
@@ -10206,6 +10196,16 @@
 			(type default)
 		)
 		(uuid "9b3294e1-cf6e-44ed-937a-42d1c9abb1d0")
+	)
+	(bus
+		(pts
+			(xy 28.575 73.025) (xy 31.115 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6b6878-8150-43c4-a9b5-5262d5ae02e2")
 	)
 	(wire
 		(pts
@@ -12121,7 +12121,7 @@
 		)
 		(uuid "58648351-f8a6-4e6b-9285-7c79a1211d26")
 	)
-	(label "~{VOL_DOWN}"
+	(label "~{VOL_UP}"
 		(at 110.49 52.705 0)
 		(effects
 			(font
@@ -12181,7 +12181,7 @@
 		)
 		(uuid "7c1e90f3-38fd-4642-8c22-ff4eef0626fb")
 	)
-	(label "~{VOL_UP}"
+	(label "~{VOL_DOWN}"
 		(at 191.77 50.165 180)
 		(effects
 			(font
@@ -12583,7 +12583,7 @@
 		)
 		(uuid "7aa50f6e-c8b7-4f4c-8012-bd15bf64af10")
 	)
-	(hierarchical_label "~{VOL_DOWN}"
+	(hierarchical_label "~{VOL_UP}"
 		(shape input)
 		(at 74.295 52.705 180)
 		(effects
@@ -12638,7 +12638,7 @@
 		)
 		(uuid "b7e49068-7361-4bb1-9cc6-be017a28620d")
 	)
-	(hierarchical_label "~{VOL_UP}"
+	(hierarchical_label "~{VOL_DOWN}"
 		(shape input)
 		(at 221.615 50.165 0)
 		(effects

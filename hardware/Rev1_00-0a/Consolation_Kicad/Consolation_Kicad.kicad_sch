@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-12")
+		(date "2026-10-25")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -4347,7 +4347,7 @@
 		)
 	)
 	(rectangle
-		(start 81.915 172.085)
+		(start 88.9 172.085)
 		(end 123.825 184.785)
 		(stroke
 			(width 0)
@@ -4372,7 +4372,7 @@
 	)
 	(text "Blower Fan holder ND35B00"
 		(exclude_from_sim no)
-		(at 101.854 174.244 0)
+		(at 106.68 174.244 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7258,80 +7258,6 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
 					(reference "HOLE5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCad_Lib_Symbols:NPTH_M2")
-		(at 94.615 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "30f7e40b-e4e8-4e1d-8e2b-d234e8cad232")
-		(property "Reference" "HOLE8"
-			(at 94.107 176.784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 94.615 177.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprint:NPTH_M2"
-			(at 98.425 183.896 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 94.615 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 94.615 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "Consolation_Kicad"
-				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513"
-					(reference "HOLE8")
 					(unit 1)
 				)
 			)
@@ -15186,7 +15112,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Lib_Symbols:NPTH_M2")
-		(at 83.82 177.8 0)
+		(at 92.71 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15196,7 +15122,7 @@
 		(dnp yes)
 		(uuid "f5907821-ca7f-47e6-ad87-58fb23b3921f")
 		(property "Reference" "HOLE11"
-			(at 83.312 176.784 0)
+			(at 92.202 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15207,7 +15133,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 83.82 177.8 0)
+			(at 92.71 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15217,7 +15143,7 @@
 			)
 		)
 		(property "Footprint" "footprint:NPTH_M2"
-			(at 87.63 183.896 0)
+			(at 96.52 183.896 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15228,7 +15154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 177.8 0)
+			(at 92.71 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15239,7 +15165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 177.8 0)
+			(at 92.71 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

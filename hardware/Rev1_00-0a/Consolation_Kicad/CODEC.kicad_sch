@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-12")
+		(date "2026-10-25")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -6146,7 +6146,7 @@
 	)
 	(bus
 		(pts
-			(xy 77.47 85.725) (xy 82.55 85.725)
+			(xy 76.2 85.725) (xy 82.55 85.725)
 		)
 		(stroke
 			(width 0)
@@ -6296,7 +6296,7 @@
 	)
 	(hierarchical_label "{I2S}"
 		(shape bidirectional)
-		(at 77.47 85.725 180)
+		(at 76.2 85.725 180)
 		(effects
 			(font
 				(size 1.27 1.27)
