@@ -8,7 +8,7 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1651mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.1651mm))
-	(constraint skew (max 0.3mm))
+	(constraint skew (min -0.3mm)(max 0.3mm))
 	(constraint clearance (min 0.1016mm))
 )
 
@@ -20,13 +20,13 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1925mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.1377mm))
-	(constraint skew (max 0.3mm))
+	(constraint skew (min -0.3mm)(max 0.3mm))
 	(constraint clearance (min 0.1016mm))
 )
 
 (rule dp_inner_polypour_to_via_clearance
 	(layer inner)
-	(constraint clearance (min 0.3mm))
+	(constraint clearance (min 0.25mm))
 	(condition "A.inDiffPair('*') && (A.Type == 'Via' || A.Type == 'Pad') && B.Type == 'Zone'")
 )
 
@@ -44,7 +44,7 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.113mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.2172mm))
-	(constraint skew (max 0.3mm))
+	(constraint skew (min -0.3mm)(max 0.3mm))
 	(constraint clearance (min 0.05mm))
 )
 
@@ -56,13 +56,13 @@
 	(constraint diff_pair_gap (min 0.1016mm)(opt 0.1407mm))
 	(constraint diff_pair_uncoupled (max 15mm))
 	(constraint track_width (min 0.1016mm)(opt 0.1895mm))
-	(constraint skew (max 0.3mm))
+	(constraint skew (min -0.3mm)(max 0.3mm))
 	(constraint clearance (min 0.05mm))
 )
 
 (rule dp_outer_polypour_to_via_clearance
 	(layer outer)
-	(constraint clearance (min 0.3mm))
+	(constraint clearance (min 0.25mm))
 	(condition "A.inDiffPair('*') && (A.Type == 'Via' || A.Type == 'Pad') && B.Type == 'Zone'")
 )
 
@@ -86,7 +86,7 @@
 (rule polygon_to_polygon_clearance
 	(condition "A.Type == 'Zone' && !A.hasNetclass('CGND') && !A.hasNetclass('GND')")
 	(condition "B.Type == 'Zone' && !B.hasNetclass('GND') && !B.hasNetclass('CGND')")
-	(constraint clearance (min 0.2mm))
+	(constraint clearance (min 0.25mm))
 )
 
 (rule polygon_to_no_connect_clearance
@@ -96,7 +96,6 @@
 
 ## Rule to allow components under RPI CMx module ##
 (rule ITEM1_courtyard_overlap
-	(severity exclusion)
-	(constraint courtyard_clearance)
-	(condition "A.Reference == 'ITEM1' && B.Reference == '*'")
+	(constraint courtyard_clearance (min -1mm))
+    (condition "A.Reference == 'ITEM1' || B.Reference == 'ITEM1'")
 )
