@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-26")
+		(date "2026-10-27")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 10.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "In Design")
+		(comment 8 "In DFM Review")
 		(comment 9 "Consolation_1.00-0A_BOM")
 	)
 	(lib_symbols
@@ -4502,6 +4502,17 @@
 					)
 				)
 			)
+			(property "Type" "RES SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Tolerance" "1%"
 				(at 2.794 -3.302 0)
 				(show_name no)
@@ -4527,6 +4538,39 @@
 				(at 0 -16.256 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "±200ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 155°C"
+				(at 0.762 -24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "1.60mm x 0.80mm"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4577,50 +4621,6 @@
 					)
 				)
 			)
-			(property "Temperature Coefficient" "±200ppm/°C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Operating Temperature" "-55°C ~ 155°C"
-				(at 0.762 -24.384 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "RES SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "1.60mm x 0.80mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_fp_filters" "footprint:RES_0603"
 				(at 0 0 0)
 				(show_name no)
@@ -4635,7 +4635,33 @@
 			(symbol "Resistors/RES_SMT_00007_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.508 0.508) (xy 1.27 -0.508) (xy 2.032 0.508) (xy 2.794 -0.508) (xy 3.302 0)
+						(xy 0.254 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.556 0)
 					)
 					(stroke
 						(width 0)
@@ -4665,8 +4691,8 @@
 					)
 				)
 				(pin passive line
-					(at 4.445 0 180)
-					(length 1.143)
+					(at 5.08 0 180)
+					(length 1.27)
 					(name ""
 						(effects
 							(font
@@ -5028,10 +5054,22 @@
 					)
 				)
 			)
+			(property "Type" "RES SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Tolerance" "1%"
 				(at 2.794 -3.302 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5051,6 +5089,38 @@
 			(property "Package" "0603"
 				(at 0 -16.256 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Temperature Coefficient" "±100ppm/°C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 155°C"
+				(at 0.762 -24.384 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Dimensions" "1.60mm x 0.80mm"
+				(at 0 0 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -5103,50 +5173,6 @@
 					)
 				)
 			)
-			(property "Temperature Coefficient" "±100ppm/°C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Operating Temperature" "-55°C ~ 155°C"
-				(at 0.762 -24.384 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "RES SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "1.60mm x 0.80mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "ki_fp_filters" "footprint:RES_0603"
 				(at 0 0 0)
 				(show_name no)
@@ -5161,7 +5187,33 @@
 			(symbol "Resistors/RES_SMT_00021_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0.508 0.508) (xy 1.27 -0.508) (xy 2.032 0.508) (xy 2.794 -0.508) (xy 3.302 0)
+						(xy 0.254 0) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy 0.762 0.508) (xy 1.524 -0.508) (xy 2.286 0.508) (xy 3.048 -0.508) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+						(color 0 0 255 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.556 0)
 					)
 					(stroke
 						(width 0)
@@ -5191,7 +5243,7 @@
 					)
 				)
 				(pin passive line
-					(at 4.572 0 180)
+					(at 5.08 0 180)
 					(length 1.27)
 					(name ""
 						(effects
@@ -5543,12 +5595,6 @@
 		(uuid "3773a988-31ad-4e3d-abeb-1be7177d1c51")
 	)
 	(junction
-		(at 92.075 189.865)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38abf59d-8e9f-4b88-866c-f74324b5761b")
-	)
-	(junction
 		(at 255.27 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5633,6 +5679,12 @@
 		(uuid "847e5942-00eb-45f2-9df2-4fb2b9950172")
 	)
 	(junction
+		(at 105.41 189.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84e39e06-fe56-406c-ac8f-b168e93fbd23")
+	)
+	(junction
 		(at 160.655 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5651,12 +5703,6 @@
 		(uuid "95ea825b-4e95-4b13-bd49-f1adc3e018cd")
 	)
 	(junction
-		(at 105.41 189.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9d4b03f6-6894-48b4-ac00-1ee1c2d5aa57")
-	)
-	(junction
 		(at 153.67 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5673,6 +5719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a34e5eac-7fa4-449d-a6a6-0c7450c11733")
+	)
+	(junction
+		(at 92.075 189.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4ec9bd7-7e99-4cdc-a522-7200930b75d0")
 	)
 	(junction
 		(at 107.315 101.6)
@@ -5870,16 +5922,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 189.23) (xy 105.41 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "000cb298-baf8-403d-9349-6a8f1943ac0d")
-	)
-	(wire
-		(pts
 			(xy 175.26 109.22) (xy 221.615 109.22)
 		)
 		(stroke
@@ -5930,16 +5972,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 188.087) (xy 105.41 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08b84886-6fb5-4a68-b772-0d568197a5bf")
-	)
-	(wire
-		(pts
 			(xy 146.685 48.26) (xy 184.15 48.26)
 		)
 		(stroke
@@ -5950,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.685 116.205) (xy 146.685 118.11)
+			(xy 146.685 116.84) (xy 146.685 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6430,16 +6462,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.075 188.087) (xy 92.075 189.865)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bebfa07-ea5f-438c-aec7-0f33fe60383e")
-	)
-	(wire
-		(pts
 			(xy 180.975 81.28) (xy 180.975 88.265)
 		)
 		(stroke
@@ -6487,6 +6509,16 @@
 			(type default)
 		)
 		(uuid "542f78cb-123e-474f-828c-d347a1dd31ba")
+	)
+	(wire
+		(pts
+			(xy 105.41 189.865) (xy 105.41 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550183dd-9a5a-43d1-ab8b-2b57922af0e5")
 	)
 	(wire
 		(pts
@@ -6610,16 +6642,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 188.087) (xy 85.09 189.865)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7421a235-e096-44a9-86eb-3fbb15ddb080")
-	)
-	(wire
-		(pts
 			(xy 201.93 62.23) (xy 257.81 62.23)
 		)
 		(stroke
@@ -6740,6 +6762,16 @@
 	)
 	(wire
 		(pts
+			(xy 112.395 188.595) (xy 112.395 189.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87444f28-2974-43e1-95ec-f93ef5c40fd3")
+	)
+	(wire
+		(pts
 			(xy 141.605 93.98) (xy 144.78 93.98)
 		)
 		(stroke
@@ -6767,6 +6799,16 @@
 			(type default)
 		)
 		(uuid "889e56a1-b244-42dd-95fd-3bf1c8216093")
+	)
+	(wire
+		(pts
+			(xy 92.075 188.595) (xy 92.075 189.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d915ed-8caf-4df7-b8b7-de374953667e")
 	)
 	(wire
 		(pts
@@ -7010,13 +7052,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 189.23) (xy 112.395 189.23)
+			(xy 105.41 189.865) (xy 112.395 189.865)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a61de08b-3fa5-4b17-bbaa-2ec2e0f7f1dd")
+		(uuid "a4e69df2-3cad-4daf-b756-8c89396b1c3c")
 	)
 	(wire
 		(pts
@@ -7448,6 +7490,16 @@
 		)
 		(uuid "d9dc2bef-5289-4965-9e80-f8eea674e9f3")
 	)
+	(wire
+		(pts
+			(xy 85.09 188.595) (xy 85.09 189.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db776066-2d15-4b73-aaa8-bb48d311ff3c")
+	)
 	(bus
 		(pts
 			(xy 144.145 38.1) (xy 144.145 40.64)
@@ -7480,13 +7532,13 @@
 	)
 	(wire
 		(pts
-			(xy 112.395 188.087) (xy 112.395 189.23)
+			(xy 105.41 188.595) (xy 105.41 189.865)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e175ea01-781a-4248-b390-1b2b35e728df")
+		(uuid "e02daaa8-639f-4559-a4cd-d261a153e64d")
 	)
 	(wire
 		(pts
@@ -7500,7 +7552,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 116.205) (xy 153.67 118.11)
+			(xy 153.67 116.84) (xy 153.67 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8676,7 +8728,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00007")
-		(at 153.67 114.935 90)
+		(at 153.67 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8686,7 +8738,7 @@
 		(dnp yes)
 		(uuid "1c25a822-60c4-4bfe-a7b3-1019d96c68a0")
 		(property "Reference" "R213"
-			(at 153.035 111.633 90)
+			(at 153.035 112.268 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8697,7 +8749,7 @@
 			)
 		)
 		(property "Value" "1R5"
-			(at 153.035 113.411 90)
+			(at 153.035 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8708,7 +8760,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0603"
-			(at 175.768 114.427 0)
+			(at 175.768 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +8771,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 153.67 114.935 0)
+			(at 153.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8730,7 +8782,7 @@
 			)
 		)
 		(property "Description" "RES 1.5 OHM 1% 1/10W 0603"
-			(at 163.576 113.157 0)
+			(at 163.576 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +8793,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 156.972 112.141 0)
+			(at 156.972 112.776 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +8804,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 151.765 114.5539 90)
+			(at 151.765 115.1889 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,7 +8816,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 153.035 115.189 90)
+			(at 153.035 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8775,7 +8827,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 171.958 114.681 0)
+			(at 171.958 115.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8786,7 +8838,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-131R5L"
-			(at 161.544 114.681 0)
+			(at 161.544 115.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8797,7 +8849,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 159.512 114.935 0)
+			(at 159.512 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8808,7 +8860,7 @@
 			)
 		)
 		(property "Distributor Part Number" "13-RC0603FR-131R5LCT-ND"
-			(at 165.862 114.173 0)
+			(at 165.862 114.808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8819,7 +8871,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 153.67 114.935 0)
+			(at 153.67 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8882,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 178.054 114.173 0)
+			(at 178.054 114.808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8841,7 +8893,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 153.67 114.935 0)
+			(at 153.67 115.57 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -8852,7 +8904,7 @@
 			)
 		)
 		(property "Dimensions" "1.60mm x 0.80mm"
-			(at 153.67 114.935 0)
+			(at 153.67 115.57 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13081,7 +13133,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Resistors/RES_SMT_00007")
-		(at 146.685 114.935 90)
+		(at 146.685 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13091,7 +13143,7 @@
 		(dnp no)
 		(uuid "9a1f6809-1683-485c-8430-9b1158ca9765")
 		(property "Reference" "R210"
-			(at 146.05 111.633 90)
+			(at 146.05 112.268 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13102,7 +13154,7 @@
 			)
 		)
 		(property "Value" "1R5"
-			(at 146.05 113.411 90)
+			(at 146.05 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13113,7 +13165,7 @@
 			)
 		)
 		(property "Footprint" "footprint:RES_0603"
-			(at 168.783 114.427 0)
+			(at 168.783 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13124,7 +13176,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
-			(at 146.685 114.935 0)
+			(at 146.685 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13135,7 +13187,7 @@
 			)
 		)
 		(property "Description" "RES 1.5 OHM 1% 1/10W 0603"
-			(at 156.591 113.157 0)
+			(at 156.591 113.792 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13146,7 +13198,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 149.987 112.141 0)
+			(at 149.987 112.776 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13157,7 +13209,7 @@
 			)
 		)
 		(property "Power" "1/10W"
-			(at 144.78 114.5539 90)
+			(at 144.78 115.1889 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13169,7 +13221,7 @@
 			)
 		)
 		(property "Package" "0603"
-			(at 146.05 115.189 90)
+			(at 146.05 115.824 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13180,7 +13232,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 164.973 114.681 0)
+			(at 164.973 115.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13191,7 +13243,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "RC0603FR-131R5L"
-			(at 154.559 114.681 0)
+			(at 154.559 115.316 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13202,7 +13254,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 152.527 114.935 0)
+			(at 152.527 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13213,7 +13265,7 @@
 			)
 		)
 		(property "Distributor Part Number" "13-RC0603FR-131R5LCT-ND"
-			(at 158.877 114.173 0)
+			(at 158.877 114.808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13224,7 +13276,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±200ppm/°C"
-			(at 146.685 114.935 0)
+			(at 146.685 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13235,7 +13287,7 @@
 			)
 		)
 		(property "Operating Temperature" "-55°C ~ 155°C"
-			(at 171.069 114.173 0)
+			(at 171.069 114.808 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13246,7 +13298,7 @@
 			)
 		)
 		(property "Type" "RES SMT"
-			(at 146.685 114.935 0)
+			(at 146.685 115.57 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13257,7 +13309,7 @@
 			)
 		)
 		(property "Dimensions" "1.60mm x 0.80mm"
-			(at 146.685 114.935 0)
+			(at 146.685 115.57 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)

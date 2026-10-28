@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-26")
+		(date "2026-10-27")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 10.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "In Design")
+		(comment 8 "In DFM Review")
 		(comment 9 "Consolation_1.00-0A_BOM")
 	)
 	(lib_symbols
@@ -7418,7 +7418,7 @@
 				)
 			)
 		)
-		(property "Component Class" ""
+		(property "Component Class" "FIDUCIALS"
 			(at 129.54 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8933,7 +8933,7 @@
 				)
 			)
 		)
-		(property "Component Class" ""
+		(property "Component Class" "FIDUCIALS"
 			(at 129.54 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -9969,7 +9969,7 @@
 				)
 			)
 		)
-		(property "Component Class" ""
+		(property "Component Class" "FIDUCIALS"
 			(at 140.335 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -12165,6 +12165,7 @@
 	(symbol
 		(lib_id "KiCad_Lib_Symbols:FIDUCIAL")
 		(at 129.54 194.31 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12175,7 +12176,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa96b525-99ab-4fac-bd56-7eda8baf764b")
 		(property "Reference" "FID3"
-			(at 132.08 194.3099 0)
+			(at 132.08 194.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12229,7 +12230,7 @@
 				)
 			)
 		)
-		(property "Component Class" ""
+		(property "Component Class" "FIDUCIALS"
 			(at 129.54 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -15504,7 +15505,7 @@
 				)
 			)
 		)
-		(property "Component Class" ""
+		(property "Component Class" "FIDUCIALS"
 			(at 140.335 186.69 0)
 			(hide yes)
 			(show_name no)

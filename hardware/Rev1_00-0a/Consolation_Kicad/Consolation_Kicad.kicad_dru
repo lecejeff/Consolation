@@ -94,6 +94,11 @@
 	(constraint clearance (min 0.35mm))
 )
 
+(rule polygon_to_fiducial_clearance
+	(condition "A.Type == 'Zone' && B.hasComponentClass('FIDUCIALS')")
+	(constraint clearance (min 0.55mm))
+)
+
 ## Rule to allow components under RPI CMx module ##
 (rule ITEM1_courtyard_overlap
 	(constraint courtyard_clearance (min -1mm))
