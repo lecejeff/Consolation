@@ -9095,8 +9095,8 @@
 				)
 			)
 		)
-		(property "Value" "RPI_CMx_B"
-			(at 174.752 21.336 0)
+		(property "Value" "DF40HC(3.0)-100DS-0.4V"
+			(at 166.878 21.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10831,9 +10831,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f368bf3e-ba36-43d5-aa15-f2ae364125fd")
 		(property "Reference" "TP23"

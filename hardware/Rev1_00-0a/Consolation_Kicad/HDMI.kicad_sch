@@ -5931,9 +5931,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "70fc4a61-99ac-4085-b76f-d567f2d3c532")
 		(property "Reference" "TP48"

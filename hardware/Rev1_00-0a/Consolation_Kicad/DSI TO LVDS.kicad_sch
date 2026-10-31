@@ -7146,9 +7146,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "4b593d1c-3d4e-4f4c-8f77-bd779612a4b3")
 		(property "Reference" "TP22"
@@ -9511,9 +9511,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9e692fd3-2fd1-419f-8e79-7d27b14f22e1")
 		(property "Reference" "TP21"

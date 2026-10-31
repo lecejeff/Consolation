@@ -13082,9 +13082,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "0a557be0-30d4-4cde-a446-dc9b1d9cf190")
 		(property "Reference" "TP54"
@@ -13418,8 +13418,8 @@
 				)
 			)
 		)
-		(property "Value" "RPI_CMx_A"
-			(at 171.323 14.859 0)
+		(property "Value" "DF40HC(3.0)-100DS-0.4V"
+			(at 163.83 14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23837,9 +23837,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b719c82e-2687-4db6-980b-f83e074bb2c5")
 		(property "Reference" "TP55"
