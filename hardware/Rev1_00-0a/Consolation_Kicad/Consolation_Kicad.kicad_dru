@@ -99,6 +99,11 @@
 	(constraint clearance (min 0.55mm))
 )
 
+(rule polygon_to_NPTH_clearance
+	(condition "A.Type == 'Zone' && B.Pad_Type == 'NPTH, mechanical'")
+	(constraint hole_clearance (min 0.5mm))
+)
+
 ## Rule to allow components under RPI CMx module ##
 (rule ITEM1_courtyard_overlap
 	(constraint courtyard_clearance (min -1mm))

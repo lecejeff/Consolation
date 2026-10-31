@@ -2253,7 +2253,7 @@
 					)
 				)
 			)
-			(property "Value" "SSM3K56FS,LF"
+			(property "Value" "SSM3K56FS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2296,32 +2296,21 @@
 					)
 				)
 			)
-			(property "VDS" "20V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Package" "SC-75"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Type" "NFET"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "VDS" "20V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2364,6 +2353,17 @@
 			(property "Power" "0.15W"
 				(at 0 0 0)
 				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Package" "SC-75"
+				(at 0 0 0)
+				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -6935,7 +6935,7 @@
 				)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 116.459 85.598 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9771,7 +9771,7 @@
 				)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 100.711 102.108 90)
 			(show_name no)
 			(do_not_autoplace no)

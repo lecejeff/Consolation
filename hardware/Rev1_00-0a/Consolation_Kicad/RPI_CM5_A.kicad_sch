@@ -5493,7 +5493,7 @@
 					)
 				)
 			)
-			(property "Value" "SSM3K56FS,LF"
+			(property "Value" "SSM3K56FS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5536,7 +5536,7 @@
 					)
 				)
 			)
-			(property "Operating Temperature" "-55°C ~ 150°C"
+			(property "Type" "NFET"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5547,22 +5547,10 @@
 					)
 				)
 			)
-			(property "Power" "0.15W"
+			(property "VDS" "20V"
 				(at 0 0 0)
-				(show_name yes)
+				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "RDS(on)" "0.235Ohm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5570,17 +5558,6 @@
 				)
 			)
 			(property "I(drain)" "0.8A"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "1.60mm x 1.60mm"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5602,7 +5579,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
+			(property "RDS(on)" "0.235Ohm"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5613,7 +5590,7 @@
 					)
 				)
 			)
-			(property "Distributor" "DigiKey"
+			(property "Power" "0.15W"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5624,7 +5601,18 @@
 					)
 				)
 			)
-			(property "Type" "NFET"
+			(property "Package" "SC-75"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Operating Temperature" "-55°C ~ 150°C"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5635,7 +5623,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "SSM3K56FS,LF"
+			(property "Dimensions" "1.60mm x 1.60mm"
 				(at 0 0 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -5657,19 +5645,31 @@
 					)
 				)
 			)
-			(property "VDS" "20V"
+			(property "Manufacturer Part Number" "SSM3K56FS,LF"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Package" "SC-75"
+			(property "Distributor" "DigiKey"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Distributor Part Number" "264-SSM3K56FS,LFCT-ND"
+				(at 0 0 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -16106,7 +16106,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 250.317 72.517 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19996,7 +19996,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 37.592 141.097 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20888,7 +20888,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 57.912 160.147 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22000,7 +22000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 236.728 134.747 0)
 			(hide yes)
 			(show_name no)
@@ -22229,7 +22229,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 47.752 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24300,7 +24300,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 251.968 134.747 0)
 			(hide yes)
 			(show_name no)
@@ -25691,7 +25691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 269.113 134.747 0)
 			(hide yes)
 			(show_name no)
@@ -26200,7 +26200,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SSM3K56FS,LF"
+		(property "Value" "SSM3K56FS"
 			(at 213.233 134.747 0)
 			(hide yes)
 			(show_name no)

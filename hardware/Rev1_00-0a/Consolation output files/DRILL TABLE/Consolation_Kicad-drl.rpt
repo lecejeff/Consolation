@@ -1,5 +1,5 @@
 Drill report for Consolation_Kicad.kicad_pcb
-Created on 2026-10-31T11:24:37
+Created on 2026-10-31T14:08:47
 
 Copper Layer Stackup:
     =============================================================
@@ -14,7 +14,7 @@ Copper Layer Stackup:
 Drill file 'Consolation_Kicad-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0.200mm  0.0079"  (1129 holes))
+    T1  0.200mm  0.0079"  (1125 holes))
     T2  0.200mm  0.0079"  (10 holes))
     T3  0.300mm  0.0118"  (1 hole)
     T4  0.500mm  0.0197"  (4 holes)  (with 4 slots)
@@ -24,7 +24,7 @@ Drill file 'Consolation_Kicad-PTH-drl.gbr' contains
     T8  3.000mm  0.1181"  (4 holes))
     T9  3.800mm  0.1496"  (4 holes))
 
-    Total plated holes count 1176
+    Total plated holes count 1172
 
 
 Drill file 'Consolation_Kicad-NPTH-drl.gbr' contains
