@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-27")
+		(date "2026-10-31")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -7589,17 +7589,6 @@
 		)
 		(uuid "6d7f7013-9991-47b7-94ee-57536032c75d")
 	)
-	(text "PU'd at BQ25640"
-		(exclude_from_sim no)
-		(at 199.136 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "80d24d68-3c7b-40d0-8e8f-4606de84e330")
-	)
 	(text "INT 1K8 PU 3V3_CMx"
 		(exclude_from_sim no)
 		(at 108.839 128.143 0)
@@ -7900,6 +7889,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99250df6-384e-4a56-9f68-f113b3758e14")
+	)
+	(junction
+		(at 215.9 73.025)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9af1cd70-aa8e-4fc3-9172-2fe7272d6952")
 	)
 	(junction
 		(at 91.44 50.165)
@@ -8379,6 +8374,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 73.025) (xy 221.615 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0711194d-a603-4405-92bc-0b3fc08e5378")
+	)
+	(wire
+		(pts
 			(xy 74.295 55.245) (xy 97.79 55.245)
 		)
 		(stroke
@@ -8816,6 +8821,16 @@
 			(type default)
 		)
 		(uuid "2993ae46-9404-4fec-836e-5f8be9a3d78c")
+	)
+	(wire
+		(pts
+			(xy 215.9 29.21) (xy 215.9 73.025)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9fc720-812f-40c5-b0b2-0070e9d2e2af")
 	)
 	(wire
 		(pts
@@ -9519,7 +9534,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 73.025) (xy 221.615 73.025)
+			(xy 179.07 73.025) (xy 215.9 73.025)
 		)
 		(stroke
 			(width 0)
@@ -10816,6 +10831,16 @@
 			(type default)
 		)
 		(uuid "ca2626e8-6601-4039-ac8f-76261b443b55")
+	)
+	(wire
+		(pts
+			(xy 215.9 20.32) (xy 215.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc512e9f-df00-476b-93fc-ce27bb2deaad")
 	)
 	(wire
 		(pts
@@ -12352,7 +12377,7 @@
 		(uuid "d7521d9c-128b-42ea-9c3f-097f211556d8")
 	)
 	(label "RP2350_BOOT_GPIO10"
-		(at 236.22 70.485 180)
+		(at 239.395 70.485 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17416,7 +17441,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "5625bdf0-5150-48da-80f8-79edf0574385")
 		(property "Reference" "R144"
 			(at 209.677 24.892 90)
@@ -18009,6 +18034,84 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/75d0c21e-3f51-4c04-91a3-13b7a2863fa1"
 					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:+3V3")
+		(at 215.9 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6406f803-ea2c-484a-9a86-cd1d4249a933")
+		(property "Reference" "#PWR0187"
+			(at 215.9 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 213.995 16.764 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 215.9 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1f47350-f8a3-4c2c-807b-8d8bbc1827ec")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/75d0c21e-3f51-4c04-91a3-13b7a2863fa1"
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -27461,6 +27564,208 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/75d0c21e-3f51-4c04-91a3-13b7a2863fa1"
 					(reference "R139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:Resistors/RES_SMT_00013")
+		(at 215.9 27.94 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e16f8cd4-6b9d-4156-838a-1b12a1a20b8c")
+		(property "Reference" "R165"
+			(at 216.789 24.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 216.789 27.305 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprint:RES_0402"
+			(at 237.998 27.432 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L"
+			(at 215.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RES 10K OHM 1% 1/16W 0402"
+			(at 225.806 26.162 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 236.22 27.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "1/16W"
+			(at 230.124 27.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "0402"
+			(at 232.156 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 234.188 27.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "RC0402FR-0710KL"
+			(at 223.774 27.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 221.742 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "311-10.0KLRCT-ND"
+			(at 228.092 27.178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 215.9 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 155°C"
+			(at 240.284 27.178 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "RES SMT"
+			(at 215.9 27.94 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "1.00mm x 0.50mm"
+			(at 215.9 27.94 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "06357daa-90f6-485b-b9c0-74229dbd8904")
+		)
+		(pin "1"
+			(uuid "6b892f02-67ca-46fc-958a-b32d52648a32")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/75d0c21e-3f51-4c04-91a3-13b7a2863fa1"
+					(reference "R165")
 					(unit 1)
 				)
 			)

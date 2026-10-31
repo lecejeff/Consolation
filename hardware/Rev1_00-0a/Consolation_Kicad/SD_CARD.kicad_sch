@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-27")
+		(date "2026-10-31")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -3815,6 +3815,12 @@
 		(uuid "a229337f-eaf4-44cf-b248-ca0f8923c057")
 	)
 	(junction
+		(at 200.025 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d6b2ef-415c-4cda-ab34-2fe1fea03233")
+	)
+	(junction
 		(at 194.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3918,7 +3924,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 76.2) (xy 223.52 76.2)
+			(xy 173.355 64.77) (xy 200.025 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4215,6 +4221,16 @@
 			(type default)
 		)
 		(uuid "4a6eafc5-4c55-4f9a-81f5-ec007807ee33")
+	)
+	(wire
+		(pts
+			(xy 200.025 72.39) (xy 200.025 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6688ed-35ee-43df-b770-1150f9805d53")
 	)
 	(wire
 		(pts
@@ -4538,7 +4554,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.355 46.355) (xy 173.355 76.2)
+			(xy 200.025 64.77) (xy 200.025 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a633565f-052b-4946-99c7-33fe31e3e1da")
+	)
+	(wire
+		(pts
+			(xy 173.355 46.355) (xy 173.355 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4605,6 +4631,16 @@
 			(type default)
 		)
 		(uuid "c2177d6c-49b6-47bf-8bc5-0e571809d3f5")
+	)
+	(wire
+		(pts
+			(xy 200.025 64.77) (xy 223.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c575b370-269c-461f-9d55-4b2b9c30727b")
 	)
 	(wire
 		(pts
@@ -4738,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 76.2) (xy 223.52 95.25)
+			(xy 223.52 64.77) (xy 223.52 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +5286,7 @@
 		)
 	)
 	(label "SD_VDD"
-		(at 177.8 76.2 0)
+		(at 177.8 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5716,6 +5752,83 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad_Pwr_Symbols:GND")
+		(at 200.025 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1209bd7b-6be2-47a3-b5d7-c0cc4d3c1db4")
+		(property "Reference" "#PWR049"
+			(at 200.025 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.025 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.025 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.025 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.025 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ecd3c38-66cc-4b29-9b1c-e6dcd57019e8")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6674,6 +6787,296 @@
 			(project "Consolation_Kicad"
 				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
 					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KicadCompDb:ESD Diodes/ESD_DIODE_00006")
+		(at 200.025 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31c7167f-1be6-44ad-9edd-a22de0524c79")
+		(property "Reference" "D31"
+			(at 201.93 67.9449 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESD7351HT1G"
+			(at 201.93 70.4849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprint:SOD-323"
+			(at 177.927 67.818 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS DIODE 3.3VWM SOD323"
+			(at 190.119 69.088 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "0.6pF"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dimensions" "2.50mm x 1.25mm"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(r)" "3.3V"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "I(pp)" "3A"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(br)" "5V"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(cl)" "8.0V"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Type" "ESD TVS 3V3"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(f)" ""
+			(at 179.705 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V(z)" ""
+			(at 185.801 67.564 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 183.769 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.15W"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Impedance" ""
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Leakage Current" ""
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-55°C ~ 150°C"
+			(at 175.641 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SOD-323"
+			(at 200.025 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 181.737 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "ESD7351HT1G"
+			(at 192.151 67.564 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 194.183 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" "ESD7351HT1GOSCT-ND"
+			(at 187.833 68.072 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5134043-399d-46b7-af00-d95fd59dd87c")
+		)
+		(pin "2"
+			(uuid "43c38ba1-d279-4a07-8baf-5f68b1bf670b")
+		)
+		(instances
+			(project "Consolation_Kicad"
+				(path "/b18b5a64-cfe0-4447-acaf-556f3c6e6513/1887e3c8-5c57-4b36-9861-d62642bbcc6e"
+					(reference "D31")
 					(unit 1)
 				)
 			)

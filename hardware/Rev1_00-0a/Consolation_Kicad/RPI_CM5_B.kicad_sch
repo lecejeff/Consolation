@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-27")
+		(date "2026-10-31")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -7712,7 +7712,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "089bee2c-ee5a-4d96-b89a-2c8255728b99")
 		(property "Reference" "ITEM1"
 			(at 272.669 151.257 0)

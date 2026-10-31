@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-27")
+		(date "2026-10-31")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -5358,6 +5358,28 @@
 			)
 		)
 		(uuid "572213ef-afd8-4ab4-9980-aaf3da22c7ac")
+	)
+	(text "Power Good"
+		(exclude_from_sim no)
+		(at 112.268 78.486 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "88c813c2-2bcd-4fac-8401-6e882297d52f")
+	)
+	(text "Peripherals reset"
+		(exclude_from_sim no)
+		(at 198.628 110.998 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 153 0 1)
+			)
+		)
+		(uuid "932fa0f3-f1b2-413a-96dc-c2166ef9ded4")
 	)
 	(text "ON = PWR OK\nOFF = PWR FAIL"
 		(exclude_from_sim no)

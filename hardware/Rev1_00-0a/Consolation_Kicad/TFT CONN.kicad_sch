@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-27")
+		(date "2026-10-31")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -13343,7 +13343,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a31c3452-1551-4f32-a499-f0283973a6a1")
 		(property "Reference" "HOLE2"
 			(at 91.948 175.006 0)
@@ -13990,7 +13990,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ab1da92e-61ae-4e3a-9ecf-c6b79c50ad24")
 		(property "Reference" "HOLE1"
 			(at 85.217 175.006 0)
@@ -14069,7 +14069,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ab2d07a7-30d1-4399-8bf3-7bf33cc504c7")
 		(property "Reference" "HOLE3"
 			(at 105.537 175.006 0)
@@ -14670,7 +14670,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c1b83260-6091-4faf-a5ef-f118cb0f7104")
 		(property "Reference" "HOLE4"
 			(at 112.268 175.006 0)

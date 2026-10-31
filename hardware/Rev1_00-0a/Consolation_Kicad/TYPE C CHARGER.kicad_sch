@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-10-27")
+		(date "2026-10-31")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -7161,27 +7161,29 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Close to BQ25640"
-		(exclude_from_sim no)
-		(at 73.406 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
+	(rectangle
+		(start 227.33 85.09)
+		(end 257.175 93.98)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 153 0 1)
 		)
-		(uuid "4e47187b-d201-479c-8a48-f0ea7b499690")
+		(fill
+			(type none)
+		)
+		(uuid "c88eb339-bb5e-41a6-a659-1e38ba82b809")
 	)
-	(text "Close to BQ25640"
+	(text "PU'd at CM5"
 		(exclude_from_sim no)
-		(at 96.012 95.123 0)
+		(at 250.444 89.916 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 255 153 0 1)
 			)
 		)
-		(uuid "6cf391ff-8679-4854-bc21-0e2168af6b8d")
+		(uuid "569f75aa-9e1f-424b-939a-2363a1e8d8d0")
 	)
 	(text "For debug / DVT"
 		(exclude_from_sim no)
@@ -7193,28 +7195,6 @@
 			)
 		)
 		(uuid "7bd788eb-3478-444e-90a4-7681d628339d")
-	)
-	(text "Close to BQ25640"
-		(exclude_from_sim no)
-		(at 108.204 105.918 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "98ceb898-3996-43c3-adea-b07122bb838f")
-	)
-	(text "Value TBD"
-		(exclude_from_sim no)
-		(at 171.704 72.263 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "a157d4cb-263e-4d65-8485-e792ac321f8f")
 	)
 	(text "Battery connector orientation"
 		(exclude_from_sim no)
@@ -7259,17 +7239,6 @@
 			)
 		)
 		(uuid "db2c1fae-17b7-4ba8-b95e-7a8a67323eff")
-	)
-	(text "Close to BQ25640"
-		(exclude_from_sim no)
-		(at 168.148 88.773 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "e9e57594-85f4-4642-a081-0b8066deb657")
 	)
 	(junction
 		(at 25.4 116.84)
@@ -11122,7 +11091,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "19ce8e44-96bf-4aa7-b8f5-204280468beb")
 		(property "Reference" "R173"
 			(at 202.184 122.428 0)
@@ -12689,7 +12658,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "331dd6c9-9231-4c0f-afe1-7eef33fc8d46")
 		(property "Reference" "R149"
 			(at 232.791 88.265 90)
@@ -18749,7 +18718,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eb5531e9-4b19-4c15-a3e1-0143a4474448")
 		(property "Reference" "R162"
 			(at 241.681 88.265 90)
@@ -19194,7 +19163,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "f43645a0-6c6b-4b57-b306-2d316f892fae")
 		(property "Reference" "R174"
 			(at 181.356 122.428 0)
