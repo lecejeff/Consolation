@@ -50,21 +50,29 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.25,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "holes_co_located|124327727|146672272|1c95bba3-e688-4dea-9ca1-a8af10fc8a12|2fa44e2d-948f-46c0-b938-eeb6207b2079",
-          "Overlapping footprint allowed for triggers"
-        ],
-        [
           "holes_co_located|124327728|96327728|0d6b8a36-b92c-406d-a8ac-6975ec7a91b4|17cda23e-7d02-4bd8-9883-aedc6f8b38cb",
-          "Overlapping footprint allowed for triggers"
-        ],
-        [
-          "holes_co_located|126272271|144727728|6f264637-63e8-4f99-bb50-9bc653659117|ed5cf949-36d3-4b26-95c0-495b335d476b",
           "Overlapping footprint allowed for triggers"
         ],
         [
@@ -205,6 +213,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -216,6 +225,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -227,6 +237,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -563,8 +574,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "GND",
@@ -580,11 +591,12 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../ConJoy output files/PCB_PDF/",
+      "plot": "../ConJoy output files/GERBERS/",
       "specctra_dsn": "",
+      "step": "../ConJoy output files/STEP/ConJoy-1.00-0A-STEP-RIGHT.step",
       "vrml": ""
     },
-    "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A4.kicad_wks"
+    "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A3.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
