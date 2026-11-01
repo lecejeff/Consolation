@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.233,
-          "width": 0.233
+          "height": 3.15,
+          "width": 1.68
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -894,7 +894,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../Consolation output files/PCB_PDF/",
+      "plot": "../Consolation output files/GERBERS/",
       "specctra_dsn": "",
       "step": "../Consolation output files/STEP/Consolation-1.00-0A-STEP.step",
       "vrml": ""
@@ -1383,6 +1383,36 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Time to Trip",
+          "name": "Time to Trip",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Trip Current",
+          "name": "Trip Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max Current",
+          "name": "Max Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Hold Current",
+          "name": "Hold Current",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1504,7 +1534,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR49-50,#PWR183,#PWR187,#PWR297-299,#PWR306,#PWR309,C15,C28,C32,C34,C38,C48-49,C81,C124,C156,D31-32,HOLE8-11,J1,Q27-29,R33,R136,R142-143,R164-165,TP24-25,TP52-56",
+    "used_designators": "#FLG1-5,#PWR49-50,#PWR183,#PWR187,#PWR286,#PWR297-299,#PWR306,#PWR309-310,C15,C28,C32,C34,C38,C48-49,C81,C84-85,C124,C156,D31-32,F1,HOLE8-11,J1,J9,Q27-29,R33,R136,R142-143,R164-165,TP24-25,TP52-56",
     "variants": []
   },
   "sheets": [

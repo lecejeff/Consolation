@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-11-01T07:00:27 ###
+### Footprint positions - created on 2026-11-01T15:26:31 ###
 ### Printed by KiCad version 10.0.7
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -152,6 +152,7 @@ D29       SMAJ20A                 DO-214AC                  85.2500  -114.3000  
 D30       SK34A-LTP               DO-214AC                  95.3500   -89.1500  180.0000  top
 D31       ESD7351HT1G             SOD-323                  167.9500  -107.7250  -90.0000  top
 D34       LTST-C190KGKT           LED_0603                  89.6000   -85.1000  180.0000  top
+F1        MINISMDC050F-2          PTC_1812                 107.7250   -58.8500    0.0000  top
 J1        BM04B-SURS-TF           BM04B-SURS-TF             89.2000  -121.6000  -45.0000  top
 J2        SJ-3524-SMT-TR          SJ-352X-SMT              108.8500  -116.8000    0.0000  top
 J3        62684-402100ALF         62684-402100ALF          119.0609   -88.8500    0.0000  top
