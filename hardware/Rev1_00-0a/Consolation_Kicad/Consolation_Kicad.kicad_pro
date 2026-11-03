@@ -894,7 +894,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../Consolation output files/GERBERS/",
+      "plot": "../Consolation output files/PCB_PDF/",
       "specctra_dsn": "",
       "step": "../Consolation output files/STEP/Consolation-1.00-0A-STEP.step",
       "vrml": ""
@@ -907,7 +907,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\Consolation output files\\BOM\\Consolation_Kicad.csv",
+    "bom_export_filename": "..\\Consolation output files\\BOM\\Consolation_Kicad-1.00-0A-BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1534,7 +1534,7 @@
         "uuid": "b18b5a64-cfe0-4447-acaf-556f3c6e6513"
       }
     ],
-    "used_designators": "#FLG1-5,#PWR49-50,#PWR183,#PWR187,#PWR286,#PWR297-299,#PWR306,#PWR309-310,C15,C28,C32,C34,C38,C48-49,C81,C84-85,C124,C156,D31-32,F1,HOLE8-11,J1,J9,Q27-29,R33,R136,R142-143,R164-165,TP24-25,TP52-56",
+    "used_designators": "#FLG1-5,#PWR49-50,#PWR183,#PWR187,#PWR254-255,#PWR286,#PWR297-299,#PWR306,#PWR309-310,C15,C28,C32,C34,C38,C45,C48-49,C81,C84-85,C124,C156-159,D31-32,F1,HOLE8-11,J1,J9,Q27-29,R33,R44-48,R136,R142-143,R164-165,TP24-25,TP52-56",
     "variants": []
   },
   "sheets": [
