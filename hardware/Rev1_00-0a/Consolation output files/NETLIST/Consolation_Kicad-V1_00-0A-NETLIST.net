@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\jeanf\\Desktop\\Git\\Consolation\\hardware\\Rev1_00-0a\\Consolation_Kicad\\Consolation_Kicad.kicad_sch")
-		(date "2026-11-02T20:19:55")
+		(date "2026-11-02T20:43:35")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -38677,8 +38677,8 @@
 				(names "/CONTROLLER/")
 				(tstamps "/921be37e-c275-4af7-b310-f07754ed63f5/")
 			)
-			(tstamps "94cf96ac-e0f4-4777-a1d6-b99bc4410856" "4a3e4fc8-5f19-4a6a-a215-83c156dcdd84"
-				"c343348d-2564-4d9c-884b-4baaa4f4bc2f" "174fa30b-f79d-400e-b201-0b69b5d0e1e7"
+			(tstamps "c343348d-2564-4d9c-884b-4baaa4f4bc2f" "4a3e4fc8-5f19-4a6a-a215-83c156dcdd84"
+				"94cf96ac-e0f4-4777-a1d6-b99bc4410856" "174fa30b-f79d-400e-b201-0b69b5d0e1e7"
 			)
 			(units
 				(unit
