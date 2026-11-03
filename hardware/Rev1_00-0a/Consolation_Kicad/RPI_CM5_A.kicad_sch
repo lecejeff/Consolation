@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-11-01")
+		(date "2026-11-02")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -7566,17 +7566,6 @@
 			)
 		)
 		(uuid "2d62cd12-2f98-4f15-894e-2097e57fc031")
-	)
-	(text "10K PD @ USB MUX"
-		(exclude_from_sim no)
-		(at 45.085 166.497 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 153 0 1)
-			)
-		)
-		(uuid "693a60f5-3307-4e82-a996-d6fb63cd4eba")
 	)
 	(text "Resistors are 1% 1/16W 0402 unless otherwise noted\nCapacitors are 10% 50V X7R 0402 unless otherwise noted"
 		(exclude_from_sim no)
