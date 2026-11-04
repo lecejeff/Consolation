@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "C:\\Users\\jeanf\\Desktop\\Git\\Consolation\\hardware\\Rev1_00-0a\\Consolation_Kicad\\Consolation_Kicad.kicad_sch")
-		(date "2026-11-02T20:43:35")
+		(date "2026-11-03T19:18:07")
 		(tool "Eeschema 10.0.7")
 		(sheet
 			(number "1")
@@ -300,7 +300,7 @@
 				(title "Consolation [Console Emulation]")
 				(company)
 				(rev "1.00-0A")
-				(date "2026-11-01")
+				(date "2026-11-03")
 				(source "TYPE C CHARGER.kicad_sch")
 				(comment
 					(number "1")
@@ -13576,6 +13576,344 @@
 				(tstamps "/e349e81f-8577-4688-9d24-3b63a58130fe/")
 			)
 			(tstamps "05079911-62a1-4e9b-bded-968622580768")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D32")
+			(value "ESD7351HT1G")
+			(footprint "footprint:SOD-323")
+			(datasheet "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf")
+			(description "TVS DIODE 3.3VWM SOD323")
+			(fields
+				(field
+					(name "Capacitance") "0.6pF")
+				(field
+					(name "Dimensions") "2.50mm x 1.25mm")
+				(field
+					(name "V(r)") "3.3V")
+				(field
+					(name "I(pp)") "3A")
+				(field
+					(name "V(br)") "5V")
+				(field
+					(name "V(cl)") "8.0V")
+				(field
+					(name "Type") "ESD TVS 3V3")
+				(field
+					(name "V(f)")
+				)
+				(field
+					(name "V(z)")
+				)
+				(field
+					(name "Tolerance")
+				)
+				(field
+					(name "Power") "0.15W")
+				(field
+					(name "Impedance")
+				)
+				(field
+					(name "Leakage Current")
+				)
+				(field
+					(name "Operating Temperature") "-55°C ~ 150°C")
+				(field
+					(name "Package") "SOD-323")
+				(field
+					(name "Manufacturer") "onsemi")
+				(field
+					(name "Manufacturer Part Number") "ESD7351HT1G")
+				(field
+					(name "Distributor") "DigiKey")
+				(field
+					(name "Distributor Part Number") "ESD7351HT1GOSCT-ND")
+				(field
+					(name "Footprint") "footprint:SOD-323")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf")
+				(field
+					(name "Description") "TVS DIODE 3.3VWM SOD323")
+			)
+			(libsource
+				(lib "KicadCompDb")
+				(part "ESD Diodes/ESD_DIODE_00006")
+				(description "TVS DIODE 3.3VWM SOD323")
+			)
+			(property
+				(name "Capacitance")
+				(value "0.6pF")
+			)
+			(property
+				(name "Dimensions")
+				(value "2.50mm x 1.25mm")
+			)
+			(property
+				(name "V(r)")
+				(value "3.3V")
+			)
+			(property
+				(name "I(pp)")
+				(value "3A")
+			)
+			(property
+				(name "V(br)")
+				(value "5V")
+			)
+			(property
+				(name "V(cl)")
+				(value "8.0V")
+			)
+			(property
+				(name "Type")
+				(value "ESD TVS 3V3")
+			)
+			(property
+				(name "V(f)")
+				(value "")
+			)
+			(property
+				(name "V(z)")
+				(value "")
+			)
+			(property
+				(name "Tolerance")
+				(value "")
+			)
+			(property
+				(name "Power")
+				(value "0.15W")
+			)
+			(property
+				(name "Impedance")
+				(value "")
+			)
+			(property
+				(name "Leakage Current")
+				(value "")
+			)
+			(property
+				(name "Operating Temperature")
+				(value "-55°C ~ 150°C")
+			)
+			(property
+				(name "Package")
+				(value "SOD-323")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "ESD7351HT1G")
+			)
+			(property
+				(name "Distributor")
+				(value "DigiKey")
+			)
+			(property
+				(name "Distributor Part Number")
+				(value "ESD7351HT1GOSCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "CM5_CONN_B")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RPI_CM5_B.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "footprint:SOD-323")
+			)
+			(sheetpath
+				(names "/CM5_CONN_B/")
+				(tstamps "/e349e81f-8577-4688-9d24-3b63a58130fe/")
+			)
+			(tstamps "cdac23da-5ba1-4b01-a56f-ccc3131b0b2d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D33")
+			(value "ESD7351HT1G")
+			(footprint "footprint:SOD-323")
+			(datasheet "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf")
+			(description "TVS DIODE 3.3VWM SOD323")
+			(fields
+				(field
+					(name "Capacitance") "0.6pF")
+				(field
+					(name "Dimensions") "2.50mm x 1.25mm")
+				(field
+					(name "V(r)") "3.3V")
+				(field
+					(name "I(pp)") "3A")
+				(field
+					(name "V(br)") "5V")
+				(field
+					(name "V(cl)") "8.0V")
+				(field
+					(name "Type") "ESD TVS 3V3")
+				(field
+					(name "V(f)")
+				)
+				(field
+					(name "V(z)")
+				)
+				(field
+					(name "Tolerance")
+				)
+				(field
+					(name "Power") "0.15W")
+				(field
+					(name "Impedance")
+				)
+				(field
+					(name "Leakage Current")
+				)
+				(field
+					(name "Operating Temperature") "-55°C ~ 150°C")
+				(field
+					(name "Package") "SOD-323")
+				(field
+					(name "Manufacturer") "onsemi")
+				(field
+					(name "Manufacturer Part Number") "ESD7351HT1G")
+				(field
+					(name "Distributor") "DigiKey")
+				(field
+					(name "Distributor Part Number") "ESD7351HT1GOSCT-ND")
+				(field
+					(name "Footprint") "footprint:SOD-323")
+				(field
+					(name "Datasheet") "https://www.onsemi.com/pdf/datasheet/esd7351-d.pdf")
+				(field
+					(name "Description") "TVS DIODE 3.3VWM SOD323")
+			)
+			(libsource
+				(lib "KicadCompDb")
+				(part "ESD Diodes/ESD_DIODE_00006")
+				(description "TVS DIODE 3.3VWM SOD323")
+			)
+			(property
+				(name "Capacitance")
+				(value "0.6pF")
+			)
+			(property
+				(name "Dimensions")
+				(value "2.50mm x 1.25mm")
+			)
+			(property
+				(name "V(r)")
+				(value "3.3V")
+			)
+			(property
+				(name "I(pp)")
+				(value "3A")
+			)
+			(property
+				(name "V(br)")
+				(value "5V")
+			)
+			(property
+				(name "V(cl)")
+				(value "8.0V")
+			)
+			(property
+				(name "Type")
+				(value "ESD TVS 3V3")
+			)
+			(property
+				(name "V(f)")
+				(value "")
+			)
+			(property
+				(name "V(z)")
+				(value "")
+			)
+			(property
+				(name "Tolerance")
+				(value "")
+			)
+			(property
+				(name "Power")
+				(value "0.15W")
+			)
+			(property
+				(name "Impedance")
+				(value "")
+			)
+			(property
+				(name "Leakage Current")
+				(value "")
+			)
+			(property
+				(name "Operating Temperature")
+				(value "-55°C ~ 150°C")
+			)
+			(property
+				(name "Package")
+				(value "SOD-323")
+			)
+			(property
+				(name "Manufacturer")
+				(value "onsemi")
+			)
+			(property
+				(name "Manufacturer Part Number")
+				(value "ESD7351HT1G")
+			)
+			(property
+				(name "Distributor")
+				(value "DigiKey")
+			)
+			(property
+				(name "Distributor Part Number")
+				(value "ESD7351HT1GOSCT-ND")
+			)
+			(property
+				(name "Sheetname")
+				(value "CM5_CONN_B")
+			)
+			(property
+				(name "Sheetfile")
+				(value "RPI_CM5_B.kicad_sch")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "footprint:SOD-323")
+			)
+			(sheetpath
+				(names "/CM5_CONN_B/")
+				(tstamps "/e349e81f-8577-4688-9d24-3b63a58130fe/")
+			)
+			(tstamps "e58cedbc-560e-4d0f-b430-e74ac56186c3")
 			(units
 				(unit
 					(name "A")
@@ -63944,7 +64282,16 @@
 			)
 		)
 	)
-	(libraries)
+	(libraries
+		(library
+			(logical "KiCad_Lib_Symbols")
+			(uri "C:/Users/jeanf/Desktop/Git/KiCad_Lib/symbol/KiCad_Lib_Symbols.kicad_sym")
+		)
+		(library
+			(logical "KicadCompDb")
+			(uri "C:/Users/jeanf/Desktop/Git/KiCad_Lib/database/KicadCompDb.kicad_dbl")
+		)
+	)
 	(nets
 		(net
 			(code "7")
@@ -65417,6 +65764,12 @@
 			(name "/CM5_CONN_B/USB_PROG_N")
 			(class "DP_90R,Default")
 			(node
+				(ref "D32")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
 				(ref "J12")
 				(pin "3")
 				(pinfunction "USB_N_3")
@@ -65464,6 +65817,12 @@
 			(code "85")
 			(name "/CM5_CONN_B/USB_PROG_P")
 			(class "DP_90R,Default")
+			(node
+				(ref "D33")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
 			(node
 				(ref "J12")
 				(pin "5")
@@ -69164,6 +69523,18 @@
 			)
 			(node
 				(ref "D31")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D32")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D33")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")

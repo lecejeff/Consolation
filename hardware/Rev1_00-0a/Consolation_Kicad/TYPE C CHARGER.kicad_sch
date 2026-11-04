@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-11-01")
+		(date "2026-11-03")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -7607,7 +7607,7 @@
 		(uuid "dcdba9b4-4875-4129-9889-db4c3eecd5bd")
 	)
 	(bus_entry
-		(at 259.08 146.685)
+		(at 259.08 157.48)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -7625,7 +7625,7 @@
 		(uuid "7ed42ff2-9a70-4e76-806d-9f462c1e9381")
 	)
 	(bus_entry
-		(at 259.08 144.145)
+		(at 259.08 154.94)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -7764,7 +7764,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 101.6) (xy 71.755 149.225)
+			(xy 71.755 101.6) (xy 71.755 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7794,7 +7794,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 149.225) (xy 256.54 149.225)
+			(xy 71.755 160.02) (xy 256.54 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7824,7 +7824,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 99.06) (xy 74.295 146.685)
+			(xy 74.295 99.06) (xy 74.295 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7881,6 +7881,16 @@
 			(type default)
 		)
 		(uuid "240bf5e1-db37-44dc-b960-a13f6f6c81a4")
+	)
+	(wire
+		(pts
+			(xy 115.57 125.73) (xy 117.475 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ab88bd-9151-4b69-bb48-327516f65b60")
 	)
 	(wire
 		(pts
@@ -7954,7 +7964,7 @@
 	)
 	(bus
 		(pts
-			(xy 261.62 141.605) (xy 259.08 144.145)
+			(xy 261.62 152.4) (xy 259.08 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8034,7 +8044,7 @@
 	)
 	(bus
 		(pts
-			(xy 259.08 144.145) (xy 259.08 146.685)
+			(xy 259.08 154.94) (xy 259.08 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8134,16 +8144,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 117.475 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d412e7-71e5-40f3-adc9-3ec7ff649177")
-	)
-	(wire
-		(pts
 			(xy 180.975 91.44) (xy 180.975 92.075)
 		)
 		(stroke
@@ -8154,7 +8154,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 121.92) (xy 129.54 125.73)
+			(xy 129.54 121.92) (xy 129.54 123.19)
 		)
 		(stroke
 			(width 0)
@@ -8464,7 +8464,7 @@
 	)
 	(bus
 		(pts
-			(xy 264.16 141.605) (xy 261.62 141.605)
+			(xy 264.16 152.4) (xy 261.62 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8574,7 +8574,7 @@
 	)
 	(wire
 		(pts
-			(xy 117.475 106.68) (xy 117.475 120.65)
+			(xy 117.475 106.68) (xy 117.475 125.73)
 		)
 		(stroke
 			(width 0)
@@ -8621,16 +8621,6 @@
 			(type default)
 		)
 		(uuid "942b1a34-da91-4277-904b-9efa608af7a6")
-	)
-	(wire
-		(pts
-			(xy 117.475 123.19) (xy 117.475 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95199315-667e-477f-a456-0c1e0843ae98")
 	)
 	(wire
 		(pts
@@ -8754,7 +8744,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.295 146.685) (xy 256.54 146.685)
+			(xy 74.295 157.48) (xy 256.54 157.48)
 		)
 		(stroke
 			(width 0)
@@ -8824,7 +8814,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 123.19) (xy 117.475 123.19)
+			(xy 115.57 128.27) (xy 117.475 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8931,6 +8921,16 @@
 			(type default)
 		)
 		(uuid "c7f0e0f6-9b30-4777-a1c8-6c1aa4baeaf8")
+	)
+	(wire
+		(pts
+			(xy 117.475 128.27) (xy 117.475 130.175)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c904f581-04f8-4b2c-a72e-b3a7547b149f")
 	)
 	(wire
 		(pts
@@ -9044,7 +9044,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.555 121.92) (xy 122.555 125.73)
+			(xy 122.555 121.92) (xy 122.555 123.19)
 		)
 		(stroke
 			(width 0)
@@ -9918,7 +9918,7 @@
 		(uuid "2075d096-c358-40a2-9d6a-83dfe489084e")
 	)
 	(label "USB2_DOCK.USB_P"
-		(at 256.54 146.685 180)
+		(at 256.54 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9927,7 +9927,7 @@
 		)
 		(uuid "3b06697b-21cc-4e90-9d9a-ec54e5807b06")
 		(property "Netclass" "DP_90R"
-			(at 226.568 145.796 0)
+			(at 226.568 156.591 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9980,7 +9980,7 @@
 		(uuid "6f835d68-38c2-4355-bdb1-ec1b5d5c0380")
 	)
 	(label "USB2_DOCK.USB_N"
-		(at 256.54 149.225 180)
+		(at 256.54 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9989,7 +9989,7 @@
 		)
 		(uuid "9bc238ed-8e04-416c-9a9b-84ddedcd1335")
 		(property "Netclass" "DP_90R"
-			(at 226.568 148.336 0)
+			(at 226.568 159.131 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10078,7 +10078,7 @@
 	)
 	(hierarchical_label "USB2_DOCK{USB2}"
 		(shape bidirectional)
-		(at 264.16 141.605 0)
+		(at 264.16 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13702,7 +13702,7 @@
 	)
 	(symbol
 		(lib_id "KicadCompDb:Connector/CONN_00025")
-		(at 113.03 124.46 180)
+		(at 113.03 129.54 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13712,7 +13712,7 @@
 		(dnp no)
 		(uuid "49d1f54f-bd9a-4787-a1b0-6f819eaf8492")
 		(property "Reference" "J5"
-			(at 112.649 118.237 0)
+			(at 112.649 123.317 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13723,7 +13723,7 @@
 			)
 		)
 		(property "Value" "S2B-PH-K-S"
-			(at 109.474 115.316 90)
+			(at 109.474 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13734,7 +13734,7 @@
 			)
 		)
 		(property "Footprint" "footprint:S2B-PH-K-S"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13745,7 +13745,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13756,7 +13756,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER R/A 2POS 2MM"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13767,7 +13767,7 @@
 			)
 		)
 		(property "Operating Temperature" "-40°C ~ 105°C"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13778,7 +13778,7 @@
 			)
 		)
 		(property "Rows" "1"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13789,7 +13789,7 @@
 			)
 		)
 		(property "Voltage Rating" "100V"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13800,7 +13800,7 @@
 			)
 		)
 		(property "Positions" "2"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13811,7 +13811,7 @@
 			)
 		)
 		(property "Pitch" "2.0mm"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13822,7 +13822,7 @@
 			)
 		)
 		(property "Dimensions" "2.0mm x 5.9mm x 4.5mm"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13833,7 +13833,7 @@
 			)
 		)
 		(property "Current Rating" "2A"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13844,7 +13844,7 @@
 			)
 		)
 		(property "Contact Length (Total)" "3.40mm"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13855,7 +13855,7 @@
 			)
 		)
 		(property "Distributor Part Number" "455-1719-ND"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13866,7 +13866,7 @@
 			)
 		)
 		(property "Contact Material" "Brass"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13877,7 +13877,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13888,7 +13888,7 @@
 			)
 		)
 		(property "Manufacturer" "JST Sales America Inc."
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13899,7 +13899,7 @@
 			)
 		)
 		(property "Gender" "MALE"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13910,7 +13910,7 @@
 			)
 		)
 		(property "Type" "RECEPTACLE"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13921,7 +13921,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "S2B-PH-K-S"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13932,7 +13932,7 @@
 			)
 		)
 		(property "Shrouding" "SHROUDED"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13943,7 +13943,7 @@
 			)
 		)
 		(property "Termination" "SOLDER"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13954,7 +13954,7 @@
 			)
 		)
 		(property "Mounting Type" "THT"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -13965,7 +13965,7 @@
 			)
 		)
 		(property "Contact Finish" "Tin"
-			(at 113.03 124.46 0)
+			(at 113.03 129.54 0)
 			(hide yes)
 			(show_name yes)
 			(do_not_autoplace no)
@@ -14897,7 +14897,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 129.54 125.73 0)
+		(at 129.54 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14907,7 +14907,7 @@
 		(dnp no)
 		(uuid "60243aee-4af6-4eb9-b6e1-aa169c368350")
 		(property "Reference" "#PWR015"
-			(at 129.54 132.08 0)
+			(at 129.54 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14918,7 +14918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 129.413 129.159 0)
+			(at 129.413 126.619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14928,7 +14928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 125.73 0)
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14939,7 +14939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 125.73 0)
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,7 +14950,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 125.73 0)
+			(at 129.54 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18152,7 +18152,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 117.475 125.73 0)
+		(at 117.475 130.175 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18162,7 +18162,7 @@
 		(dnp no)
 		(uuid "d75218af-6d45-4418-915c-a7e2a13dc528")
 		(property "Reference" "#PWR013"
-			(at 117.475 132.08 0)
+			(at 117.475 136.525 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18173,7 +18173,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 117.348 129.159 0)
+			(at 117.348 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18183,7 +18183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 117.475 125.73 0)
+			(at 117.475 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18194,7 +18194,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 117.475 125.73 0)
+			(at 117.475 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18205,7 +18205,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 117.475 125.73 0)
+			(at 117.475 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19079,7 +19079,7 @@
 	)
 	(symbol
 		(lib_id "KiCad_Pwr_Symbols:GND")
-		(at 122.555 125.73 0)
+		(at 122.555 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19089,7 +19089,7 @@
 		(dnp no)
 		(uuid "f3fccafb-cb86-4185-99e6-430716468754")
 		(property "Reference" "#PWR014"
-			(at 122.555 132.08 0)
+			(at 122.555 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19100,7 +19100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 122.428 129.159 0)
+			(at 122.428 126.619 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19110,7 +19110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 122.555 125.73 0)
+			(at 122.555 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19121,7 +19121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 122.555 125.73 0)
+			(at 122.555 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19132,7 +19132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 122.555 125.73 0)
+			(at 122.555 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
