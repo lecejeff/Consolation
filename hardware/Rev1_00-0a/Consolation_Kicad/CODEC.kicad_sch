@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-11-01")
+		(date "2026-11-05")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 10.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "In DFM Review")
+		(comment 8 "Released")
 		(comment 9 "Consolation_1.00-0A_BOM")
 	)
 	(lib_symbols
@@ -925,7 +925,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf"
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -947,11 +947,32 @@
 					)
 				)
 			)
+			(property "Type" "CER SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Tolerance" "±10%"
 				(at 0.254 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "16V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -990,17 +1011,18 @@
 					)
 				)
 			)
-			(property "Voltage Rating" "16V"
+			(property "Dimensions" "2.00mm x 1.25mm"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "YAGEO"
 				(at 0.254 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1011,7 +1033,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "CL21A106KOQNNNE"
+			(property "Manufacturer Part Number" "CC0805KRX5R7BB106"
 				(at 0.254 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1033,31 +1055,9 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "1276-1096-1-ND"
+			(property "Distributor Part Number" "311-3502-1-ND"
 				(at 0.762 -12.192 0)
 				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "CER SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "2.00mm x 1.25mm"
-				(at 0 0 0)
-				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -8442,7 +8442,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 201.295 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -8519,7 +8519,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 219.583 74.041 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +8530,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KOQNNNE"
+		(property "Manufacturer Part Number" "CC0805KRX5R7BB106"
 			(at 209.169 74.041 0)
 			(hide yes)
 			(show_name no)
@@ -8552,7 +8552,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-1096-1-ND"
+		(property "Distributor Part Number" "311-3502-1-ND"
 			(at 213.487 73.533 0)
 			(hide yes)
 			(show_name no)
@@ -11181,7 +11181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 215.265 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -11258,7 +11258,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 233.553 74.041 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KOQNNNE"
+		(property "Manufacturer Part Number" "CC0805KRX5R7BB106"
 			(at 223.139 74.041 0)
 			(hide yes)
 			(show_name no)
@@ -11291,7 +11291,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-1096-1-ND"
+		(property "Distributor Part Number" "311-3502-1-ND"
 			(at 227.457 73.533 0)
 			(hide yes)
 			(show_name no)
@@ -13332,7 +13332,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 180.34 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -13409,7 +13409,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 198.628 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -13420,7 +13420,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KOQNNNE"
+		(property "Manufacturer Part Number" "CC0805KRX5R7BB106"
 			(at 188.214 84.836 0)
 			(hide yes)
 			(show_name no)
@@ -13442,7 +13442,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-1096-1-ND"
+		(property "Distributor Part Number" "311-3502-1-ND"
 			(at 192.532 84.328 0)
 			(hide yes)
 			(show_name no)
@@ -15040,7 +15040,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL21A106KOQNNNE_Spec.pdf"
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X5R_4V-TO-50V"
 			(at 208.28 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -15117,7 +15117,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "YAGEO"
 			(at 226.568 74.041 0)
 			(hide yes)
 			(show_name no)
@@ -15128,7 +15128,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KOQNNNE"
+		(property "Manufacturer Part Number" "CC0805KRX5R7BB106"
 			(at 216.154 74.041 0)
 			(hide yes)
 			(show_name no)
@@ -15150,7 +15150,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-1096-1-ND"
+		(property "Distributor Part Number" "311-3502-1-ND"
 			(at 220.472 73.533 0)
 			(hide yes)
 			(show_name no)

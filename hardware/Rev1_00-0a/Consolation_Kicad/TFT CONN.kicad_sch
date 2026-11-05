@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-11-01")
+		(date "2026-11-05")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 10.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "In DFM Review")
+		(comment 8 "Released")
 		(comment 9 "Consolation_1.00-0A_BOM")
 	)
 	(lib_symbols
@@ -729,7 +729,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2589/Multilayer%20Ceramic%20Capacitors.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -751,11 +751,32 @@
 					)
 				)
 			)
+			(property "Type" "CER SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Tolerance" "±10%"
 				(at 0.254 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -794,17 +815,18 @@
 					)
 				)
 			)
-			(property "Voltage Rating" "50V"
+			(property "Dimensions" "2.00mm x 1.25mm"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "Taiyo Yuden"
 				(at 0.254 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -815,7 +837,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+			(property "Manufacturer Part Number" "UMK212B7105KGHT"
 				(at 0.254 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -837,31 +859,9 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "311-1886-1-ND"
+			(property "Distributor Part Number" "587-3714-1-ND"
 				(at 0.762 -12.192 0)
 				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "CER SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "2.00mm x 1.25mm"
-				(at 0 0 0)
-				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1017,7 +1017,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+			(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1039,11 +1039,32 @@
 					)
 				)
 			)
+			(property "Type" "CER SMT"
+				(at 0 0 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Tolerance" "±20%"
 				(at 0.254 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "25V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1082,17 +1103,18 @@
 					)
 				)
 			)
-			(property "Voltage Rating" "25V"
+			(property "Dimensions" "2.00mm x 1.25mm"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "Cal-Chip Electronics, Inc."
 				(at 0.254 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1103,7 +1125,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+			(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 				(at 0.254 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1125,31 +1147,9 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+			(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 				(at 0.762 -12.192 0)
 				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Type" "CER SMT"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "2.00mm x 1.25mm"
-				(at 0 0 0)
-				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -9882,7 +9882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 153.67 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -9959,7 +9959,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 171.958 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -9970,7 +9970,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 161.544 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -9992,7 +9992,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 165.862 99.568 0)
 			(hide yes)
 			(show_name no)
@@ -10877,7 +10877,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 160.655 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -10954,7 +10954,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 178.943 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -10965,7 +10965,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 168.529 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -10987,7 +10987,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 172.847 99.568 0)
 			(hide yes)
 			(show_name no)
@@ -11080,7 +11080,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -11157,7 +11157,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 96.012 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -11168,7 +11168,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 106.426 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -11190,7 +11190,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 102.108 99.568 0)
 			(hide yes)
 			(show_name no)
@@ -11283,7 +11283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2589/Multilayer%20Ceramic%20Capacitors.pdf"
 			(at 234.95 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -11382,7 +11382,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 216.662 73.406 0)
 			(hide yes)
 			(show_name no)
@@ -11393,7 +11393,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+		(property "Manufacturer Part Number" "UMK212B7105KGHT"
 			(at 227.076 73.406 0)
 			(hide yes)
 			(show_name no)
@@ -11415,7 +11415,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "311-1886-1-ND"
+		(property "Distributor Part Number" "587-3714-1-ND"
 			(at 222.758 72.898 0)
 			(hide yes)
 			(show_name no)
@@ -14503,7 +14503,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 151.765 135.255 0)
 			(hide yes)
 			(show_name no)
@@ -14580,7 +14580,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 133.477 135.001 0)
 			(hide yes)
 			(show_name no)
@@ -14591,7 +14591,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 143.891 135.001 0)
 			(hide yes)
 			(show_name no)
@@ -14613,7 +14613,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 139.573 134.493 0)
 			(hide yes)
 			(show_name no)
@@ -14784,7 +14784,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 107.315 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14861,7 +14861,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 89.027 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -14872,7 +14872,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 99.441 100.076 0)
 			(hide yes)
 			(show_name no)
@@ -14894,7 +14894,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 95.123 99.568 0)
 			(hide yes)
 			(show_name no)

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Consolation [Console Emulation]")
-		(date "2026-11-03")
+		(date "2026-11-05")
 		(rev "1.00-0A")
 		(comment 1 "Jean-Francois Bilodeau")
 		(comment 2 "P.Eng #6022173")
@@ -15,7 +15,7 @@
 		(comment 5 "KiCad Rev 10.0")
 		(comment 6 "Jean-Francois Bilodeau")
 		(comment 7 "Not applicable")
-		(comment 8 "In DFM Review")
+		(comment 8 "Released")
 		(comment 9 "Consolation_1.00-0A_BOM")
 	)
 	(lib_symbols
@@ -607,7 +607,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2589/Multilayer%20Ceramic%20Capacitors.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -621,17 +621,6 @@
 			(property "Description" "CAP CER 1UF 50V X7R 0805"
 				(at 1.778 -9.906 0)
 				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "2.00mm x 1.25mm"
-				(at 0 0 0)
-				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -656,6 +645,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -694,17 +693,18 @@
 					)
 				)
 			)
-			(property "Voltage Rating" "50V"
+			(property "Dimensions" "2.00mm x 1.25mm"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer" "YAGEO"
+			(property "Manufacturer" "Taiyo Yuden"
 				(at 0.254 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -715,7 +715,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+			(property "Manufacturer Part Number" "UMK212B7105KGHT"
 				(at 0.254 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -737,7 +737,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "311-1886-1-ND"
+			(property "Distributor Part Number" "587-3714-1-ND"
 				(at 0.762 -12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -895,7 +895,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+			(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -909,17 +909,6 @@
 			(property "Description" "CAP CER 22UF 25V X5R 0805"
 				(at 1.778 -9.906 0)
 				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Dimensions" "2.00mm x 1.25mm"
-				(at 0 0 0)
-				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -944,6 +933,16 @@
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "25V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -982,17 +981,18 @@
 					)
 				)
 			)
-			(property "Voltage Rating" "25V"
+			(property "Dimensions" "2.00mm x 1.25mm"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer" "Samsung Electro-Mechanics"
+			(property "Manufacturer" "Cal-Chip Electronics, Inc."
 				(at 0.254 -18.288 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1003,7 +1003,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+			(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 				(at 0.254 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1025,7 +1025,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+			(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 				(at 0.762 -12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1183,7 +1183,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3225x7r1h106k250ac_200131.pdf"
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_cnc_en.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1205,17 +1205,6 @@
 					)
 				)
 			)
-			(property "Dimensions" "3.20mm x 2.50mm"
-				(at 0 0 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Type" "CER SMT"
 				(at 0 0 0)
 				(show_name yes)
@@ -1229,6 +1218,17 @@
 			)
 			(property "Tolerance" "±10%"
 				(at 0.254 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Voltage Rating" "50V"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1271,9 +1271,9 @@
 					)
 				)
 			)
-			(property "Voltage Rating" "50V"
+			(property "Dimensions" "3.20mm x 2.50mm"
 				(at 0 0 0)
-				(show_name no)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1293,7 +1293,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number" "C3225X7R1H106K250AC"
+			(property "Manufacturer Part Number" "CNC6P1X7R1H106K250AE"
 				(at 0.254 -7.874 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1315,7 +1315,7 @@
 					)
 				)
 			)
-			(property "Distributor Part Number" "445-C3225X7R1H106K250ACCT-ND"
+			(property "Distributor Part Number" "445-181655-1-ND"
 				(at 0.762 -12.192 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -10143,7 +10143,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2589/Multilayer%20Ceramic%20Capacitors.pdf"
 			(at 95.25 103.505 0)
 			(hide yes)
 			(show_name no)
@@ -10242,7 +10242,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 76.962 103.251 0)
 			(hide yes)
 			(show_name no)
@@ -10253,7 +10253,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+		(property "Manufacturer Part Number" "UMK212B7105KGHT"
 			(at 87.376 103.251 0)
 			(hide yes)
 			(show_name no)
@@ -10275,7 +10275,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "311-1886-1-ND"
+		(property "Distributor Part Number" "587-3714-1-ND"
 			(at 83.058 102.743 0)
 			(hide yes)
 			(show_name no)
@@ -11571,7 +11571,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 189.23 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -11670,7 +11670,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 207.518 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -11681,7 +11681,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 197.104 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -11703,7 +11703,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 201.422 82.423 0)
 			(hide yes)
 			(show_name no)
@@ -12209,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 196.85 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -12308,7 +12308,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 215.138 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -12319,7 +12319,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 204.724 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -12341,7 +12341,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 209.042 82.423 0)
 			(hide yes)
 			(show_name no)
@@ -12895,7 +12895,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/339/CL21A226MAYNNNE_Spec.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2025/05/GMC-Series-3.pdf"
 			(at 180.975 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -12994,7 +12994,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
+		(property "Manufacturer" "Cal-Chip Electronics, Inc."
 			(at 199.263 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -13005,7 +13005,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A226MAYNNNE"
+		(property "Manufacturer Part Number" "GMC21X5R226M25NT"
 			(at 188.849 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -13027,7 +13027,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "1276-CL21A226MAYNNNECT-ND"
+		(property "Distributor Part Number" "4713-GMC21X5R226M25NTCT-ND"
 			(at 193.167 82.423 0)
 			(hide yes)
 			(show_name no)
@@ -14662,7 +14662,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3225x7r1h106k250ac_200131.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_cnc_en.pdf"
 			(at 66.04 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -14770,7 +14770,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C3225X7R1H106K250AC"
+		(property "Manufacturer Part Number" "CNC6P1X7R1H106K250AE"
 			(at 73.914 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -14792,7 +14792,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "445-C3225X7R1H106K250ACCT-ND"
+		(property "Distributor Part Number" "445-181655-1-ND"
 			(at 78.232 82.423 0)
 			(hide yes)
 			(show_name no)
@@ -15183,7 +15183,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3225x7r1h106k250ac_200131.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_cnc_en.pdf"
 			(at 99.06 113.665 0)
 			(hide yes)
 			(show_name no)
@@ -15291,7 +15291,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C3225X7R1H106K250AC"
+		(property "Manufacturer Part Number" "CNC6P1X7R1H106K250AE"
 			(at 91.186 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -15313,7 +15313,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "445-C3225X7R1H106K250ACCT-ND"
+		(property "Distributor Part Number" "445-181655-1-ND"
 			(at 86.868 112.903 0)
 			(hide yes)
 			(show_name no)
@@ -16190,7 +16190,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2589/Multilayer%20Ceramic%20Capacitors.pdf"
 			(at 106.68 113.665 0)
 			(hide yes)
 			(show_name no)
@@ -16289,7 +16289,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 88.392 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -16300,7 +16300,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+		(property "Manufacturer Part Number" "UMK212B7105KGHT"
 			(at 98.806 113.411 0)
 			(hide yes)
 			(show_name no)
@@ -16322,7 +16322,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "311-1886-1-ND"
+		(property "Distributor Part Number" "587-3714-1-ND"
 			(at 94.488 112.903 0)
 			(hide yes)
 			(show_name no)
@@ -16673,7 +16673,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2589/Multilayer%20Ceramic%20Capacitors.pdf"
 			(at 73.66 83.185 0)
 			(hide yes)
 			(show_name no)
@@ -16772,7 +16772,7 @@
 				(justify right)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 91.948 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -16783,7 +16783,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CC0805KKX7R9BB105"
+		(property "Manufacturer Part Number" "UMK212B7105KGHT"
 			(at 81.534 82.931 0)
 			(hide yes)
 			(show_name no)
@@ -16805,7 +16805,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "311-1886-1-ND"
+		(property "Distributor Part Number" "587-3714-1-ND"
 			(at 85.852 82.423 0)
 			(hide yes)
 			(show_name no)
@@ -20017,7 +20017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/charasheet/c3225x7r1h106k250ac_200131.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_soft_cnc_en.pdf"
 			(at 87.63 103.505 0)
 			(hide yes)
 			(show_name no)
@@ -20125,7 +20125,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "C3225X7R1H106K250AC"
+		(property "Manufacturer Part Number" "CNC6P1X7R1H106K250AE"
 			(at 79.756 103.251 0)
 			(hide yes)
 			(show_name no)
@@ -20147,7 +20147,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" "445-C3225X7R1H106K250ACCT-ND"
+		(property "Distributor Part Number" "445-181655-1-ND"
 			(at 75.438 102.743 0)
 			(hide yes)
 			(show_name no)
