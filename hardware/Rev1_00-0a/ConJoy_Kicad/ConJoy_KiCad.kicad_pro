@@ -551,9 +551,9 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../ConJoy output files/GERBERS/",
+      "plot": "../ConJoy output files/PCB_PDF/",
       "specctra_dsn": "",
-      "step": "../ConJoy output files/STEP/ConJoy-1.00-0A-STEP-RIGHT.step",
+      "step": "../ConJoy output files/STEP/ConJoy-1.00-0A-STEP-LEFT.step",
       "vrml": ""
     },
     "page_layout_descr_file": "kicad-embed://Intellitrol_2025_A3.kicad_wks"
