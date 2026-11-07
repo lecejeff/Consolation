@@ -1,0 +1,99 @@
+# For more options and information see
+# http://rptl.io/configtxt
+# Some settings may impact device functionality. See link above for details
+#
+# This config file is applicable for RPI CM5 exclusively to be used on Consolation 
+# Design by Jean-Francois Bilodeau, P.Eng #6022173
+# All informations available on github --> https://github.com/lecejeff/Consolation
+
+# Uncomment some or all of these to enable the optional hardware interfaces
+#dtparam=i2c_arm=off
+
+CONFIG_REGULATOR=y
+CONFIG_REGULATOR_FIXED_VOLTAGE=y
+
+# Enable system I2C bus
+# I2C2 connects RPI CM5 (Master) to
+#	MCP7940N 	(real-time clock) 			at address xDE/xDF
+# 	NAU88C22 	(audio codec)				at address x34/x35
+# 	SN65DSI84 	(MIPI-DSI to LVDS bridge)	at address x58/59
+#	BQ25640		(Type C PD battery charger)	at address xD6/xD7
+#	RP2350A		(Microcontroller)			at address *TBD*
+# Compute Module 5 has I2C2 on GPIO [4..5] on ALT function 3
+gpio=4=a3			# SDA2
+gpio=5=a3			# SCL2
+gpio=12=op,dh		# By default turn on backlight on BL_PWM
+dtoverlay=i2c2
+dtoverlay=sn65dsi84
+dtoverlay=bq25640
+
+# overlay for the RTC (MCP7940)
+dtoverlay=i2c-rtc,mcp7940x,i2c2
+
+# Overlay for gpios related to I2S on Compute Module 5
+# Compute Module 5 has I2S[1] slave on GPIO [18..21] on ALT function 4
+gpio=18=a4			#pcm0_clk
+gpio=19=a4			#pcm0_fs
+gpio=20=a4			#pcm0_din
+gpio=21=a4			#pcm0_dout
+dtoverly=rp1-i2s1=on
+dtoverlay=nau88c22
+
+# GPIO Overlay for BQ25640 inputs and outputs
+gpio=6=ip			# GPIO6 as input connected to BQ25640 INT# output
+gpio=22=ip			# GPIO22 as input connected to BQ25640 PG# output
+gpio=25=op,dl		# GPIO25 as output connected to BQ25640 #CE input
+
+# GPIO Overlay for Volume UP / Down buttons
+gpio=13=ip			# GPIO13 as input connected to Volume Down button
+gpio=16=ip			# GPIO16 as input connected to Volume Up button
+
+# GPIO Overlay for software-controlled shutdown of CM5
+gpio=23=op,dl		# GPIO23 as output controlling a FET to shutdown CM5		(GPIO23 = 0 = RUN, GPIO23 = 1 = SHUTDOWN)
+
+# GPIO Overlay for RP2350A assisted HW or SW reset
+gpio=10=op,dl		# GPIO10 as output controlling a FET to select boot mode 	(GPIO10 = 0 = FLASH, GPIO10 = 1 = USB)
+gpio=26=op,dl		# GPIO26 as output controlling a FET to reset RP2350A		(GPIO26 = 0 = RUN, GPIO26 = 1 = RESET)
+
+# Enable audio (loads snd_bcm2835)
+dtparam=audio=on
+
+# Additional overlays and parameters are documented
+# /boot/firmware/overlays/README
+
+# Automatically load overlays for detected cameras
+camera_auto_detect=1
+
+# Automatically load overlays for detected DSI displays
+display_auto_detect=1
+
+# Automatically load initramfs files, if found
+auto_initramfs=1
+
+# Enable DRM VC4 V3D driver
+dtoverlay=vc4-kms-v3d
+max_framebuffers=2
+
+# Don't have the firmware create an initial video= setting in cmdline.txt.
+# Use the kernel's default instead.
+disable_fw_kms_setup=1
+
+# Run in 64-bit mode
+arm_64bit=1
+
+# Disable compensation for displays with overscan
+disable_overscan=1
+
+# Run as fast as firmware / board allows
+arm_boost=1
+
+[cm4]
+# Enable host mode on the 2711 built-in XHCI USB controller.
+# This line should be removed if the legacy DWC2 controller is required
+# (e.g. for USB device mode) or if USB support is not required.
+otg_mode=1
+
+[cm5]
+dtoverlay=dwc2,dr_mode=host
+
+[all]

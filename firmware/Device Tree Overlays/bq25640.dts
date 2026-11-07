@@ -1,0 +1,31 @@
+/dts-v1/;
+/plugin/;
+
+/ {
+    compatible = "brcm,bcm2835";
+
+    fragment@0 {
+        target = <&i2c2>;
+        __overlay__ {
+            status = "okay";
+            clock-frequency = <100000>;
+
+            bq25640: charger@6b {
+                compatible = "ti,bq25640";
+                reg = <0x6b>;	/* 7-bit I2C address 1101011 */
+                
+                /* Example charging parameters (adjust values to your battery spec) */
+                ti,charge-current = <1000000>;          	/* 1000 mA in uA */
+                ti,battery-regulation-voltage = <4200000>; 	/* 4200 mV in uV */
+                ti,termination-current = <100000>;       	/* 100 mA in uA */
+                ti,precharge-current = <150000>;         	/* 150 mA in uA */
+                ti,minimum-sys-voltage = <3520000>;      	/* 3520 mV in uV */
+                ti,boost-voltage = <5000000>;            	/* 5000 mV in uV if entering OTG boost mode*/
+                ti,boost-max-current = <500000>;        	/* 500 mA in uA if entering OTG boost mode*/
+
+                /* Optional: Interrupt line connected to a GPIO if used */
+                /* interrupts = <4 8>; */ /* GPIO 4, IRQ_TYPE_LEVEL_LOW */
+            };
+        };
+    };
+};
